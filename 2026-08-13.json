@@ -1,0 +1,404 @@
+{
+  "date": "2026-08-13",
+  "headline": "반도체·AI 인프라 강력 재점화가 오늘의 핵심",
+  "oneline": "반도체·AI 인프라 강력 재점화가 오늘의 핵심 — NBIS·CRWV·SMCI·DELL·HPE·AEHR·CIEN·LITE 무더기 돌파, SOXX 1W 플러스 전환·DRAM 1D +7.68%·EWY +5.16% 동반. 소프트(TEAM·NIQ·P)·에너지(MPC·PSX·VLO·EOG)·바이오(ABCL·IOVA)는 유지. 중복 25로 froth 완화, breadth 159.",
+  "verdict": "선별적 공격 유지, 강도 소폭 상향 가능",
+  "priority_line": "우선순위: 반도체·AI 인프라(NBIS·CRWV·SMCI·DELL·HPE·AEHR·CIEN·LITE) + 소프트(TEAM·P·RCRUY) + 에너지(MPC·PSX·VLO·EOG·FANG) + 바이오(ABCL·IOVA·ZLAB). NBIL(+68%)·DXYZ·NIQ(+42%)·VOYG 갭은 추격 금지.",
+  "regime": [
+    "추세추종 유효, 오늘은 순도가 오히려 올라갔다. 이번 주 부재였던 반도체가 돌아오며 성장 코어가 소프트+반도체+에너지+바이오 4축으로 두꺼워졌다.",
+    "risk-on 유지. 헤지성 금속 대신 경기순환 에너지와 성장 반도체가 함께 붙어 톤은 건강한 risk-on."
+  ],
+  "heat_label": "다소 과열 (초고베타 브레이크아웃 존재, 단 하단 매우 건강 + froth 완화)",
+  "heat_reasons": [
+    "근거 1: NBIS +34.1%·CRWV +19.3%·SMCI +19.0%·NBIL +68.3% 등 하루 두 자릿수 돌파 다수, 고베타 스파크 집중.",
+    "근거 2: 반면 52주 신고가 46개가 헬스9·에너지8·금융8·산업7로 넓게 받침 — 하단 매우 건강, 자금 이탈 아님.",
+    "근거 3: 중복 36→25로 주간 최저, breadth 169→159 — froth성 쏠림이 오히려 풀림.",
+    "근거 4: 반도체 재점화가 개별 froth가 아니라 SOXX 1W 전환·DRAM·EWY·EWT ETF 동반이라 실제 로테이션 — 소음보다 순환 신호."
+  ],
+  "breadth": [
+    {
+      "date": "8/8",
+      "breadth": 157,
+      "overlap": 36
+    },
+    {
+      "date": "8/11",
+      "breadth": 172,
+      "overlap": 29
+    },
+    {
+      "date": "8/12",
+      "breadth": 169,
+      "overlap": 36
+    },
+    {
+      "date": "8/13",
+      "breadth": 159,
+      "overlap": 25
+    }
+  ],
+  "today": {
+    "date": "8/13",
+    "breadth": 159,
+    "overlap": 25
+  },
+  "highs": {
+    "total": 46,
+    "composition": [
+      {
+        "name": "헬스",
+        "count": 9
+      },
+      {
+        "name": "에너지",
+        "count": 8
+      },
+      {
+        "name": "금융",
+        "count": 8
+      },
+      {
+        "name": "산업",
+        "count": 7
+      }
+    ]
+  },
+  "uwl": {
+    "hits": 6,
+    "total": 68
+  },
+  "etf": [
+    {
+      "ticker": "SOXX",
+      "rs": 92,
+      "d": 2.32,
+      "w": 1.9,
+      "m": -3.01,
+      "note": "반도체 코어 복귀, 오늘 최대 변화"
+    },
+    {
+      "ticker": "DRAM",
+      "rs": 92,
+      "d": 7.68,
+      "w": 2.56,
+      "m": null,
+      "note": "메모리 급등"
+    },
+    {
+      "ticker": "EWY",
+      "rs": 92,
+      "d": 5.16,
+      "w": 3.92,
+      "m": null,
+      "note": "한국 반도체 급등"
+    },
+    {
+      "ticker": "EWT",
+      "rs": 91,
+      "d": 2.16,
+      "w": 4.13,
+      "m": null,
+      "note": "대만 공급망"
+    },
+    {
+      "ticker": "CRAK",
+      "rs": 91,
+      "d": 2.27,
+      "w": 5.96,
+      "m": 14.4,
+      "note": "정유 최강"
+    },
+    {
+      "ticker": "XBI",
+      "rs": 91,
+      "d": 0.84,
+      "w": 4.09,
+      "m": null,
+      "note": "순수 바이오"
+    },
+    {
+      "ticker": "SKYY",
+      "rs": 90,
+      "d": 0.91,
+      "w": 4.39,
+      "m": 16.01,
+      "note": "클라우드 최강 유지"
+    },
+    {
+      "ticker": "QTUM",
+      "rs": 90,
+      "d": 2.52,
+      "w": 2.85,
+      "m": null,
+      "note": "양자 온기"
+    },
+    {
+      "ticker": "XOP",
+      "rs": 84,
+      "d": 0.12,
+      "w": 3.64,
+      "m": 10.47,
+      "note": "E&P"
+    },
+    {
+      "ticker": "XLK",
+      "rs": 84,
+      "d": 1.49,
+      "w": 0.81,
+      "m": 3.15,
+      "note": "대형 테크 반도체 힘으로 재가속"
+    },
+    {
+      "ticker": "GDX",
+      "rs": 72,
+      "d": 0.93,
+      "w": 10.66,
+      "m": 22.75,
+      "note": "1W·1M 뜨겁되 스크리너 개별 없음"
+    },
+    {
+      "ticker": "FAN",
+      "rs": 68,
+      "d": null,
+      "w": null,
+      "m": null,
+      "note": "우선순위 하위"
+    },
+    {
+      "ticker": "XLRE",
+      "rs": 59,
+      "d": null,
+      "w": null,
+      "m": null,
+      "note": "우선순위 하위"
+    }
+  ],
+  "etf_asof": "8/12",
+  "axes": [
+    {
+      "no": 1,
+      "name": "반도체·AI 인프라",
+      "tag": "신규 재점화·29개",
+      "tickers": [
+        "NBIS",
+        "CRWV",
+        "SMCI",
+        "DELL",
+        "HPE",
+        "AEHR",
+        "CIEN",
+        "LITE"
+      ],
+      "raw": "NBIS +34.1%(RV2.4x), CRWV +19.3%(RV2.8x), SMCI +19.0%(RV3.7x), DELL +9.9%, HPE +8.1%, AEHR +10.3%, CIEN +11.5%, LITE +13.6%"
+    },
+    {
+      "no": 2,
+      "name": "소프트·서비스",
+      "tag": "1위·35개",
+      "tickers": [
+        "TEAM",
+        "NIQ",
+        "P",
+        "RCRUY",
+        "LIFE"
+      ],
+      "raw": "TEAM +0.75%(1M +71.7%), NIQ +1.39%, P +1.85%(1W +31.7%), RCRUY, LIFE"
+    },
+    {
+      "no": 3,
+      "name": "에너지",
+      "tag": "신고가 8",
+      "tickers": [
+        "MPC",
+        "PSX",
+        "VLO",
+        "EOG",
+        "COP",
+        "CVX",
+        "XOM",
+        "SLB"
+      ],
+      "raw": "MPC·PSX·VLO 100%, EOG 96.3%, COP·CVX·XOM·SLB"
+    },
+    {
+      "no": 4,
+      "name": "바이오·헬스",
+      "tag": "21개",
+      "tickers": [
+        "ABCL",
+        "IOVA",
+        "ZLAB",
+        "TWST",
+        "TXG",
+        "URGN",
+        "HALO",
+        "DFTX"
+      ],
+      "raw": "ABCL +6.1%(1W +71.2%), IOVA +3.85%(1W +51.5%), ZLAB, TWST, TXG, URGN, HALO, DFTX"
+    },
+    {
+      "no": 5,
+      "name": "메가캡",
+      "tag": "신고가 유지",
+      "tickers": [
+        "NVDA",
+        "AMZN",
+        "MSFT"
+      ],
+      "raw": "NVDA 95.2%·AMZN 94.1%·MSFT 91.4%"
+    }
+  ],
+  "priority": {
+    "ranked": [
+      {
+        "rank": 1,
+        "tickers": [
+          "NBIS",
+          "CRWV",
+          "SMCI",
+          "DELL",
+          "HPE"
+        ],
+        "why": "반도체·AI 인프라 재점화가 이틀째 이어지는지 = 이번 주 코어 복귀 확정 여부, SOXX 1W 전환 지속이 관건"
+      },
+      {
+        "rank": 2,
+        "tickers": [
+          "AEHR",
+          "CIEN",
+          "LITE"
+        ],
+        "why": "광통신·테스트가 UWL·EWT 위에서 그룹으로 굳는지 = AI 데이터센터 축 확인"
+      },
+      {
+        "rank": 3,
+        "tickers": [
+          "MPC",
+          "PSX",
+          "VLO",
+          "EOG"
+        ],
+        "why": "에너지 순환이 나흘째 이어지는지, CRAK 1M +14.4% 유지 관건"
+      }
+    ],
+    "watch": "ABCL·IOVA 바이오 그룹 지속 여부, NBIL·DXYZ·NIQ froth 확산(과열 판별), 사이버(CRWD·PANW) 1D 재점화 가능성.",
+    "watch_tickers": [
+      "ABCL",
+      "IOVA",
+      "NBIL",
+      "DXYZ",
+      "NIQ",
+      "CRWD",
+      "PANW"
+    ]
+  },
+  "leaders": [
+    {
+      "ticker": "HPE",
+      "overlap": 3,
+      "d": 8.11,
+      "cap": 77.85,
+      "m1": null,
+      "note": "서버·스토리지, DRAM 1D +7.68% 메모리 온기 직결, UWL Semis 편입."
+    },
+    {
+      "ticker": "EAT",
+      "overlap": 3,
+      "d": 11.07,
+      "cap": 10.55,
+      "m1": null,
+      "note": "레스토랑(경기순환), Bull Snort RV2.2x — 테마 외 개별 모멘텀."
+    },
+    {
+      "ticker": "AEHR",
+      "overlap": 3,
+      "d": 10.28,
+      "cap": 4.22,
+      "m1": null,
+      "note": "오늘 최다 등장, 반도체 테스트 장비. UWL Optical + SOXX 재점화 직결, 이틀 연속 상수, 최우선 체크."
+    },
+    {
+      "ticker": "TEAM",
+      "overlap": 2,
+      "d": 0.75,
+      "cap": 39.39,
+      "m1": 71.7,
+      "note": "소프트 대형, 이번 주 반복 코어."
+    }
+  ],
+  "froth": [
+    {
+      "ticker": "NBIL",
+      "d": 68.3
+    },
+    {
+      "ticker": "DXYZ",
+      "d": 3.5
+    },
+    {
+      "ticker": "NIQ",
+      "d": 42.0
+    }
+  ],
+  "getting_strong": [
+    {
+      "name": "반도체·AI 인프라(전면 재점화)",
+      "desc": "SOXX RS92 1D +2.32% 1W +1.9%(전환), DRAM RS92 1D +7.68%, EWY RS92 1D +5.16%, EWT RS91 1D +2.16% → NBIS·CRWV·SMCI·DELL·HPE·AEHR·CIEN·LITE. 이번 주 최대 변화, 코어 복귀."
+    },
+    {
+      "name": "양자",
+      "desc": "QTUM RS90 1D +2.52% 1W +2.85% → 성장 온기 확산 신호."
+    }
+  ],
+  "getting_weak": [
+    {
+      "name": "소프트 지수(1D 소강)",
+      "desc": "IGV RS64 1D -0.81% 1W -0.26%, XLK 1W +0.81% — 개별 소프트는 살아있으나 지수 모멘텀은 반도체로 배턴 이동."
+    },
+    {
+      "name": "금속(1D 냉각 지속)",
+      "desc": "GDX RS72 1D +0.93% 1W +10.66% 1M +22.75%지만 개별 소멸, SLV 6M -23.6% — 1W 뜨겁되 스크리너 신규 없음."
+    },
+    {
+      "name": "크립토·우라늄·핀테크",
+      "desc": "WGMI 1W -8.66%, IGV 계열 외 IBIT·URA 약세 지속."
+    },
+    {
+      "name": "유틸·리츠",
+      "desc": "XLRE RS59 1M -1.74%, 방어 최약 유지."
+    }
+  ],
+  "still_strong": [
+    {
+      "name": "소프트·클라우드",
+      "desc": "SKYY RS90 1D +0.91% 1W +4.39% 1M +16.01%, HACK/CIBR RS91 1M +9%대 → TEAM·NIQ·P·RCRUY. 배경 유지, 단 IGV 1D -0.81% 소강"
+    },
+    {
+      "name": "에너지",
+      "desc": "CRAK RS91 1D +2.27% 1W +5.96% 1M +14.4%, XOP RS84 1W +3.64% 1M +10.47%, USO 1M +13.78% → MPC·PSX·VLO·EOG·COP. 이틀째 순환"
+    },
+    {
+      "name": "바이오",
+      "desc": "XBI RS91 1D +0.84% 1W +4.09% → ABCL·IOVA·ZLAB·TWST·TXG. 순수 바이오 강세 지속"
+    },
+    {
+      "name": "금융",
+      "desc": "XLF RS71 1M +12.97% → JPM·BAC·USB·MS·C·WFC 신고가 8개. durable 상수."
+    }
+  ],
+  "actions": [
+    "NBIS·CRWV·SMCI·DELL·HPE 반도체·AI 인프라 재점화가 이틀째 굳는지 최우선 확인 — SOXX 1W 전환 유지 시 코어 복귀 확정, 강도 상향.",
+    "AEHR·CIEN·LITE 광통신·테스트가 UWL·EWT 위에서 그룹으로 넓어지는지 점검 — AI 데이터센터 축 격상 여부.",
+    "MPC·PSX·VLO·EOG 에너지 순환이 나흘째 이어지는지 확인 — CRAK 1M +14.4% 지속 시 순환 축 유지.",
+    "ABCL·IOVA·ZLAB 바이오가 XBI 위에서 굳는지 확인.",
+    "사이버(CRWD·PANW) 1D 소강이 재점화로 돌아서는지 감시 — HACK/CIBR 1M +9%대 배경 살아있음.",
+    "NBIL·DXYZ·NIQ froth 확산 감시 — 커지면 다소 과열→과열 재분류, 강도 즉시 하향.",
+    "오프닝 판단: 반도체 재점화 + 에너지·바이오 유지면 배경 있는 브레이크아웃 선별 공격(강도 소폭 상향), froth 확산·반도체 하루 냉각 시 소프트·에너지 코어로 압축."
+  ],
+  "read": [
+    "오늘 핵심은 이번 주 내내 실패하던 반도체·AI 인프라가 드디어 진짜 재점화했다는 점이다. 어제까지 ONTO·FORM·AEHR 장비만 반짝이던 게 오늘은 NBIS +34%·CRWV +19%·SMCI +19%·DELL +9.9%·HPE +8.1% 하드웨어와 CIEN·LITE 광통신까지 무더기로 켜졌다. 개별 froth가 아니라 SOXX 1W가 -6.6%→+1.9%로 전환하고 DRAM 1D +7.68%·EWY +5.16%·EWT +2.16% 아시아 반도체가 동반해 — 실제 자금 로테이션이다.",
+    "나머지 축은 그대로 유지된다. 소프트(TEAM·NIQ·P)는 SKYY 1M +16% 위에 살아있되 IGV 1D가 마이너스로 지수 모멘텀은 반도체에 배턴을 넘겼다. 에너지(MPC·PSX·VLO·EOG)는 신고가 8개로 나흘째 순환, 바이오(ABCL·IOVA)는 XBI 위에서 지속. 성장 코어에 반도체가 새로 합류하며 리더십이 오히려 두꺼워졌다.",
+    "breadth는 159/25다. 폭은 소폭 줄었지만 중복이 36→25로 주간 최저 — 어제까지의 froth성 응집이 풀리고 자금이 반도체로 재편된 건강한 축소다. 신고가 46개가 헬스·에너지·금융·산업으로 넓게 받쳐 하단도 튼튼하다.",
+    "정리하면 선별 공격을 유지하되 강도를 소폭 올려도 되는 국면이다. NBIS·CRWV·SMCI·DELL·HPE·AEHR 반도체·AI 인프라가 오늘 1순위 신규, MPC·PSX 에너지 순환이 2순위, ABCL·IOVA 바이오가 3순위. 사이버는 1D 소강으로 관망, NBIL·DXYZ·NIQ froth는 추격 금지. froth 완화 + 반도체 ETF 동반 재점화라 순도는 이번 주 최고 수준이나, 하루 두 자릿수 갭이 많아 다소 과열로 본다"
+  ]
+}
