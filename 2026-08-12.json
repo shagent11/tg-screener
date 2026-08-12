@@ -1,0 +1,458 @@
+{
+  "date": "2026-08-12",
+  "headline": "소프트 폭 확대 + 에너지 순환 유지 + 반도체 장비 스파크",
+  "oneline": "소프트 폭 확대 + 에너지 순환 유지 + 반도체 장비 스파크 — TEAM·BSP·NIQ·TWLO가 SKYY RS89 위 응집, PSX·MPC·VLO·EOG가 XOP 1W +11.3%로 이틀째 상단, ONTO·FORM·AEHR로 반도체 장비만 반짝. 사이버는 1D 냉각으로 코어에서 밀림. 중복 36 주간 최고, breadth 169 유지. SE·NIQ 국지 froth.",
+  "verdict": "선별적 공격 유지",
+  "priority_line": "우선순위: 소프트(TEAM·BSP·TWLO·CHYM·ZETA·RCRUY) + 에너지(PSX·MPC·VLO·EOG·FANG) + 바이오(ZLAB·TXG·ABCL·IOVA). NIQ(+42%)·SE(+14.6%)·반도체 장비(ONTO·FORM 초고가) 갭은 추격 금지.",
+  "regime": [
+    "추세추종 유효, breadth 넓다(169/36). 리더가 소프트+에너지+바이오로 갈라지되 참여 폭 유지, 중복 재응집으로 리더십 질은 오히려 뚜렷.",
+    "risk-on 유지. 어제 헤지성 금속이 빠지고 경기순환 에너지가 이틀째 붙어 톤은 건강한 risk-on 쪽."
+  ],
+  "heat_label": "다소 과열 (중복 재응집, 단 하단 건강)",
+  "heat_reasons": [
+    "근거 1: 중복 29→36으로 다시 주간 최고 응집 — 리더 쏠림 재확대.",
+    "근거 2: 반면 52주 신고가 43개가 에너지9·헬스8·금융7·산업6으로 넓게 받침 — 하단 매우 건강, 자금 이탈 아님.",
+    "근거 3: NIQ +41.95%·SE +14.56% 같은 초고베타 스파크는 있으나 어제 HZO(RV26x)급 froth 대비 극단은 완화.",
+    "근거 4: 에너지·정유 순환 유입은 헤지성 금속보다 건강한 경기순환 신호 — 방어보다 risk-on 확산으로 해석."
+  ],
+  "breadth": [
+    {
+      "date": "8/7",
+      "breadth": 164,
+      "overlap": 29
+    },
+    {
+      "date": "8/8",
+      "breadth": 157,
+      "overlap": 36
+    },
+    {
+      "date": "8/11",
+      "breadth": 172,
+      "overlap": 29
+    },
+    {
+      "date": "8/12",
+      "breadth": 169,
+      "overlap": 36
+    }
+  ],
+  "today": {
+    "date": "8/12",
+    "breadth": 169,
+    "overlap": 36
+  },
+  "highs": {
+    "total": 43,
+    "composition": [
+      {
+        "name": "에너지",
+        "count": 9
+      },
+      {
+        "name": "헬스",
+        "count": 8
+      },
+      {
+        "name": "금융",
+        "count": 7
+      },
+      {
+        "name": "산업",
+        "count": 6
+      }
+    ]
+  },
+  "uwl": {
+    "hits": 2,
+    "total": 68
+  },
+  "etf": [
+    {
+      "ticker": "SOXX",
+      "rs": 92,
+      "d": 0.92,
+      "w": -6.61,
+      "m": null,
+      "note": "반도체 코어 냉각 지속"
+    },
+    {
+      "ticker": "HACK",
+      "rs": 91,
+      "d": -0.33,
+      "w": 7.96,
+      "m": null,
+      "note": "사이버 1D 냉각, 코어 밀림"
+    },
+    {
+      "ticker": "CIBR",
+      "rs": 91,
+      "d": -0.68,
+      "w": 5.62,
+      "m": null,
+      "note": "동반 냉각"
+    },
+    {
+      "ticker": "XBI",
+      "rs": 91,
+      "d": 0.03,
+      "w": 6.25,
+      "m": null,
+      "note": "순수 바이오 강세"
+    },
+    {
+      "ticker": "EWT",
+      "rs": 91,
+      "d": 1.72,
+      "w": 3.58,
+      "m": null,
+      "note": "대만 온기"
+    },
+    {
+      "ticker": "CRAK",
+      "rs": 90,
+      "d": 2.27,
+      "w": 5.96,
+      "m": 14.4,
+      "note": "정유 최강"
+    },
+    {
+      "ticker": "SKYY",
+      "rs": 89,
+      "d": 0.19,
+      "w": 9.23,
+      "m": 12.24,
+      "note": "클라우드 최강"
+    },
+    {
+      "ticker": "XOP",
+      "rs": 85,
+      "d": 1.39,
+      "w": 11.31,
+      "m": 4.08,
+      "note": "E&P 이틀째 강세"
+    },
+    {
+      "ticker": "XLK",
+      "rs": 82,
+      "d": -0.12,
+      "w": 1.96,
+      "m": 1.13,
+      "note": "대형 테크 유지, 반도체만 약함"
+    },
+    {
+      "ticker": "GDX",
+      "rs": 71,
+      "d": -0.41,
+      "w": 16.12,
+      "m": -6.21,
+      "note": "1W 뜨겁지만 1D 냉각"
+    },
+    {
+      "ticker": "IGV",
+      "rs": 66,
+      "d": -1.04,
+      "w": 5.85,
+      "m": 9.42,
+      "note": "소프트 배경"
+    },
+    {
+      "ticker": "BOTZ",
+      "rs": 46,
+      "d": null,
+      "w": null,
+      "m": null,
+      "note": "우선순위 최하"
+    },
+    {
+      "ticker": "SRVR",
+      "rs": 44,
+      "d": null,
+      "w": null,
+      "m": null,
+      "note": "우선순위 최하"
+    },
+    {
+      "ticker": "FINX",
+      "rs": 37,
+      "d": null,
+      "w": null,
+      "m": null,
+      "note": "우선순위 최하"
+    },
+    {
+      "ticker": "URA",
+      "rs": 33,
+      "d": null,
+      "w": null,
+      "m": null,
+      "note": "우선순위 최하"
+    },
+    {
+      "ticker": "IBIT",
+      "rs": 18,
+      "d": null,
+      "w": null,
+      "m": null,
+      "note": "우선순위 최하"
+    }
+  ],
+  "etf_asof": "8/11",
+  "axes": [
+    {
+      "no": 1,
+      "name": "소프트·서비스",
+      "tag": "1위·33개",
+      "tickers": [
+        "TEAM",
+        "BSP",
+        "NIQ",
+        "TWLO",
+        "CHYM",
+        "ZETA",
+        "RCRUY",
+        "RIOT"
+      ],
+      "raw": "TEAM +1.46%(1M +64%), BSP +3.91%(3중복·1M +55.7%), NIQ +41.95%, TWLO, CHYM +2.85%(3중복), ZETA +5.85%(3중복), RCRUY, RIOT"
+    },
+    {
+      "no": 2,
+      "name": "에너지",
+      "tag": "신규 유지·신고가 9",
+      "tickers": [
+        "PSX",
+        "MPC",
+        "VLO",
+        "EOG",
+        "FANG",
+        "COP",
+        "CVX",
+        "XOM",
+        "SLB"
+      ],
+      "raw": "PSX +4.10%(3중복), MPC·VLO 100%, EOG 96.4%, FANG·COP·CVX·XOM·SLB"
+    },
+    {
+      "no": 3,
+      "name": "바이오·헬스",
+      "tag": "17개",
+      "tickers": [
+        "ZLAB",
+        "TXG",
+        "URGN",
+        "CLDX",
+        "AMLX",
+        "ABCL",
+        "IOVA",
+        "IMMX"
+      ],
+      "raw": "ZLAB +10.31%(Bull Snort RV4.6x), TXG, URGN, CLDX, AMLX, ABCL 1W +63.5%, IOVA 1W +47.8%, IMMX +13.43%"
+    },
+    {
+      "no": 4,
+      "name": "반도체 장비 스파크",
+      "tag": "",
+      "tickers": [
+        "ONTO",
+        "FORM",
+        "AEHR",
+        "P"
+      ],
+      "raw": "ONTO +9.76%, FORM +7.65%, AEHR +10.34%, P +11.64%(4중복·전자)"
+    },
+    {
+      "no": 5,
+      "name": "메가캡",
+      "tag": "신고가 유지",
+      "tickers": [
+        "AMZN",
+        "MSFT",
+        "NVDA"
+      ],
+      "raw": "AMZN 95.9%·MSFT 93.5%·NVDA 92.4%"
+    }
+  ],
+  "priority": {
+    "ranked": [
+      {
+        "rank": 1,
+        "tickers": [
+          "TEAM",
+          "BSP",
+          "TWLO",
+          "CHYM",
+          "ZETA"
+        ],
+        "why": "소프트 폭 확대가 SKYY RS89 1W +9.2% 위에서 이어지는지 = 사이버 밀린 자리를 메우는 성장 코어 확인"
+      },
+      {
+        "rank": 2,
+        "tickers": [
+          "PSX",
+          "MPC",
+          "VLO",
+          "EOG",
+          "FANG"
+        ],
+        "why": "에너지 순환이 사흘째 이어지는지 = 최대 변수, XOP 1W +11.3% 지속 관건"
+      },
+      {
+        "rank": 3,
+        "tickers": [
+          "ZLAB",
+          "TXG",
+          "ABCL"
+        ],
+        "why": "바이오 스파크가 XBI RS91 위에서 그룹으로 굳는지"
+      }
+    ],
+    "watch": "ONTO·FORM·AEHR 반도체 장비가 코어로 넓어지는지(SOXX 냉각 반전 여부), NIQ·SE froth 확산 여부(과열 판별), 사이버(CRWD·PANW) 1D 냉각이 코어 이탈로 번지는지.",
+    "watch_tickers": [
+      "ONTO",
+      "FORM",
+      "AEHR",
+      "SOXX",
+      "NIQ",
+      "SE",
+      "CRWD",
+      "PANW"
+    ]
+  },
+  "leaders": [
+    {
+      "ticker": "P",
+      "overlap": 4,
+      "d": 11.64,
+      "cap": 36.36,
+      "m1": null,
+      "note": "오늘 최다 등장, 전자·컴퓨터 주변기기. EWT 1D +1.72% 온기, 이틀 연속 상수, 최우선 체크."
+    },
+    {
+      "ticker": "PSX",
+      "overlap": 3,
+      "d": 4.1,
+      "cap": 89.52,
+      "m1": null,
+      "note": "정유 대형, CRAK 1M +14.4% 배경. 에너지 순환 대장."
+    },
+    {
+      "ticker": "BSP",
+      "overlap": 3,
+      "d": 3.91,
+      "cap": 33.95,
+      "m1": 55.7,
+      "note": "대형 소프트, 이번 주 내내 반복 상수. SKYY·IGV 배경 직결."
+    },
+    {
+      "ticker": "CHYM",
+      "overlap": 3,
+      "d": 2.85,
+      "cap": 12.01,
+      "m1": null,
+      "note": "소프트, 이번 주 반복 등장. SKYY 배경 일치."
+    },
+    {
+      "ticker": "ZETA",
+      "overlap": 3,
+      "d": 5.85,
+      "cap": 7.32,
+      "m1": null,
+      "note": "마케팅 소프트, 신규 3중복 진입."
+    },
+    {
+      "ticker": "TEAM",
+      "overlap": 2,
+      "d": 1.46,
+      "cap": 39.1,
+      "m1": 64.0,
+      "note": "소프트 대형, 이번 주 반복 코어."
+    },
+    {
+      "ticker": "NIQ",
+      "overlap": 2,
+      "d": 41.95,
+      "cap": 4.89,
+      "m1": null,
+      "note": "데이터 서비스, 단 초고베타 froth."
+    },
+    {
+      "ticker": "ZLAB",
+      "overlap": 2,
+      "d": 10.31,
+      "cap": 2.55,
+      "m1": null,
+      "note": "바이오, Bull Snort RV4.6x. XBI 배경 직결."
+    }
+  ],
+  "froth": [
+    {
+      "ticker": "NIQ",
+      "d": 42.0
+    },
+    {
+      "ticker": "SE",
+      "d": 14.56
+    }
+  ],
+  "getting_strong": [
+    {
+      "name": "반도체 장비(국지 스파크)",
+      "desc": "ONTO·FORM·AEHR 브레이크아웃 SOXX 1W -6.6% 배경 약함에도 장비주만 개별 점화 — UWL Optical AEHR·Semis FORM 소폭 재등장. 아직 코어 아님, 개별 확인 단계."
+    },
+    {
+      "name": "소프트 폭 확대",
+      "desc": "Technology Services 33개로 사이버 밀린 자리를 광범위 소프트가 메움 → NIQ·ZETA·TWLO"
+    }
+  ],
+  "getting_weak": [
+    {
+      "name": "사이버(1D 냉각)",
+      "desc": "HACK RS91 1D -0.33%, CIBR RS91 1D -0.68% CRWD·PANW 상단 이탈, 1W는 여전히 두 자릿수(+7.96%)라 붕괴는 아님 — 코어에서 소프트 전반으로 배턴 이동."
+    },
+    {
+      "name": "금속(1D 냉각 지속)",
+      "desc": "GDX RS71 1D -0.41% 1W +16.12% 1M -6.21%, SLV 1D -1.45% 1M -25.57% — 1W 뜨겁지만 1D 열기 식음, 개별 소멸."
+    },
+    {
+      "name": "반도체 지수",
+      "desc": "SOXX RS92 1W -6.61% — 장비 외 코어 여전히 냉각."
+    },
+    {
+      "name": "크립토·우라늄·핀테크",
+      "desc": "IBIT RS18·URA RS33·FINX RS37 — 배경 약세 지속."
+    }
+  ],
+  "still_strong": [
+    {
+      "name": "소프트·클라우드",
+      "desc": "SKYY RS89 1D +0.19% 1W +9.23% 1M +12.24%, IGV RS66 1W +5.85% 1M +9.42% → TEAM·BSP·TWLO·CHYM·ZETA·RCRUY. 이번 주 최강 배경 유지"
+    },
+    {
+      "name": "에너지",
+      "desc": "XOP RS85 1D +1.39% 1W +11.31%, CRAK RS90 1D +2.27% 1M +14.4% → PSX·MPC·VLO·EOG·FANG. 이틀째 상단 순환"
+    },
+    {
+      "name": "바이오",
+      "desc": "XBI RS91 1W +6.25% → ZLAB·TXG·ABCL·IOVA·IMMX. 순수 바이오 강세 지속"
+    },
+    {
+      "name": "금융",
+      "desc": "XLF RS72 1M +13.02% → JPM·BAC·USB·PNC 신고가 7개. durable 상수."
+    }
+  ],
+  "actions": [
+    "TEAM·BSP·TWLO·CHYM·ZETA 소프트 폭 확대가 SKYY RS89 위에서 이어지는지 최우선 확인 — 유지 시 성장 코어 소프트로 확정.",
+    "PSX·MPC·VLO·EOG·FANG 에너지 순환이 사흘째 굳는지 점검 — XOP 1W +11.3% 지속 시 순환 축 격상.",
+    "ZLAB·TXG·ABCL 바이오가 XBI RS91 위에서 그룹으로 굳는지 확인.",
+    "반도체 장비(ONTO·FORM·AEHR) 코어 확산 감시 — SOXX 1W 냉각 반전 없으면 개별만, 코어 배제 유지.",
+    "사이버(CRWD·PANW) 1D 냉각이 코어 이탈로 번지는지 경계 — 소프트로 배턴 이동 확인.",
+    "NIQ·SE froth 확산 감시 — 커지면 다소 과열→과열 재분류, 강도 즉시 하향.",
+    "오프닝 판단: 소프트 폭 확대 + 에너지 순환 지속이면 배경 있는 브레이크아웃 선별 공격, froth 확산·에너지 하루 냉각 시 소프트 코어로 압축."
+  ],
+  "read": [
+    "오늘 핵심은 성장 코어가 사이버에서 소프트 전반으로 넓어졌다는 점이다. 어제 코어였던 CRWD·PANW가 상단에서 빠지고 HACK/CIBR가 1D 마이너스로 식은 대신, Technology Services가 33개로 TEAM·BSP·NIQ·TWLO·CHYM·ZETA 광범위 소프트로 확산됐다 — SKYY RS89 1W +9.2%가 배경을 굳게 받친다. 사이버가 밀렸어도 성장 리더십 자체는 오히려 넓어진 셈이다.",
+    "에너지 순환은 이틀째 살아있다. PSX·MPC·VLO 정유가 3중복·신고가로 서고 EOG·FANG·COP E&P가 52주 신고가 9개로 최다다. XOP 1W +11.3%·CRAK 1M +14.4% 배경까지 동반해 헤지가 아닌 건강한 경기순환 유입이다.",
+    "반도체는 코어(SOXX 1W -6.6%)는 여전히 냉각이나 장비(ONTO·FORM·AEHR)만 국지 스파크다. UWL도 2/68로 얇아, 이건 코어 부활이 아니라 개별 확인 단계로 본다.",
+    "breadth 169/36 — 폭은 유지되고 중복이 다시 주간 최고로 응집했다. 신고가 43개가 에너지·헬스·금융·산업으로 넓게 받쳐 하단은 매우 건강하고, 어제 HZO급 극단 froth는 오히려 줄었다. 정리하면 선별 공격 유지 국면이다. TEAM·BSP·ZETA 소프트가 1순위, PSX·EOG 에너지 순환이 2순위, ZLAB·TXG 바이오가 3순위. 반도체 코어·사이버 이탈주는 배제/확인, NIQ·SE froth는 추격 금지"
+  ]
+}
