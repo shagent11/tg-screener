@@ -27,10 +27,22 @@ STATE = ".tg_offset"
 
 def updates(offset=None):
     r = requests.get(f"https://api.telegram.org/bot{TOKEN}/getUpdates",
-                     params={"offset": offset, "limit": 100, "timeout": 0},
+                     params={"offset": offset, "limit": 100, "timeout": 0,
+                             "allowed_updates": '["message","channel_post"]'},
                      timeout=30)
     r.raise_for_status()
     return r.json().get("result", [])
+
+
+def download_document(file_id):
+    """4096자 제한을 피하려고 문서(파일)로 올라온 리포트는 getFile + 다운로드로 원문을 가져온다."""
+    r = requests.get(f"https://api.telegram.org/bot{TOKEN}/getFile",
+                     params={"file_id": file_id}, timeout=30)
+    r.raise_for_status()
+    file_path = r.json()["result"]["file_path"]
+    r = requests.get(f"https://api.telegram.org/file/bot{TOKEN}/{file_path}", timeout=30)
+    r.raise_for_status()
+    return r.content.decode("utf-8")
 
 
 def main():
@@ -59,7 +71,12 @@ def main():
 
     when = datetime.fromtimestamp(best["date"], timezone.utc)
     print(f"[수신 {when:%Y-%m-%d %H:%M UTC}] chat={best['chat']['id']}", file=sys.stderr)
-    sys.stdout.write(best.get("text") or best.get("caption"))
+
+    doc = best.get("document")
+    if doc:
+        sys.stdout.write(download_document(doc["file_id"]))
+    else:
+        sys.stdout.write(best.get("text") or best.get("caption"))
 
 
 if __name__ == "__main__":
