@@ -1,0 +1,5 @@
+out/
+.tg_offset
+__pycache__/
+*.pyc
+.DS_Store

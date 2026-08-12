@@ -1,0 +1,65 @@
+name: daily screener card
+
+on:
+  schedule:
+    # UTC 기준. 아래는 한국시간 07:20 (전날 22:20 UTC).
+    # 리포트가 도착한 뒤에 돌아야 하니 실제 수신 시각에 맞춰 조정할 것.
+    - cron: "20 22 * * 0-4"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "발송 없이 HTML/PNG만 생성"
+        type: boolean
+        default: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: install
+        run: |
+          # 러너에 한글 폰트가 없으면 캡처가 전부 □ 로 깨진다
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-noto-cjk
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      # getUpdates offset을 캐시에 보관해 같은 리포트를 두 번 처리하지 않는다
+      - uses: actions/cache@v4
+        with:
+          path: .tg_offset
+          key: tg-offset-${{ github.run_id }}
+          restore-keys: tg-offset-
+
+      - name: fetch + build + send
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          TG_SOURCE_CHAT: ${{ secrets.TG_SOURCE_CHAT }}
+          DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
+        run: |
+          python fetch_telegram.py > report.txt
+          python build.py report.txt --shot --strict \
+            ${{ inputs.dry_run && ' ' || '--send' }}
+
+      - name: 결과 보관
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: screener-out
+          path: out/
+          retention-days: 14
+
+      # 전체 대시보드를 GitHub Pages로 올리고 싶으면 아래 주석 해제
+      # - uses: peaceiris/actions-gh-pages@v4
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./out
+      #     keep_files: true

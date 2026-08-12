@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>__DATE__ 스크리너 요약</title>
+<style>
+  :root{
+    --paper:#E4E5E0; --card:#FAFAF8; --ink:#14171A; --dim:#6E736F;
+    --rule:#CFD2CB; --up:#C0392B; --down:#1D5FA6; --warn:#9A6B12;
+    --sans:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Segoe UI",system-ui,sans-serif;
+    --mono:ui-monospace,"SF Mono",Menlo,"Roboto Mono","Courier New",monospace;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.55;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:760px;margin:0 auto;padding:22px 16px 60px}
+
+  .top{border-bottom:2px solid var(--ink);padding-bottom:14px;margin-bottom:22px}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+  h1{font-size:clamp(26px,7.4vw,40px);line-height:1.04;letter-spacing:-.035em;font-weight:800;margin:6px 0 10px}
+  h1 span{display:block}
+  .verdict{font-size:15px;color:#33383a;margin:0}
+  .verdict b{font-weight:700}
+  .stats{display:flex;margin-top:16px;border-top:1px solid var(--rule)}
+  .stat{flex:1;padding:10px 0 2px;border-right:1px solid var(--rule)}
+  .stat:last-child{border-right:0}
+  .stat .n{font-family:var(--mono);font-size:26px;font-weight:600;letter-spacing:-.02em;display:block;line-height:1}
+  .stat .n small{font-size:15px;color:var(--dim);font-weight:400}
+  .stat .k{font-size:10.5px;color:var(--dim);letter-spacing:.04em;margin-top:5px;display:block}
+
+  section{margin-top:34px}
+  h2{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-family:var(--mono);font-weight:600;
+     margin:0 0 4px;padding-bottom:7px;border-bottom:1px solid var(--ink)}
+  .sub{font-size:12.5px;color:var(--dim);margin:9px 0 14px}
+  .card{background:var(--card);border:1px solid var(--rule);padding:14px 14px 10px;margin-top:12px}
+
+  .swarm{width:100%;height:auto;display:block;margin-top:6px}
+  .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:11px;color:var(--dim);font-family:var(--mono);margin-top:8px}
+  .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;vertical-align:1px}
+
+  table{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:12.5px}
+  th{text-align:right;font-weight:600;font-size:10px;letter-spacing:.08em;color:var(--dim);
+     padding:0 0 6px;border-bottom:1px solid var(--rule);text-transform:uppercase}
+  th:first-child,td:first-child{text-align:left}
+  td{padding:7px 0;border-bottom:1px solid #E7E8E3;text-align:right;white-space:nowrap}
+  tr:last-child td{border-bottom:0}
+  .tk{font-weight:700}
+  .note{font-family:var(--sans);font-size:11px;color:var(--dim);text-align:left;padding-left:10px;white-space:normal}
+  .up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--dim)}
+  .rsbar{position:relative;width:52px;height:5px;background:#DEDFDA;display:inline-block;vertical-align:2px;margin-right:7px}
+  .rsbar i{position:absolute;left:0;top:0;bottom:0;background:var(--ink);display:block}
+
+  .axis{border-top:1px solid var(--rule);padding:14px 0 4px;display:flex;gap:13px;align-items:flex-start}
+  .axis:first-of-type{border-top:0}
+  .rank{font-family:var(--mono);font-size:11px;font-weight:700;width:26px;height:26px;flex:0 0 26px;
+        border-radius:50%;display:flex;align-items:center;justify-content:center;
+        background:var(--ink);color:var(--card);margin-top:2px}
+  .rank.watch{background:transparent;color:var(--dim);border:1px dashed var(--dim);font-size:9px}
+  .axis h3{margin:0;font-size:15px;letter-spacing:-.01em;font-weight:700}
+  .axis .why{font-size:12.5px;color:#4A4F50;margin:3px 0 8px}
+  .chips{display:flex;flex-wrap:wrap;gap:5px}
+  .chip{font-family:var(--mono);font-size:11.5px;font-weight:600;padding:3px 7px;border:1px solid var(--rule);background:var(--card)}
+  .chip.hot{border-color:var(--up);color:var(--up)}
+  .chip.froth{border-style:dashed;border-color:var(--warn);color:var(--warn)}
+
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:520px){.cols{grid-template-columns:1fr}}
+  .cols h4{margin:0 0 8px;font-size:12px;font-family:var(--mono);letter-spacing:.08em}
+  .cols ul{margin:0;padding-left:16px;font-size:12.5px}
+  .cols li{margin-bottom:6px;color:#3A3F40}
+  .cols li b{font-family:var(--mono);font-weight:700;font-size:12px}
+
+  .bchart{width:100%;height:auto;display:block}
+  ol.act{margin:0;padding-left:20px;font-size:13.5px}
+  ol.act li{margin-bottom:9px;color:#33383a}
+  .flag{border-left:3px solid var(--warn);background:#F6F1E4;padding:11px 13px;font-size:13px;color:#4A4335;margin-top:12px}
+  footer{margin-top:38px;padding-top:12px;border-top:1px solid var(--rule);font-size:11px;color:var(--dim)}
+
+  /* 텔레그램 이미지용 압축 모드 */
+  body.card .full{display:none}
+  body.card .wrap{padding-bottom:22px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div class="eyebrow" id="eyebrow"></div>
+    <h1 id="headline"></h1>
+    <p class="verdict" id="verdict"></p>
+    <div class="stats" id="stats"></div>
+  </div>
+
+  <section>
+    <h2>RS 스펙트럼</h2>
+    <p class="sub">ETF를 상대강도(RS) 축 위에 그대로 올린 그림. 색은 1주 등락(<span class="up">적색 상승</span> / <span class="down">청색 하락</span> / 회색 미제공).</p>
+    <div class="card">
+      <svg class="swarm" viewBox="0 0 1000 275" role="img" aria-label="ETF RS 분포">
+        <g id="swarm"></g>
+        <line x1="40" y1="228" x2="960" y2="228" stroke="#14171A" stroke-width="2"></line>
+        <g id="ticks"></g>
+      </svg>
+      <div class="legend">
+        <span><span class="dot" style="background:#C0392B"></span>1W 상승</span>
+        <span><span class="dot" style="background:#1D5FA6"></span>1W 하락</span>
+        <span><span class="dot" style="background:#9AA09B"></span>1W 미제공</span>
+      </div>
+    </div>
+    <p class="sub" id="rsnote" style="margin-top:12px"></p>
+  </section>
+
+  <section>
+    <h2>오늘의 축 · 우선순위</h2>
+    <p class="sub">숫자는 실제 진입 우선순위. 관찰은 아직 확인 단계.</p>
+    <div id="axes"></div>
+    <div class="flag" id="frothbox"></div>
+  </section>
+
+  <section class="full">
+    <h2>ETF 강도표</h2>
+    <p class="sub" id="etfasof"></p>
+    <div class="card">
+      <table>
+        <thead><tr><th>ETF</th><th>RS</th><th>1D</th><th>1W</th><th>1M</th><th class="note">배경</th></tr></thead>
+        <tbody id="etfrows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="full">
+    <h2>바뀐 것</h2>
+    <div class="cols" style="margin-top:14px">
+      <div class="card"><h4 class="up">↑ 붙는 쪽</h4><ul id="strongs"></ul></div>
+      <div class="card"><h4 class="down">↓ 빠지는 쪽</h4><ul id="weaks"></ul></div>
+    </div>
+  </section>
+
+  <section class="full">
+    <h2>breadth 추이</h2>
+    <p class="sub">막대 = 중복 종목수(리더십 응집), 선 = 전체 종목수(참여 폭).</p>
+    <div class="card"><svg class="bchart" viewBox="0 0 1000 300" role="img" aria-label="breadth 추이"><g id="bars"></g></svg></div>
+    <p class="sub" id="highsnote" style="margin-top:12px"></p>
+  </section>
+
+  <section class="full">
+    <h2>반복 출현 리더</h2>
+    <p class="sub">중복 횟수 = 여러 스크리너에 동시에 걸린 횟수. 많을수록 신호가 겹친다.</p>
+    <div class="card">
+      <table>
+        <thead><tr><th>티커</th><th>중복</th><th>1D</th><th>시총</th><th class="note">성격</th></tr></thead>
+        <tbody id="leaders"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="full">
+    <h2>내일 확인할 것</h2>
+    <ol class="act" id="actions"></ol>
+  </section>
+
+  <footer id="foot"></footer>
+</div>
+
+<script id="payload" type="application/json">__DATA__</script>
+<script>
+(function(){
+  var D = JSON.parse(document.getElementById("payload").textContent);
+  var UP="#C0392B", DOWN="#1D5FA6", NA="#9AA09B";
+  var SVG="http://www.w3.org/2000/svg";
+  var $=function(id){return document.getElementById(id);};
+  function el(tag,attrs){var n=document.createElementNS(SVG,tag);
+    for(var k in attrs) n.setAttribute(k,attrs[k]); return n;}
+  function esc(s){return String(s==null?"":s).replace(/[&<>]/g,function(c){
+    return {"&":"&amp;","<":"&lt;",">":"&gt;"}[c];});}
+  function pct(v){
+    if(v===null||v===undefined) return '<span class="flat">—</span>';
+    return '<span class="'+(v>0?"up":v<0?"down":"flat")+'">'+(v>0?"+":"")+v.toFixed(2)+'</span>';
+  }
+  if(location.hash.indexOf("card")>-1) document.body.classList.add("card");
+
+  /* ---------- 헤더 ---------- */
+  $("eyebrow").textContent = "US Screener · " + D.date;
+  $("headline").innerHTML = (D.headline||"").split(/\s*\+\s*/)
+    .map(function(p,i,a){return "<span>"+esc(p)+(i<a.length-1?" +":"")+"</span>";}).join("");
+  $("verdict").innerHTML = "<b>"+esc(D.verdict)+".</b> " + esc((D.regime&&D.regime[0])||D.oneline||"");
+
+  var t=D.today||{}, st=[];
+  st.push({n:t.breadth, k:"breadth 종목수"});
+  st.push({n:t.overlap, k:"중복"});
+  if(D.highs&&D.highs.total) st.push({n:D.highs.total, k:"52주 신고가"});
+  if(D.uwl) st.push({n:D.uwl.hits+"<small>/"+D.uwl.total+"</small>", k:"UWL 성장환경"});
+  $("stats").innerHTML = st.map(function(s){
+    return '<div class="stat"><span class="n">'+s.n+'</span><span class="k">'+s.k+'</span></div>';
+  }).join("");
+
+  /* ---------- RS 스펙트럼 ---------- */
+  var g=$("swarm"), placed=[], SP=33, TOP=24;
+  // 1차: x좌표와 쌓임 단(row)만 계산
+  D.etf.slice().sort(function(a,b){return a.rs-b.rs;}).forEach(function(d){
+    var x=40+(d.rs/100)*920, row=0, ok=false;
+    while(!ok){ ok=true;
+      for(var i=0;i<placed.length;i++)
+        if(placed[i].row===row && Math.abs(placed[i].x-x)<150){ok=false;row++;break;}
+    }
+    placed.push({x:x,row:row,d:d});
+  });
+  // 2차: 가장 높이 쌓인 단에 맞춰 뷰박스를 늘린다 (안 그러면 위로 잘려 사라진다)
+  var maxRow=placed.reduce(function(m,p){return Math.max(m,p.row);},0);
+  var axisY=TOP+maxRow*SP+23, boxH=axisY+47;
+  var svg=g.parentNode;
+  svg.setAttribute("viewBox","0 0 1000 "+boxH);
+  svg.querySelector("line").setAttribute("y1",axisY);
+  svg.querySelector("line").setAttribute("y2",axisY);
+  placed.forEach(function(p){
+    var d=p.d, x=p.x, y=TOP+(maxRow-p.row)*SP;
+    var col = (d.w===null||d.w===undefined) ? NA : (d.w>=0?UP:DOWN);
+    var left = x>600;
+    g.appendChild(el("line",{x1:x,x2:x,y1:y+9,y2:axisY-2,stroke:col,"stroke-width":1,opacity:.35}));
+    g.appendChild(el("circle",{cx:x,cy:y,r:8,fill:col}));
+    var tx=el("text",{x:left?x-15:x+15,y:y+7,"text-anchor":left?"end":"start",
+      "font-family":'ui-monospace,Menlo,monospace',"font-size":21,"font-weight":700,fill:"#14171A"});
+    tx.textContent=d.ticker;
+    var sp=el("tspan",{"font-size":16,"font-weight":400,fill:"#6E736F"});
+    sp.textContent=" "+d.rs; tx.appendChild(sp); g.appendChild(tx);
+  });
+  [0,25,50,75,100].forEach(function(v){
+    var x=40+(v/100)*920;
+    $("ticks").appendChild(el("line",{x1:x,x2:x,y1:axisY,y2:axisY+10,stroke:"#6E736F"}));
+    var t2=el("text",{x:x,y:axisY+34,"text-anchor":"middle","font-family":'ui-monospace,Menlo,monospace',
+      "font-size":17,fill:"#6E736F"}); t2.textContent="RS "+v; $("ticks").appendChild(t2);
+  });
+  // RS는 높은데 방향이 꺾인 ETF를 자동으로 지목
+  var trap=D.etf.filter(function(r){return r.rs>=80 && r.w!==null && r.w<0;})
+                .sort(function(a,b){return a.w-b.w;})[0];
+  $("rsnote").innerHTML = trap
+    ? esc(trap.ticker)+"는 RS "+trap.rs+"로 상단이지만 1W "+trap.w.toFixed(1)+
+      "%로 <b>방향이 꺾였다</b> — RS만 보고 들어가면 안 되는 자리."
+    : "RS 상단 그룹의 1W 방향이 모두 살아 있다 — 리더십과 모멘텀이 일치.";
+
+  /* ---------- 축 / 우선순위 ---------- */
+  function overlapCount(a,b){var s=0;a.forEach(function(t){if(b.indexOf(t)>-1)s++;});return s;}
+  var html = D.priority.ranked.map(function(r){
+    var best=null,score=0;
+    (D.axes||[]).forEach(function(ax){
+      var n=overlapCount(r.tickers,ax.tickers);
+      if(n>score){score=n;best=ax;}
+    });
+    return '<div class="axis"><div class="rank">'+r.rank+'</div><div>'+
+      '<h3>'+esc(best?best.name:"우선순위 "+r.rank)+(best&&best.tag?' <span style="font-size:11px;color:#6E736F;font-weight:400">'+esc(best.tag)+'</span>':'')+'</h3>'+
+      '<p class="why">'+esc(r.why)+'</p><div class="chips">'+
+      r.tickers.map(function(t){return '<span class="chip hot">'+esc(t)+'</span>';}).join("")+
+      '</div></div></div>';
+  }).join("");
+  if(D.priority.watch){
+    html += '<div class="axis"><div class="rank watch">관찰</div><div>'+
+      '<h3>확인 단계</h3><p class="why">'+esc(D.priority.watch)+'</p><div class="chips">'+
+      (D.priority.watch_tickers||[]).map(function(t){return '<span class="chip">'+esc(t)+'</span>';}).join("")+
+      '</div></div></div>';
+  }
+  $("axes").innerHTML = html;
+
+  if(D.froth && D.froth.length){
+    $("frothbox").innerHTML = "<b>추격 금지.</b> " +
+      D.froth.map(function(f){return esc(f.ticker)+" "+(f.d>0?"+":"")+f.d+"%";}).join(" · ") +
+      " — 초고베타 froth. 갭 상단 추격은 제외하고, 확산되면 과열로 재분류.";
+  } else { $("frothbox").style.display="none"; }
+
+  /* ---------- ETF 표 ---------- */
+  $("etfasof").textContent = D.etf_asof ? "기준일 "+D.etf_asof+" — 오늘 라이브와 거의 일치." : "";
+  $("etfrows").innerHTML = D.etf.map(function(r){
+    return "<tr><td class='tk'>"+esc(r.ticker)+"</td>"+
+      "<td><span class='rsbar'><i style='width:"+(r.rs*0.52)+"px'></i></span>"+r.rs+"</td>"+
+      "<td>"+pct(r.d)+"</td><td>"+pct(r.w)+"</td><td>"+pct(r.m)+"</td>"+
+      "<td class='note'>"+esc(r.note)+"</td></tr>";
+  }).join("");
+
+  /* ---------- 강 / 약 ---------- */
+  function li(items){
+    return items.map(function(x){
+      return "<li><b>"+esc(x.name)+"</b> — "+esc(x.desc.slice(0,110))+"</li>";
+    }).join("");
+  }
+  $("strongs").innerHTML = li((D.getting_strong||[]).concat(D.still_strong||[]).slice(0,5));
+  $("weaks").innerHTML   = li((D.getting_weak||[]).slice(0,5));
+
+  /* ---------- breadth ---------- */
+  var bd=D.breadth||[], bg=$("bars"), W=1000, pad=70, base=232;
+  if(bd.length){
+    var bw=(W-pad*2)/bd.length;
+    var os=bd.map(function(p){return p.o||p.overlap;});
+    var bs=bd.map(function(p){return p.breadth;});
+    var maxO=Math.max.apply(null,os)*1.15;
+    var minB=Math.min.apply(null,bs)-8, maxB=Math.max.apply(null,bs)+8;
+    var pts=[], barW=Math.min(92,bw*0.55);
+    bd.forEach(function(p,i){
+      var cx=pad+bw*i+bw/2, h=(p.overlap/maxO)*150, lastOne=(i===bd.length-1);
+      bg.appendChild(el("rect",{x:cx-barW/2,y:base-h,width:barW,height:h,
+        fill:lastOne?"#14171A":"#C3C6C0"}));
+      var ot=el("text",{x:cx,y:base-h+30,"text-anchor":"middle",
+        "font-family":'ui-monospace,Menlo,monospace',"font-size":22,"font-weight":700,
+        fill:lastOne?"#FAFAF8":"#5C615C"}); ot.textContent=p.overlap; bg.appendChild(ot);
+      var dt=el("text",{x:cx,y:base+30,"text-anchor":"middle",
+        "font-family":'ui-monospace,Menlo,monospace',"font-size":20,fill:"#6E736F"});
+      dt.textContent=p.date; bg.appendChild(dt);
+      pts.push([cx, 95-((p.breadth-minB)/(maxB-minB))*70, p.breadth]);
+    });
+    bg.appendChild(el("polyline",{points:pts.map(function(p){return p[0]+","+p[1];}).join(" "),
+      fill:"none",stroke:UP,"stroke-width":3}));
+    pts.forEach(function(p){
+      bg.appendChild(el("circle",{cx:p[0],cy:p[1],r:6,fill:UP}));
+      var t3=el("text",{x:p[0],y:p[1]-16,"text-anchor":"middle",
+        "font-family":'ui-monospace,Menlo,monospace',"font-size":21,"font-weight":700,fill:UP});
+      t3.textContent=p[2]; bg.appendChild(t3);
+    });
+    bg.appendChild(el("line",{x1:pad-20,x2:W-pad+20,y1:base,y2:base,stroke:"#14171A","stroke-width":2}));
+  }
+  if(D.highs && D.highs.composition && D.highs.composition.length){
+    $("highsnote").innerHTML = "52주 신고가 "+D.highs.total+"개 구성 — <b>"+
+      D.highs.composition.map(function(c){return esc(c.name)+" "+c.count;}).join(" · ")+
+      "</b>. 하단이 넓게 받치면 자금 이탈이 아니라 확산이다.";
+  }
+
+  /* ---------- 리더 ---------- */
+  $("leaders").innerHTML = (D.leaders||[]).map(function(r){
+    return "<tr><td class='tk'>"+esc(r.ticker)+"</td><td>"+r.overlap+"중복</td><td>"+pct(r.d)+
+      "</td><td>$"+r.cap.toFixed(1)+"B</td><td class='note'>"+esc(r.note)+"</td></tr>";
+  }).join("");
+
+  /* ---------- 액션 ---------- */
+  $("actions").innerHTML = (D.actions||[]).map(function(a){return "<li>"+esc(a)+"</li>";}).join("");
+
+  $("foot").textContent = "원문 리포트("+D.date+") 자동 요약." +
+    (D.etf_asof? " ETF 수치 기준일 "+D.etf_asof+".":"");
+})();
+</script>
+</body>
+</html>
