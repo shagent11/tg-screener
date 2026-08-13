@@ -132,6 +132,7 @@
     <div class="cols" style="margin-top:14px">
       <div class="card"><h4 class="up">↑ 붙는 쪽</h4><ul id="strongs"></ul></div>
       <div class="card"><h4 class="down">↓ 빠지는 쪽</h4><ul id="weaks"></ul></div>
+      <div class="card" style="grid-column:1/-1"><h4>🔍 RS 저평가 후보 <span style="font-weight:400;color:#6E736F">— RS&lt;70인데 1M 수익률은 플러스</span></h4><ul id="underrated"></ul></div>
     </div>
   </section>
 
@@ -282,6 +283,12 @@
   }
   $("strongs").innerHTML = li((D.getting_strong||[]).concat(D.still_strong||[]).slice(0,5));
   $("weaks").innerHTML   = li((D.getting_weak||[]).slice(0,5));
+  $("underrated").innerHTML = (D.underrated||[]).length
+    ? D.underrated.map(function(r){
+        return "<li><b>"+esc(r.ticker)+"</b> RS"+r.rs+" — 1M "+(r.m>0?"+":"")+r.m.toFixed(1)+"%"+
+          (r.w!==null?" (1W "+(r.w>0?"+":"")+r.w.toFixed(1)+"%)":"")+"</li>";
+      }).join("")
+    : "<li style=\"color:#6E736F\">오늘은 해당 없음</li>";
 
   /* ---------- breadth ---------- */
   var bd=D.breadth||[], bg=$("bars"), W=1000, pad=70, base=232;

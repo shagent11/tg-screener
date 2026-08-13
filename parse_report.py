@@ -22,7 +22,7 @@ SECTIONS = [
     "새로 강해진 섹터와 그룹", "약해진 섹터와 그룹", "ETF 흐름",
     "섹터 ↔ 종목 매칭", "Tech/Growth 환경", "강세 종목", "반복 출현 리더",
     "왜 강한가", "눌림 종목", "횡보 종목", "약해지는 종목",
-    "가장 먼저 볼 종목", "내 해석", "다음 액션",
+    "가장 먼저 볼 종목", "내 해석", "다음 액션", "RS 저평가 후보",
 ]
 
 # 티커로 오인하기 쉬운 대문자 토큰
@@ -192,6 +192,23 @@ def parse_leaders(sec: dict) -> list:
     return out
 
 
+def parse_underrated(sec: dict) -> list:
+    """'- SLV: RS63, 1W +5.3%, 1M +11.5%' -> [{ticker, rs, w, m}] (screener_bridge.py가 계산해서 붙인, 결정론적 포맷)"""
+    out = []
+    for b in bullets(sec.get("RS 저평가 후보", "")):
+        m = re.match(r"^([A-Z]{1,6}):\s*RS(\d+)(?:,\s*1W\s*([+-][\d.]+)%)?,\s*1M\s*([+-][\d.]+)%$", b)
+        if not m:
+            continue
+        out.append({
+            "ticker": m.group(1),
+            "rs": int(m.group(2)),
+            "w": float(m.group(3)) if m.group(3) else None,
+            "m": float(m.group(4)),
+        })
+    out.sort(key=lambda r: -r["m"])
+    return out
+
+
 def parse_group_list(block: str) -> list:
     """'- 이름: 설명' 형태의 섹터 목록."""
     out = []
@@ -272,6 +289,7 @@ def parse(text: str) -> dict:
         "getting_strong": parse_group_list(sec.get("새로 강해진 섹터와 그룹", "")),
         "getting_weak": parse_group_list(sec.get("약해진 섹터와 그룹", "")),
         "still_strong": parse_group_list(sec.get("계속 강한 섹터와 그룹", "")),
+        "underrated": parse_underrated(sec),
         "actions": [strip_emoji(b) for b in bullets(sec.get("다음 액션", ""))],
         "read": [strip_emoji(b) for b in bullets(sec.get("내 해석", ""))],
     }
