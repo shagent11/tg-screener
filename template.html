@@ -282,7 +282,8 @@
 
   /* ---------- ETF 표 ---------- */
   $("etfasof").textContent = D.etf_asof ? "기준일 "+D.etf_asof+" — 오늘 라이브와 거의 일치." : "";
-  $("etfrows").innerHTML = spectrum.slice().sort(function(a,b){return b.rs-a.rs;}).map(function(r){
+  $("etfrows").innerHTML = spectrum.filter(function(r){return !r.underrated || r.m>10;})
+    .sort(function(a,b){return b.rs-a.rs;}).map(function(r){
     var note = r.underrated
       ? "<span style='color:"+UNDR+"'>RS 저평가 — 1M "+(r.m>0?"+":"")+r.m.toFixed(1)+"%</span>"
       : esc(r.note);
