@@ -112,15 +112,6 @@ def parse_etf(sec: dict) -> list:
                 "m": num(re.search(r"1M\s*([+-][\d.]+)%", rest)),
                 "note": note,
             })
-            continue
-        # "약한 쪽: IBIT(RS18)·URA(33)·FINX(37)..." 형태
-        if b.startswith("약한 쪽"):
-            tail = b.split("—")[-1] if "—" in b else "우선순위 최하"
-            for t, rs in re.findall(r"([A-Z]{2,6})\((?:RS)?(\d+)\)", b):
-                rows.append({
-                    "ticker": t, "rs": int(rs), "d": None, "w": None, "m": None,
-                    "note": strip_emoji(tail).strip(),
-                })
     rows.sort(key=lambda r: -r["rs"])
     return rows
 
@@ -193,15 +184,16 @@ def parse_leaders(sec: dict) -> list:
 
 
 def parse_underrated(sec: dict) -> list:
-    """'- SLV: RS63, 1W +5.3%, 1M +11.5%' -> [{ticker, rs, w, m}] (screener_bridge.py가 계산해서 붙인, 결정론적 포맷)"""
+    """'- SLV: RS63, 1W +5.3%, 1M +11.5%' 또는 '- FOTO: RS미제공, 1W +14.5%, 1M +10.9%'
+    -> [{ticker, rs, w, m}] (screener_bridge.py가 계산해서 붙인, 결정론적 포맷). RS 미제공 신규 ETF는 rs=None."""
     out = []
     for b in bullets(sec.get("RS 저평가 후보", "")):
-        m = re.match(r"^([A-Z]{1,6}):\s*RS(\d+)(?:,\s*1W\s*([+-][\d.]+)%)?,\s*1M\s*([+-][\d.]+)%$", b)
+        m = re.match(r"^([A-Z]{1,6}):\s*RS(\d+|미제공)(?:,\s*1W\s*([+-][\d.]+)%)?,\s*1M\s*([+-][\d.]+)%$", b)
         if not m:
             continue
         out.append({
             "ticker": m.group(1),
-            "rs": int(m.group(2)),
+            "rs": None if m.group(2) == "미제공" else int(m.group(2)),
             "w": float(m.group(3)) if m.group(3) else None,
             "m": float(m.group(4)),
         })

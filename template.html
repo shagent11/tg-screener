@@ -200,12 +200,14 @@
   // ETF 흐름 목록 + RS 저평가 후보(별도 결정론적 계산)를 합쳐서 같은 축에 표시. 티커 겹치면 저평가 쪽을 우선.
   var underrTickers = {};
   (D.underrated||[]).forEach(function(u){ underrTickers[u.ticker]=true; });
+  // RS 미제공(신규 ETF, rs:null)은 축 위치를 계산할 수 없어 스펙트럼 플롯에서는 제외 — ETF 강도표에는 별도로 포함시킨다.
   var spectrum = D.etf.filter(function(r){ return !underrTickers[r.ticker]; })
     .concat((D.underrated||[]).map(function(u){
       return {ticker:u.ticker, rs:u.rs, w:u.w, m:u.m, note:"", underrated:true};
     }));
+  var spectrumPlot = spectrum.filter(function(r){ return r.rs!==null && r.rs!==undefined; });
   // 1차: x좌표와 쌓임 단(row)만 계산
-  spectrum.slice().sort(function(a,b){return a.rs-b.rs;}).forEach(function(d){
+  spectrumPlot.slice().sort(function(a,b){return a.rs-b.rs;}).forEach(function(d){
     var x=40+(d.rs/100)*920, row=0, ok=false;
     while(!ok){ ok=true;
       for(var i=0;i<placed.length;i++)
@@ -283,12 +285,17 @@
   /* ---------- ETF 표 ---------- */
   $("etfasof").textContent = D.etf_asof ? "기준일 "+D.etf_asof+" — 오늘 라이브와 거의 일치." : "";
   $("etfrows").innerHTML = spectrum.filter(function(r){return !r.underrated || r.m>10;})
-    .sort(function(a,b){return b.rs-a.rs;}).map(function(r){
-    var note = r.underrated
-      ? "<span style='color:"+UNDR+"'>RS 저평가 — 1M "+(r.m>0?"+":"")+r.m.toFixed(1)+"%</span>"
-      : esc(r.note);
+    .sort(function(a,b){return (b.rs===null?-1:b.rs)-(a.rs===null?-1:a.rs);}).map(function(r){
+    var note = esc(r.note);
+    if (r.underrated) {
+      var noteText = (r.rs===null ? "RS 미제공(신규) — 1M " : "RS 저평가 — 1M ") + (r.m>0?"+":"") + r.m.toFixed(1) + "%";
+      note = "<span style='color:"+UNDR+"'>"+noteText+"</span>";
+    }
+    var rsCell = r.rs===null
+      ? "<span class='rsbar'></span><span style='color:"+UNDR+"'>N/A</span>"
+      : "<span class='rsbar'><i style='width:"+(r.rs*0.52)+"px;"+(r.underrated?"background:"+UNDR:"")+"'></i></span>"+r.rs;
     return "<tr><td class='tk'"+(r.underrated?" style='color:"+UNDR+"'":"")+">"+esc(r.ticker)+"</td>"+
-      "<td><span class='rsbar'><i style='width:"+(r.rs*0.52)+"px;"+(r.underrated?"background:"+UNDR:"")+"'></i></span>"+r.rs+"</td>"+
+      "<td>"+rsCell+"</td>"+
       "<td>"+pct(r.d)+"</td><td>"+pct(r.w)+"</td><td>"+pct(r.m)+"</td>"+
       "<td class='note'>"+note+"</td></tr>";
   }).join("");
