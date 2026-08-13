@@ -1,0 +1,356 @@
+{
+  "date": "2026-08-14",
+  "headline": "소프트웨어 대폭발이 오늘의 핵심",
+  "oneline": "소프트웨어 대폭발이 오늘의 핵심 — WDAY·HUBS·MDB·ESTC·GTLB·PATH·NET·FROG·WIX 무더기 돌파, SKYY 1W +13.3%·IGV 1W +8.9%·HACK 1M +40% 동반. 에너지 순환(MPC·PSX·VLO 신고가) 유지, 반도체는 SNDK 메모리만 잔존. 중복 39로 재응집, breadth 157.",
+  "verdict": "선별적 공격 유지",
+  "priority_line": "우선순위: 소프트(WDAY·HUBS·MDB·ESTC·GTLB·PATH·NET·RBRK·FROG) + 에너지(MPC·PSX·VLO·EOG·PBF·PARR). ARX(+43%)·WIX(+16.5%)·SNDK 초고베타 갭은 추격 금지.",
+  "regime": [
+    "추세추종 유효. 성장 코어가 소프트웨어로 응집되며 리더십 방향성은 오히려 뚜렷해졌다.",
+    "risk-on 유지. 소프트 코어 + 에너지 순환 동반, 다만 중복 39 재응집으로 froth 압력은 소폭 증가."
+  ],
+  "heat_label": "다소 과열 (소프트 응집 + 두 자릿수 갭 다수, 단 하단 건강)",
+  "heat_reasons": [
+    "근거 1: WDAY +17.8%·WIX +16.5%·HUBS +14.5%·SNDK +13.7%·ARX +43% 등 하루 두 자릿수 돌파 무더기.",
+    "근거 2: 중복 25→39로 주간 최고 재응집 — 소프트 쏠림 재확대.",
+    "근거 3: 반면 52주 신고가 46개가 헬스9·에너지8·금융8·산업7로 넓게 받침 — 하단 매우 건강, 자금 이탈 아님.",
+    "근거 4: 소프트 폭발이 개별 froth가 아니라 SKYY 1W +13.3%·IGV 1W +8.9% ETF 동반이라 실제 로테이션 — 소음보다 순환 신호."
+  ],
+  "breadth": [
+    {
+      "date": "8/11",
+      "breadth": 172,
+      "overlap": 29
+    },
+    {
+      "date": "8/12",
+      "breadth": 169,
+      "overlap": 36
+    },
+    {
+      "date": "8/13",
+      "breadth": 159,
+      "overlap": 25
+    },
+    {
+      "date": "8/14",
+      "breadth": 157,
+      "overlap": 39
+    }
+  ],
+  "today": {
+    "date": "8/14",
+    "breadth": 157,
+    "overlap": 39
+  },
+  "highs": {
+    "total": 46,
+    "composition": [
+      {
+        "name": "헬스",
+        "count": 9
+      },
+      {
+        "name": "에너지",
+        "count": 8
+      },
+      {
+        "name": "금융",
+        "count": 8
+      },
+      {
+        "name": "산업",
+        "count": 7
+      }
+    ]
+  },
+  "uwl": {
+    "hits": 2,
+    "total": 68
+  },
+  "etf": [
+    {
+      "ticker": "HACK",
+      "rs": 91,
+      "d": 2.55,
+      "w": 8.57,
+      "m": 40.12,
+      "note": "사이버 최강 배경"
+    },
+    {
+      "ticker": "CIBR",
+      "rs": 91,
+      "d": 1.8,
+      "w": 7.33,
+      "m": 12.46,
+      "note": "→ RBRK·CRWD"
+    },
+    {
+      "ticker": "CRAK",
+      "rs": 91,
+      "d": 1.31,
+      "w": 6.13,
+      "m": 12.92,
+      "note": "정유 최강"
+    },
+    {
+      "ticker": "SKYY",
+      "rs": 90,
+      "d": 3.91,
+      "w": 13.33,
+      "m": 23.73,
+      "note": "클라우드 대폭발, 오늘 최대 변화"
+    },
+    {
+      "ticker": "QTUM",
+      "rs": 90,
+      "d": 0.89,
+      "w": 7.07,
+      "m": 10.4,
+      "note": "양자 온기"
+    },
+    {
+      "ticker": "XBI",
+      "rs": 90,
+      "d": -1.59,
+      "w": 1.89,
+      "m": 17.75,
+      "note": "배경은 뜨겁되 1D 냉각"
+    },
+    {
+      "ticker": "XLK",
+      "rs": 84,
+      "d": 1.01,
+      "w": 4.14,
+      "m": 3.84,
+      "note": "대형 테크 유지"
+    },
+    {
+      "ticker": "IGV",
+      "rs": 72,
+      "d": 3.1,
+      "w": 8.88,
+      "m": 17.61,
+      "note": "소프트 재가속(Bull Snort RV2.0x 진입)"
+    }
+  ],
+  "etf_asof": "8/13",
+  "axes": [
+    {
+      "no": 1,
+      "name": "소프트·클라우드",
+      "tag": "1위·59개",
+      "tickers": [
+        "WDAY",
+        "HUBS",
+        "MDB",
+        "ESTC",
+        "GTLB",
+        "PATH",
+        "NET",
+        "FROG",
+        "RBRK",
+        "WIX",
+        "BILL",
+        "FA"
+      ],
+      "raw": "WDAY +17.78%(RV4.1x), HUBS +14.46%, MDB +7.87%, ESTC +11.50%, GTLB +6.22%, PATH +9.31%, NET +6.22%, FROG +10.59%, RBRK +8.64%, WIX +16.5%, BILL, FA"
+    },
+    {
+      "no": 2,
+      "name": "에너지",
+      "tag": "신고가 8",
+      "tickers": [
+        "MPC",
+        "PSX",
+        "VLO",
+        "EOG",
+        "COP",
+        "CVX",
+        "FANG",
+        "XOM",
+        "PBF",
+        "PARR"
+      ],
+      "raw": "MPC·PSX·VLO 100%, EOG 95.1%, COP·CVX·FANG·XOM, PBF +5.72%·PARR +5.61% 정유"
+    },
+    {
+      "no": 3,
+      "name": "반도체",
+      "tag": "축소",
+      "tickers": [
+        "SNDK",
+        "SMCI",
+        "AEHR",
+        "P"
+      ],
+      "raw": "SNDK +13.67% 메모리, SMCI +4.1%, AEHR, P +5.34% — 어제 하드웨어 코어 이탈, 메모리만 잔존"
+    },
+    {
+      "no": 4,
+      "name": "신고가 방어·순환",
+      "tag": "헬스9·금융8·산업7",
+      "tickers": [
+        "MRK",
+        "AMGN",
+        "LLY",
+        "JPM",
+        "BAC",
+        "USB",
+        "FDX",
+        "RTX",
+        "GE"
+      ],
+      "raw": "MRK·AMGN·LLY·JPM·BAC·USB·FDX·RTX·GE"
+    }
+  ],
+  "priority": {
+    "ranked": [
+      {
+        "rank": 1,
+        "tickers": [
+          "WDAY",
+          "HUBS",
+          "MDB",
+          "ESTC",
+          "GTLB",
+          "PATH"
+        ],
+        "why": "소프트웨어 대폭발이 이틀째 이어지는지 = 성장 코어 소프트 확정 여부, SKYY 1W +13.3% 지속이 관건"
+      },
+      {
+        "rank": 2,
+        "tickers": [
+          "RBRK",
+          "NET",
+          "FROG"
+        ],
+        "why": "데이터 보안·인프라가 HACK 1M +40% 위에서 그룹으로 굳는지"
+      },
+      {
+        "rank": 3,
+        "tickers": [
+          "MPC",
+          "PSX",
+          "VLO",
+          "PBF",
+          "PARR"
+        ],
+        "why": "에너지·정유 순환이 이어지는지, CRAK 1M +12.9% 유지 관건"
+      }
+    ],
+    "watch": "SNDK·SMCI 메모리 지속 여부(반도체 재점화 실마리), ARX·WIX froth 확산(과열 판별), 반도체 하드웨어(NBIS·CRWV) 재복귀 가능성.",
+    "watch_tickers": [
+      "SNDK",
+      "SMCI",
+      "ARX",
+      "WIX",
+      "NBIS",
+      "CRWV"
+    ]
+  },
+  "leaders": [
+    {
+      "ticker": "RBRK",
+      "overlap": 4,
+      "d": 8.64,
+      "cap": 21.63,
+      "m1": null,
+      "note": "오늘 최다 등장, 데이터 보안·소프트. HACK/CIBR RS91 1M +40% 배경 직결, 이번 주 반복 상수, 최우선 체크."
+    },
+    {
+      "ticker": "TEAM",
+      "overlap": 3,
+      "d": 6.92,
+      "cap": 42.0,
+      "m1": 84.4,
+      "note": "소프트 대형, 이번 주 내내 반복 코어. SKYY 배경 일치."
+    }
+  ],
+  "froth": [
+    {
+      "ticker": "ARX",
+      "d": 43.35
+    },
+    {
+      "ticker": "WIX",
+      "d": 16.5
+    }
+  ],
+  "getting_strong": [
+    {
+      "name": "엔터프라이즈 소프트웨어(대폭발)",
+      "desc": "IGV 1D +3.10% 1W +8.88% 재가속, Bull Snort Tech Services 5개(WDAY·WIX·ESTC·FA·BILL) → 어제 얇던 소프트가 오늘 59개 압도적 1위로 확산, 오늘 최대 변화."
+    },
+    {
+      "name": "아시아 반도체 배경",
+      "desc": "EWY RS92 1W +10.3%, EWT RS91 1W +6.68% 1M +17.41% → SNDK 메모리·SMCI 온기 잔존."
+    }
+  ],
+  "getting_weak": [
+    {
+      "name": "반도체 하드웨어(코어 이탈)",
+      "desc": "어제 NBIS·CRWV·DELL·HPE 무더기가 오늘 상단서 소멸, SNDK 메모리만 잔존 하루짜리 톱니로 확인."
+    },
+    {
+      "name": "바이오(1D 냉각)",
+      "desc": "XBI RS90 1D -1.59% 1W +1.89% — 1M +17.75%는 뜨겁되 오늘 스크리너 신규 없음, ABCL·IOVA 상단 이탈."
+    },
+    {
+      "name": "크립토·우라늄·핀테크",
+      "desc": "IBIT RS19·URA RS36 — 배경 약세 지속."
+    },
+    {
+      "name": "유틸·리츠",
+      "desc": "신고가권 유지하나 방어 온기 최약(D·SO·PLD·DUK·AEP)."
+    }
+  ],
+  "still_strong": [
+    {
+      "name": "소프트·클라우드·사이버",
+      "desc": "SKYY RS90 1D +3.91% 1W +13.33% 1M +23.73%, IGV RS72 1D +3.10% 1W +8.88% 1M +17.61%, HACK RS91 1M +40.12%, CIBR RS91 1M +12.46% → WDAY·HUBS·MDB·ESTC·GTLB·PATH·NET·RBRK·FROG. 오늘 최강, ETF 전면 가속"
+    },
+    {
+      "name": "에너지",
+      "desc": "CRAK RS91 1D +1.31% 1W +6.13% 1M +12.92%, USO RS90 1W +7.36%, XOP RS84 1W +6.38% → MPC·PSX·VLO·EOG·PBF·PARR. 순환 지속"
+    },
+    {
+      "name": "금융",
+      "desc": "XLF RS73 1M +13.52% → JPM·BAC·USB·MS·C·WFC·GS·AXP 신고가 8개. durable 상수."
+    }
+  ],
+  "underrated": [
+    {
+      "ticker": "GDX",
+      "rs": 63,
+      "w": 7.1,
+      "m": 16.0
+    },
+    {
+      "ticker": "FOTO",
+      "rs": null,
+      "w": 14.5,
+      "m": 10.9
+    },
+    {
+      "ticker": "NASA",
+      "rs": 35,
+      "w": 12.9,
+      "m": 3.9
+    }
+  ],
+  "actions": [
+    "WDAY·HUBS·MDB·ESTC·GTLB·PATH 소프트웨어 대폭발이 이틀째 굳는지 최우선 확인 — SKYY 1W +13.3% 지속 시 성장 코어 소프트 확정.",
+    "RBRK·NET·FROG 데이터 보안·인프라가 HACK 1M +40% 위에서 그룹으로 넓어지는지 점검.",
+    "MPC·PSX·VLO·PBF·PARR 에너지·정유 순환이 이어지는지 확인 — CRAK 1M +12.9% 유지 관건.",
+    "SNDK·SMCI 메모리가 EWY·EWT 위에서 살아남는지 감시 — 반도체 재점화 실마리.",
+    "반도체 하드웨어(NBIS·CRWV·DELL·HPE) 재복귀 여부 경계 — 하루짜리 톱니가 반복될지 확인.",
+    "ARX·WIX froth 확산 감시 — 커지면 다소 과열→과열 재분류, 강도 즉시 하향.",
+    "오프닝 판단: 소프트 폭발 + 에너지 순환 지속이면 배경 있는 브레이크아웃 선별 공격, froth 확산·소프트 하루 냉각 시 사이버·에너지 코어로 압축."
+  ],
+  "read": [
+    "오늘 핵심은 성장 코어가 어제 하루 켜진 반도체 하드웨어에서 다시 엔터프라이즈 소프트웨어로 넘어갔고, 이번엔 훨씬 두껍게 터졌다는 점이다. WDAY +17.8%·HUBS +14.5%·MDB·ESTC·GTLB·PATH·NET·FROG가 무더기 돌파하며 Technology Services 59개로 압도적 1위, SKYY 1W +13.3%·IGV 1W +8.9%·HACK 1M +40% ETF가 전면 가속했다 — 개별 froth가 아닌 실제 자금 로테이션이다.",
+    "반면 어제 코어였던 NBIS·CRWV·DELL·HPE 반도체 하드웨어는 이틀을 못 잇고 상단에서 빠졌다. SNDK 메모리만 잔존해, 반도체는 이번 주 내내 반복된 하루짜리 톱니 패턴을 다시 확인했다. 에너지(MPC·PSX·VLO·PBF·PARR)는 신고가 8개로 순환 유지, 바이오는 XBI 1D 냉각으로 소강.",
+    "breadth 157/39다. 폭은 유지되나 중복이 25→39로 주간 최고 재응집 — 어제 풀렸던 쏠림이 소프트로 다시 붙었다. 신고가 46개가 헬스·에너지·금융·산업으로 넓게 받쳐 하단은 튼튼하다.",
+    "정리하면 선별 공격 유지 국면이다. WDAY·HUBS·MDB·ESTC·GTLB 소프트가 오늘 1순위, RBRK·NET 사이버·인프라가 2순위, MPC·PSX 에너지 순환이 3순위. 반도체 하드웨어는 배제로 복귀, ARX·WIX froth는 추격 금지. 소프트 ETF 동반 폭발이라 순도는 좋으나 하루 두 자릿수 갭이 많고 중복이 재응집해 다소 과열로 본다"
+  ]
+}
