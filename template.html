@@ -104,9 +104,11 @@
         <span><span class="dot" style="background:#C0392B"></span>1W 상승</span>
         <span><span class="dot" style="background:#1D5FA6"></span>1W 하락</span>
         <span><span class="dot" style="background:#9AA09B"></span>1W 미제공</span>
+        <span><span class="dot" style="background:#7A3FA3"></span>RS 저평가(1M 상승)</span>
       </div>
     </div>
     <p class="sub" id="rsnote" style="margin-top:12px"></p>
+    <p class="sub" id="rsnote2"></p>
   </section>
 
   <section>
@@ -166,7 +168,7 @@
 <script>
 (function(){
   var D = JSON.parse(document.getElementById("payload").textContent);
-  var UP="#C0392B", DOWN="#1D5FA6", NA="#9AA09B";
+  var UP="#C0392B", DOWN="#1D5FA6", NA="#9AA09B", UNDR="#7A3FA3";
   var SVG="http://www.w3.org/2000/svg";
   var $=function(id){return document.getElementById(id);};
   function el(tag,attrs){var n=document.createElementNS(SVG,tag);
@@ -196,8 +198,15 @@
 
   /* ---------- RS 스펙트럼 ---------- */
   var g=$("swarm"), placed=[], SP=33, TOP=24;
+  // ETF 흐름 목록 + RS 저평가 후보(별도 결정론적 계산)를 합쳐서 같은 축에 표시. 티커 겹치면 저평가 쪽을 우선.
+  var underrTickers = {};
+  (D.underrated||[]).forEach(function(u){ underrTickers[u.ticker]=true; });
+  var spectrum = D.etf.filter(function(r){ return !underrTickers[r.ticker]; })
+    .concat((D.underrated||[]).map(function(u){
+      return {ticker:u.ticker, rs:u.rs, w:u.w, m:u.m, note:"", underrated:true};
+    }));
   // 1차: x좌표와 쌓임 단(row)만 계산
-  D.etf.slice().sort(function(a,b){return a.rs-b.rs;}).forEach(function(d){
+  spectrum.slice().sort(function(a,b){return a.rs-b.rs;}).forEach(function(d){
     var x=40+(d.rs/100)*920, row=0, ok=false;
     while(!ok){ ok=true;
       for(var i=0;i<placed.length;i++)
@@ -214,7 +223,7 @@
   svg.querySelector("line").setAttribute("y2",axisY);
   placed.forEach(function(p){
     var d=p.d, x=p.x, y=TOP+(maxRow-p.row)*SP;
-    var col = (d.w===null||d.w===undefined) ? NA : (d.w>=0?UP:DOWN);
+    var col = d.underrated ? UNDR : ((d.w===null||d.w===undefined) ? NA : (d.w>=0?UP:DOWN));
     var left = x>600;
     g.appendChild(el("line",{x1:x,x2:x,y1:y+9,y2:axisY-2,stroke:col,"stroke-width":1,opacity:.35}));
     g.appendChild(el("circle",{cx:x,cy:y,r:8,fill:col}));
@@ -237,6 +246,12 @@
     ? esc(trap.ticker)+"는 RS "+trap.rs+"로 상단이지만 1W "+trap.w.toFixed(1)+
       "%로 <b>방향이 꺾였다</b> — RS만 보고 들어가면 안 되는 자리."
     : "RS 상단 그룹의 1W 방향이 모두 살아 있다 — 리더십과 모멘텀이 일치.";
+  // 반대 케이스: RS는 낮은데 1M은 이미 플러스인 ETF(보라 점)
+  var best=(D.underrated||[]).slice().sort(function(a,b){return b.m-a.m;})[0];
+  $("rsnote2").innerHTML = best
+    ? esc(best.ticker)+"는 RS "+best.rs+"로 하단이지만 1M "+(best.m>0?"+":"")+best.m.toFixed(1)+
+      "%로 <b>이미 오르는 중</b> — RS가 아직 못 따라온 자리."
+    : "RS 하단 그룹은 1M도 아직 마이너스 — 저평가 신호 없음.";
 
   /* ---------- 축 / 우선순위 ---------- */
   function overlapCount(a,b){var s=0;a.forEach(function(t){if(b.indexOf(t)>-1)s++;});return s;}
