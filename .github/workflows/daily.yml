@@ -59,12 +59,8 @@ jobs:
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
         run: |
           detail=$(tail -c 800 build.log 2>/dev/null || echo "(build.log 없음 — install/checkout 단계에서 실패)")
-          msg="⚠️ tg-screener 빌드 실패
-
-$(date -u +'%Y-%m-%d %H:%M UTC')
-${detail}
-
-https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          run_url="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          msg=$(printf '⚠️ tg-screener 빌드 실패\n\n%s\n%s\n\n%s' "$(date -u +'%Y-%m-%d %H:%M UTC')" "$detail" "$run_url")
           curl -s -X POST "https://api.telegram.org/bot${TG_BOT_TOKEN}/sendMessage" \
             --data-urlencode "chat_id=${TG_CHAT_ID}" \
             --data-urlencode "text=${msg}" > /dev/null
