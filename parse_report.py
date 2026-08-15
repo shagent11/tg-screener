@@ -88,30 +88,47 @@ def tickers_in(s: str) -> list:
 # 개별 섹션 파서
 # --------------------------------------------------------------------------
 
+def _etf_metrics(rest: str) -> dict:
+    return {
+        "d": num(re.search(r"1D\s*([+-][\d.]+)%", rest)),
+        "w": num(re.search(r"1W\s*([+-][\d.]+)%", rest)),
+        "m": num(re.search(r"1M\s*([+-][\d.]+)%", rest)),
+    }
+
+
 def parse_etf(sec: dict) -> list:
-    """ETF 흐름 섹션 -> [{ticker, rs, d, w, m, note}]"""
+    """ETF 흐름 섹션 -> [{ticker, rs, d, w, m, note}].
+    보통 'TICKER: RS.. / 1D.. / 1W.. / 1M.. note' 한 줄에 하나지만,
+    Opus가 상관관계 높은 ETF 둘을 'A/B: A RS.. .., B RS.. .. note' 처럼
+    한 줄로 묶어 쓸 때가 있어(2026-08-15 확인, XOP/XLE 등) 그 형태도 처리한다."""
     rows = []
     for b in bullets(sec.get("ETF 흐름", "")):
         head = re.match(r"^([A-Z]{2,6}):\s*RS\s*(\d+)\s*(.*)$", b)
         if head:
             ticker, rs, rest = head.group(1), int(head.group(2)), head.group(3)
-            note = rest
             # 마지막 퍼센트 뒤부터가 코멘트
             last = None
             for m in re.finditer(r"1[DWM]\s*[+-][\d.]+%", rest):
                 last = m
-            if last:
-                note = rest[last.end():]
+            note = rest[last.end():] if last else rest
             note = strip_emoji(note).lstrip("/ ").strip()
             note = note.split("→")[0].strip() or note
-            rows.append({
-                "ticker": ticker,
-                "rs": rs,
-                "d": num(re.search(r"1D\s*([+-][\d.]+)%", rest)),
-                "w": num(re.search(r"1W\s*([+-][\d.]+)%", rest)),
-                "m": num(re.search(r"1M\s*([+-][\d.]+)%", rest)),
-                "note": note,
-            })
+            rows.append({"ticker": ticker, "rs": rs, "note": note, **_etf_metrics(rest)})
+            continue
+
+        combo = re.match(r"^([A-Z]{2,6})/([A-Z]{2,6}):\s*(.*)$", b)
+        if combo:
+            rest = combo.group(3)
+            subs = list(re.finditer(
+                r"([A-Z]{2,6})\s+RS\s*(\d+)\s*((?:1[DWM]\s*[+-][\d.]+%\s*,?\s*)*)", rest))
+            if not subs:
+                continue
+            note = strip_emoji(rest[subs[-1].end():]).lstrip(", ").strip()
+            note = note.split("→")[0].strip() or note
+            for m in subs:
+                ticker, rs, metrics = m.group(1), int(m.group(2)), m.group(3)
+                rows.append({"ticker": ticker, "rs": rs, "note": note, **_etf_metrics(metrics)})
+
     rows.sort(key=lambda r: -r["rs"])
     return rows
 
