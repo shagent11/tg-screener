@@ -309,6 +309,10 @@ def validate(d: dict) -> list:
     errs = []
     if len(d["etf"]) < 8:
         errs.append(f"ETF 행이 {len(d['etf'])}개뿐 (8개 미만)")
+    incomplete = [r["ticker"] for r in d["etf"] if r["d"] is None or r["w"] is None or r["m"] is None]
+    if len(incomplete) > 2:
+        errs.append(f"ETF 지표 누락 {len(incomplete)}건 (1D/1W/1M 중 하나 이상 빔): {incomplete} "
+                     f"— 결합 라인(예: 'A/B: A RS.. .., B RS.. ..')으로 써서 지표를 생략했을 가능성")
     if len(d["breadth"]) < 2:
         errs.append("breadth 추이를 못 읽음")
     if not d["axes"]:
