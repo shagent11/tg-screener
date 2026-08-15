@@ -45,9 +45,29 @@ jobs:
           TG_SOURCE_CHAT: ${{ secrets.TG_SOURCE_CHAT }}
           DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
         run: |
-          python fetch_telegram.py > report.txt
-          python build.py report.txt --shot --strict \
-            ${{ inputs.dry_run && ' ' || '--send' }}
+          set -o pipefail
+          {
+            python fetch_telegram.py > report.txt
+            python build.py report.txt --shot --strict \
+              ${{ inputs.dry_run && ' ' || '--send' }}
+          } 2>&1 | tee build.log
+
+      - name: 실패 알림 (텔레그램)
+        if: failure()
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+        run: |
+          detail=$(tail -c 800 build.log 2>/dev/null || echo "(build.log 없음 — install/checkout 단계에서 실패)")
+          msg="⚠️ tg-screener 빌드 실패
+
+$(date -u +'%Y-%m-%d %H:%M UTC')
+${detail}
+
+https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          curl -s -X POST "https://api.telegram.org/bot${TG_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TG_CHAT_ID}" \
+            --data-urlencode "text=${msg}" > /dev/null
 
       - name: index.html — 최신 리포트로 리다이렉트
         run: |
