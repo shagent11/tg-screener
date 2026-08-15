@@ -46,6 +46,9 @@ jobs:
           DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
         run: |
           python fetch_telegram.py > report.txt
+          echo "::group::report.txt (debug)"
+          cat report.txt
+          echo "::endgroup::"
           python build.py report.txt --shot --strict \
             ${{ inputs.dry_run && ' ' || '--send' }}
 
