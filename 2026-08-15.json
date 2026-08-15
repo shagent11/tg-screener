@@ -1,0 +1,381 @@
+{
+  "date": "2026-08-15",
+  "headline": "소프트 리더 1D 냉각(SKYY·IGV·HACK 마이너스) + 에너지 순환 1D 강화(USO·CRAK·XLE 플러스) + NBIS AI 인프라 재부상이 오늘의 축. 단 상단은 HTFL RV11.4x·ARX·NIQ·UMAC froth로 채워지고 breadth 141/27로 축소",
+  "oneline": "소프트 리더 1D 냉각(SKYY·IGV·HACK 마이너스) + 에너지 순환 1D 강화(USO·CRAK·XLE 플러스) + NBIS AI 인프라 재부상이 오늘의 축. 단 상단은 HTFL RV11.4x·ARX·NIQ·UMAC froth로 채워지고 breadth 141/27로 축소 — 선별 공격 유지하되 froth 추격 금지",
+  "verdict": "선별적 공격, 강도 소폭 하향",
+  "priority_line": "우선순위: 에너지(MPC·PSX·VLO·PARR·PBF·EOG) + AI 인프라(NBIS·AEHR·MXL·AAOI) + 살아남은 퀄리티 소프트(ESTC·RDDT). HTFL(RV11.4x)·ARX(+61%)·NIQ(+49%)·UMAC·STDN·EROC froth 갭은 추격 금지.",
+  "regime": [
+    "추세추종은 유효하나 순도 하락. 어제 두껍던 소프트 코어가 ETF 1D 냉각으로 얇아지고, 그 자리를 froth 소형주가 메웠다.",
+    "risk-on 유지되나 성격 변화 — 소프트에서 에너지 순환 + AI 인프라 개별로 무게가 옮겨가며 리더십이 분산·froth화."
+  ],
+  "heat_label": "다소 과열 (froth 질 악화 + 리더 1D 냉각, 단 하단 건강)",
+  "heat_reasons": [
+    "근거 1: HTFL +35.7% RV11.4x·ARX 1W +61.7%·NIQ 1W +49%·UMAC +25%·STDN +10%·EROC +6.8% 등 고베타 소형주가 상단 장악 — froth 순도 이번 주 최악.",
+    "근거 2: 소프트·사이버 리더 ETF가 1D 동반 마이너스(SKYY·IGV·HACK) — 어제 코어가 하루 만에 식음.",
+    "근거 3: breadth 141/27로 폭·중복 동반 축소 — 참여폭 좁아짐.",
+    "근거 4: 반면 52주 신고가 46개가 에너지8·헬스8·금융7·산업7로 넓게 받침 — 하단은 여전히 매우 건강, 자금 이탈 아님. 그래서 공포 아닌 froth성 과열로 판정."
+  ],
+  "breadth": [
+    {
+      "date": "8/12",
+      "breadth": 169,
+      "overlap": 36
+    },
+    {
+      "date": "8/13",
+      "breadth": 159,
+      "overlap": 25
+    },
+    {
+      "date": "8/14",
+      "breadth": 157,
+      "overlap": 39
+    },
+    {
+      "date": "8/15",
+      "breadth": 141,
+      "overlap": 27
+    }
+  ],
+  "today": {
+    "date": "8/15",
+    "breadth": 141,
+    "overlap": 27
+  },
+  "highs": {
+    "total": 46,
+    "composition": [
+      {
+        "name": "에너지",
+        "count": 8
+      },
+      {
+        "name": "헬스",
+        "count": 8
+      },
+      {
+        "name": "금융",
+        "count": 7
+      },
+      {
+        "name": "산업",
+        "count": 7
+      }
+    ]
+  },
+  "uwl": {
+    "hits": 4,
+    "total": 68
+  },
+  "etf": [
+    {
+      "ticker": "EWY",
+      "rs": 92,
+      "note": "아시아 반도체 배경 유지",
+      "d": null,
+      "w": 6.53,
+      "m": null
+    },
+    {
+      "ticker": "CRAK",
+      "rs": 91,
+      "note": "정유 최강, 오늘 1D 강화",
+      "d": 1.01,
+      "w": 8.23,
+      "m": 20.05
+    },
+    {
+      "ticker": "USO",
+      "rs": 91,
+      "note": "원유",
+      "d": 1.26,
+      "w": 7.59,
+      "m": 4.24
+    },
+    {
+      "ticker": "HACK",
+      "rs": 91,
+      "note": "사이버 오늘 최대 냉각",
+      "d": -3.04,
+      "w": null,
+      "m": null
+    },
+    {
+      "ticker": "EWT",
+      "rs": 91,
+      "note": "아시아 반도체 배경 유지",
+      "d": null,
+      "w": null,
+      "m": 16.94
+    },
+    {
+      "ticker": "SKYY",
+      "rs": 90,
+      "note": "클라우드 1D 냉각",
+      "d": -2.11,
+      "w": 7.05,
+      "m": 17.39
+    },
+    {
+      "ticker": "CIBR",
+      "rs": 90,
+      "note": "사이버 오늘 최대 냉각",
+      "d": -2.54,
+      "w": null,
+      "m": null
+    },
+    {
+      "ticker": "XBI",
+      "rs": 90,
+      "note": "배경 뜨겁되 1D 소강",
+      "d": 0.35,
+      "w": 0.34,
+      "m": 18.17
+    },
+    {
+      "ticker": "QTUM",
+      "rs": 90,
+      "note": "양자 온기 유지",
+      "d": 0.28,
+      "w": 4.32,
+      "m": null
+    },
+    {
+      "ticker": "XOP",
+      "rs": 85,
+      "note": "E&P·통합",
+      "d": null,
+      "w": 8.83,
+      "m": null
+    },
+    {
+      "ticker": "XLE",
+      "rs": 84,
+      "note": "E&P·통합",
+      "d": 1.39,
+      "w": 7.62,
+      "m": null
+    },
+    {
+      "ticker": "XLK",
+      "rs": 84,
+      "note": "대형 테크 소강",
+      "d": -0.4,
+      "w": 1.07,
+      "m": null
+    },
+    {
+      "ticker": "IGV",
+      "rs": 68,
+      "note": "소프트 1D 냉각·RS 하락",
+      "d": -2.07,
+      "w": 2.38,
+      "m": 9.95
+    }
+  ],
+  "etf_asof": "8/14",
+  "axes": [
+    {
+      "no": 1,
+      "name": "에너지",
+      "tag": "1D 강화·10개",
+      "tickers": [
+        "MPC",
+        "PSX",
+        "VLO",
+        "EOG",
+        "PARR",
+        "PBF",
+        "CLMT",
+        "COP",
+        "CVX",
+        "XOM",
+        "SLB",
+        "USO",
+        "CRAK",
+        "XLE"
+      ],
+      "raw": "MPC·PSX·VLO 100% 신고가, EOG 95.9%, PARR·PBF·CLMT 정유, COP·CVX·XOM·SLB — USO/CRAK/XLE 1D 플러스 동반"
+    },
+    {
+      "no": 2,
+      "name": "AI 인프라·반도체",
+      "tag": "23개",
+      "tickers": [
+        "NBIS",
+        "AEHR",
+        "MXL",
+        "AAOI",
+        "SMCI",
+        "SMCIP",
+        "ATRO"
+      ],
+      "raw": "NBIS +8.88%(4중복), AEHR +8.73%(3중복), MXL +10.68%, AAOI +15.53%(광학), SMCI·SMCIP·ATRO"
+    },
+    {
+      "no": 3,
+      "name": "소프트",
+      "tag": "1위 25개, 단 froth화",
+      "tickers": [
+        "HTFL",
+        "NIQ",
+        "RDDT",
+        "FSLY",
+        "ESTC"
+      ],
+      "raw": "HTFL +35.7%(RV11.4x), NIQ +3.5%, RDDT +12.6%, FSLY, ESTC"
+    },
+    {
+      "no": 4,
+      "name": "신고가 방어·순환",
+      "tag": "헬스8·금융7·산업7",
+      "tickers": [
+        "MRK",
+        "AMGN",
+        "JNJ",
+        "JPM",
+        "BAC",
+        "USB",
+        "RTX",
+        "MMM",
+        "FDX",
+        "GE"
+      ],
+      "raw": "MRK·AMGN·JNJ·JPM·BAC·USB·RTX·MMM·FDX·GE"
+    }
+  ],
+  "priority": {
+    "ranked": [
+      {
+        "rank": 1,
+        "tickers": [
+          "MPC",
+          "PSX",
+          "VLO",
+          "PARR",
+          "PBF"
+        ],
+        "why": "에너지 순환이 코어로 승격하는지 = 오늘 유일 ETF 1D 강화축, CRAK 1M +20% 지속 관건"
+      },
+      {
+        "rank": 2,
+        "tickers": [
+          "NBIS",
+          "AEHR",
+          "MXL",
+          "AAOI"
+        ],
+        "why": "AI 인프라·광학 개별이 소프트 냉각에도 그룹으로 버티는지"
+      },
+      {
+        "rank": 3,
+        "tickers": [
+          "ESTC",
+          "RDDT"
+        ],
+        "why": "퀄리티 소프트가 SKYY/IGV 1D 냉각 반전 후 재점화하는지"
+      }
+    ],
+    "watch": "소프트 1D 냉각(SKYY·HACK)이 하루짜리인지 조정인지, HTFL·ARX·NIQ·UMAC froth 확산(과열 판별), 반도체 하드웨어 재복귀 가능성.",
+    "watch_tickers": [
+      "SKYY",
+      "HACK",
+      "HTFL",
+      "ARX",
+      "NIQ",
+      "UMAC"
+    ]
+  },
+  "leaders": [
+    {
+      "ticker": "AEHR",
+      "overlap": 3,
+      "d": 8.73,
+      "cap": 4.37,
+      "m1": null,
+      "note": "반도체 테스트 장비, UWL Optical, 이번 주 반복 상수."
+    },
+    {
+      "ticker": "P",
+      "overlap": 2,
+      "d": 0.69,
+      "cap": 39.28,
+      "m1": null,
+      "note": "전자·주변기기, 닷새째 반복 상수(모멘텀 소강)."
+    }
+  ],
+  "froth": [
+    {
+      "ticker": "UMAC",
+      "d": 25.0
+    }
+  ],
+  "getting_strong": [
+    {
+      "name": "에너지 순환(1D 승격)",
+      "desc": "USO·CRAK·XLE·XOP 오늘 ETF 1D 동반 플러스, CRAK 1M +20%로 배경 최강 → MPC·PSX·PARR·PBF. 소프트가 식는 사이 유일하게 강화된 축."
+    },
+    {
+      "name": "AI 인프라 개별(NBIS)",
+      "desc": "4중복 재부상, +8.88%. SKYY 지수는 식어도 데이터센터 개별은 살아남음"
+    }
+  ],
+  "getting_weak": [
+    {
+      "name": "소프트·클라우드·사이버(1D 냉각)",
+      "desc": "SKYY RS90 1D -2.11%, IGV RS68 1D -2.07%(RS 72→68), HACK RS91 1D -3.04%, CIBR RS90 1D -2.54% 어제 코어 WDAY·HUBS·MDB 상단 이탈. 1M은 여전히 두 자릿수라 붕괴 아닌 1D 냉각."
+    },
+    {
+      "name": "반도체 하드웨어",
+      "desc": "XLK RS84 1D -0.4% 1W +1.07% — 개별 NBIS·AEHR 외 코어 모멘텀 약화."
+    },
+    {
+      "name": "크립토·우라늄",
+      "desc": "IBIT RS19 1D -0.7% 1W -3.42%, URA RS39 — 배경 약세 지속."
+    },
+    {
+      "name": "유틸·리츠",
+      "desc": "신고가권 유지하나 방어 온기 최약(D·SO·PLD·DUK·AEP)."
+    }
+  ],
+  "still_strong": [
+    {
+      "name": "에너지",
+      "desc": "CRAK RS91 1D +1.01% 1W +8.23% 1M +20.05%, USO RS91 1W +7.59%, XOP RS85 1W +8.83%, XLE RS84 1W +7.62% → MPC·PSX·VLO·EOG·PARR·PBF·COP. 오늘 유일한 ETF 1D 강화축"
+    },
+    {
+      "name": "바이오",
+      "desc": "XBI RS90 1W +0.34% 1M +18.17% → ABCL(1W +71%) 잔존. 1M 배경 뜨겁되 1D 소강"
+    },
+    {
+      "name": "금융",
+      "desc": "XLF RS73 1M +13.33% → JPM·BAC·USB·C·MS·WFC·GS 신고가 7개. durable 상수"
+    },
+    {
+      "name": "아시아 반도체 배경",
+      "desc": "EWY RS92 1W +6.53%, EWT RS91 1M +16.94% → NBIS·SMCI·AEHR 온기"
+    }
+  ],
+  "underrated": [
+    {
+      "ticker": "SLV",
+      "rs": 62,
+      "w": 0.8,
+      "m": 10.9
+    }
+  ],
+  "actions": [
+    "MPC·PSX·VLO·PARR·PBF 에너지 순환이 코어로 승격하는지 최우선 확인 — CRAK 1M +20%·USO 1W +7.59% 지속 시 오늘 대장축 격상.",
+    "NBIS·AEHR·MXL·AAOI AI 인프라·광학이 소프트 냉각에도 그룹으로 버티는지 점검 — EWY/EWT 배경 확인.",
+    "소프트 1D 냉각(SKYY·IGV·HACK)이 하루짜리인지 조정 시작인지 감시 — 1D 반등 없으면 소프트 배제 유지, WDAY·HUBS·MDB 관망.",
+    "ESTC·RDDT 퀄리티 소프트가 지수 반전 후 재점화하는지 확인.",
+    "HTFL·ARX·NIQ·UMAC froth 확산 경계 — 커지면 다소 과열→과열 재분류, 강도 즉시 하향.",
+    "오프닝 판단: 에너지 순환 강화 + AI 인프라 개별 생존이면 배경 있는 브레이크아웃 선별 공격, froth 확산·소프트 추가 냉각 시 에너지·금융 코어로 압축."
+  ],
+  "read": [
+    "오늘 핵심은 어제 대폭발한 소프트웨어 리더십이 ETF 단에서 하루 만에 1D 냉각으로 꺾였다는 점이다. SKYY 1D -2.11%·IGV 1D -2.07%·HACK 1D -3.04%로 소프트·사이버가 동반 후퇴하고 어제 코어 WDAY·HUBS·MDB가 상단서 빠졌다. IGV RS도 72→68로 밀렸다 — 붕괴는 아니지만 이번 주 소프트↔반도체 톱니에 소프트도 지속성 없음이 확인됐다.",
+    "대신 에너지 순환이 오늘 유일하게 강화됐다. USO 1D +1.26%·CRAK 1D +1.01%·XLE 1D +1.39%로 ETF 1D 플러스, CRAK 1M +20%·XOP 1W +8.83% 배경까지 두껍고 MPC·PSX·VLO 신고가 8개 — 소프트가 식는 사이 자금이 붙는 건강한 순환. NBIS AI 인프라는 4중복으로 개별 생존.",
+    "문제는 상단 froth다. HTFL +35.7% RV11.4x·ARX 1W +61.7%·NIQ 1W +49%·UMAC +25% 같은 고베타 소형주가 스크리너 최상단을 장악했다. breadth도 141/27로 폭·중복 동반 축소돼, 리더 냉각 + froth 악화 + 참여 축소가 겹쳤다. 신고가 46개가 에너지·헬스·금융·산업으로 넓게 받쳐 하단은 튼튼해 공포는 아니고, froth성 다소 과열이다.",
+    "정리하면 선별 공격은 유지하되 강도를 소폭 낮추는 국면이다. MPC·PSX 에너지 순환이 오늘 1순위, NBIS·AEHR AI 인프라가 2순위, ESTC 퀄리티 소프트가 3순위. 소프트 지수는 1D 냉각 확인 전 관망, HTFL·ARX·NIQ·UMAC froth는 추격 금지"
+  ]
+}
