@@ -1,0 +1,390 @@
+{
+  "date": "2026-08-18",
+  "headline": "반도체·메모리·광학 전면 재점화가 오늘 핵심",
+  "oneline": "반도체·메모리·광학 전면 재점화가 오늘 핵심 — SNDK·WDC 메모리 + AEHR·TER·ONTO 장비 + CRDO·AXTI 광학 무더기 돌파, DRAM 1W +22.2%·EWY 1W +13.6%·SOXX RS92 동반. 소프트·사이버는 냉각 확정(IGV RS62), 에너지 순환 유지. Bull Snort 0개로 froth 완화, breadth 135/28.",
+  "verdict": "선별적 공격 유지",
+  "priority_line": "우선순위: 반도체·메모리·광학(SNDK·WDC·AEHR·TER·ONTO·CRDO·AXTI) + 에너지(MPC·PSX·VLO·PBF·EOG). ARX(1W +58%)·HTFL(1M +65%)·NIQ·SHAZ·EROC froth 갭은 추격 금지.",
+  "regime": [
+    "추세추종 유효. 성장 코어가 반도체·메모리로 응집되며 방향성이 뚜렷해졌다.",
+    "risk-on 유지. 반도체 코어 + 에너지 순환 동반, Bull Snort 소멸로 froth 압력은 이번 주 대비 소폭 완화."
+  ],
+  "heat_label": "다소 과열 (반도체 두 자릿수 갭 다수, 단 froth 극단 완화 + 하단 건강)",
+  "heat_reasons": [
+    "근거 1: AXTI +17.55%·CRDO +8.82%·SNDK +8.88%·AEHR +8.62% 등 반도체·광학 두 자릿수 돌파 무더기.",
+    "근거 2: 반면 Bull Snort 조건 충족 0개 — froth 극단은 이번 주 대비 오히려 식음.",
+    "근거 3: 52주 신고가 42개가 에너지10·헬스8·금융7·유틸5로 넓게 받침 — 하단 매우 건강, 자금 이탈 아님.",
+    "근거 4: 반도체 폭발이 개별 froth가 아니라 DRAM 1W +22.2%·EWY 1W +13.6% ETF 동반이라 실제 로테이션 — 소음보다 순환 신호."
+  ],
+  "breadth": [
+    {
+      "date": "8/14",
+      "breadth": 157,
+      "overlap": 39
+    },
+    {
+      "date": "8/15",
+      "breadth": 141,
+      "overlap": 27
+    },
+    {
+      "date": "8/18",
+      "breadth": 135,
+      "overlap": 28
+    }
+  ],
+  "today": {
+    "date": "8/18",
+    "breadth": 135,
+    "overlap": 28
+  },
+  "highs": {
+    "total": 42,
+    "composition": []
+  },
+  "uwl": {
+    "hits": 8,
+    "total": 71
+  },
+  "etf": [
+    {
+      "ticker": "DRAM",
+      "rs": 94,
+      "note": "메모리 대폭발, 오늘 최강 엔진",
+      "d": 5.36,
+      "w": 22.2,
+      "m": 21.19
+    },
+    {
+      "ticker": "SOXX",
+      "rs": 92,
+      "note": "반도체 코어 복귀",
+      "d": 1.58,
+      "w": 2.43,
+      "m": 9.95
+    },
+    {
+      "ticker": "EWY",
+      "rs": 92,
+      "note": "한국 메모리 급가속",
+      "d": 2.98,
+      "w": 13.56,
+      "m": 18.2
+    },
+    {
+      "ticker": "EWT",
+      "rs": 91,
+      "note": "대만 공급망",
+      "d": 0.68,
+      "w": 5.15,
+      "m": 13.09
+    },
+    {
+      "ticker": "CRAK",
+      "rs": 91,
+      "note": "정유 최강",
+      "d": 1.44,
+      "w": 9.17,
+      "m": 10.93
+    },
+    {
+      "ticker": "USO",
+      "rs": 91,
+      "note": "원유 1D 강화",
+      "d": 2.91,
+      "w": 6.72,
+      "m": 5.75
+    },
+    {
+      "ticker": "HACK",
+      "rs": 91,
+      "note": "사이버 냉각",
+      "d": -2.22,
+      "w": 0.09,
+      "m": 6.62
+    },
+    {
+      "ticker": "SKYY",
+      "rs": 90,
+      "note": "클라우드 1D 냉각 이틀째",
+      "d": -1.87,
+      "w": 3.92,
+      "m": 21.53
+    },
+    {
+      "ticker": "QTUM",
+      "rs": 90,
+      "note": "양자 온기 유지",
+      "d": -0.29,
+      "w": 2.86,
+      "m": 14.03
+    },
+    {
+      "ticker": "XOP",
+      "rs": 86,
+      "note": "E&P",
+      "d": 1.58,
+      "w": 8.11,
+      "m": 8.57
+    },
+    {
+      "ticker": "XLK",
+      "rs": 85,
+      "note": "대형 테크 반도체 힘으로 유지",
+      "d": 0.16,
+      "w": 1.19,
+      "m": 10.11
+    },
+    {
+      "ticker": "XLE",
+      "rs": 84,
+      "note": "통합 에너지",
+      "d": 1.08,
+      "w": 7.54,
+      "m": 7.99
+    },
+    {
+      "ticker": "IGV",
+      "rs": 62,
+      "note": "소프트 냉각 확정(RS 68",
+      "d": -2.01,
+      "w": -0.22,
+      "m": 11.17
+    },
+    {
+      "ticker": "EUV",
+      "rs": 57,
+      "note": "리소그래피·장비, RS 대비 1M 강세",
+      "d": 3.54,
+      "w": 4.08,
+      "m": 17.9
+    }
+  ],
+  "etf_asof": "8/17",
+  "axes": [
+    {
+      "no": 1,
+      "name": "반도체·메모리·광학",
+      "tag": "1위·26개",
+      "tickers": [
+        "SNDK",
+        "WDC",
+        "AEHR",
+        "TER",
+        "ONTO",
+        "CRDO",
+        "AXTI"
+      ],
+      "raw": "SNDK +8.88%, WDC +5.35%(메모리), AEHR +8.62%, TER +5.81%, ONTO +5.86%(장비), CRDO +8.82%, AXTI +17.55%(광학)"
+    },
+    {
+      "no": 2,
+      "name": "에너지",
+      "tag": "신고가 10",
+      "tickers": [
+        "MPC",
+        "PSX",
+        "VLO",
+        "EOG",
+        "FANG",
+        "CVX",
+        "COP",
+        "XOM",
+        "PBF"
+      ],
+      "raw": "MPC·PSX·VLO 100%, EOG 98.3%, FANG·CVX·COP·XOM, PBF +4.48% 정유"
+    },
+    {
+      "no": 3,
+      "name": "소프트",
+      "tag": "19개, 냉각·froth화",
+      "tickers": [
+        "SHAZ",
+        "NIQ",
+        "HTFL",
+        "NBIS",
+        "FSLY"
+      ],
+      "raw": "SHAZ, NIQ, HTFL, NBIS, FSLY — 지수 냉각, 상단은 froth 중심"
+    },
+    {
+      "no": 4,
+      "name": "신고가 방어·순환",
+      "tag": "헬스8·금융7",
+      "tickers": [
+        "MRK",
+        "AMGN",
+        "JNJ",
+        "JPM",
+        "BAC",
+        "USB",
+        "RTX",
+        "GE"
+      ],
+      "raw": "MRK·AMGN·JNJ·JPM·BAC·USB·RTX·GE"
+    }
+  ],
+  "priority": {
+    "ranked": [
+      {
+        "rank": 1,
+        "tickers": [
+          "SNDK",
+          "WDC",
+          "STX"
+        ],
+        "why": "메모리 재점화가 이틀째 이어지는지 = 성장 코어 확정 여부, DRAM 1W +22%·EWY 1W +13.6% 지속이 관건"
+      },
+      {
+        "rank": 2,
+        "tickers": [
+          "AEHR",
+          "TER",
+          "ONTO",
+          "CRDO",
+          "AXTI"
+        ],
+        "why": "장비·광학이 SOXX·EWT 위에서 그룹으로 굳는지"
+      },
+      {
+        "rank": 3,
+        "tickers": [
+          "MPC",
+          "PSX",
+          "VLO",
+          "PBF"
+        ],
+        "why": "에너지 순환이 닷새째 이어지는지, CRAK 1M +10.9% 유지 관건"
+      }
+    ],
+    "watch": "소프트 냉각(IGV RS62)이 조정으로 굳는지 반등하는지, ARX·HTFL froth 확산(과열 판별), NBIS AI 인프라 재부상 가능성.",
+    "watch_tickers": [
+      "IGV",
+      "ARX",
+      "HTFL",
+      "NBIS"
+    ]
+  },
+  "leaders": [
+    {
+      "ticker": "WDC",
+      "overlap": 3,
+      "d": 5.35,
+      "cap": 184.75,
+      "m1": null,
+      "note": "메모리·스토리지, UWL Memory, DRAM 온기 직결."
+    },
+    {
+      "ticker": "CRDO",
+      "overlap": 3,
+      "d": 8.82,
+      "cap": 52.74,
+      "m1": null,
+      "note": "커넥티비티·광학, UWL Optical, EWT 대만 공급망 연결."
+    },
+    {
+      "ticker": "AEHR",
+      "overlap": 3,
+      "d": 8.62,
+      "cap": 4.75,
+      "m1": null,
+      "note": "반도체 테스트 장비, UWL Optical, 이번 주 내내 반복 상수. SOXX·EUV 배경."
+    }
+  ],
+  "froth": [],
+  "getting_strong": [
+    {
+      "name": "메모리(신규 엔진)",
+      "desc": "DRAM RS94 1D +5.36% 1W +22.2% 1M +21.19% → SNDK·WDC·STX. 이번 주 최대 변화, HBM·DRAM 수급 폭발."
+    },
+    {
+      "name": "반도체 장비·광학(재점화)",
+      "desc": "SOXX RS92 1M +9.95%, EUV RS57 1M +17.9% → AEHR·TER·ONTO·CRDO·AXTI. 8/15 개별 생존에서 오늘 그룹 확산"
+    }
+  ],
+  "getting_weak": [
+    {
+      "name": "소프트·사이버(냉각 확정)",
+      "desc": "IGV RS62(68→62) 1D -2.01% 1W -0.22%, SKYY RS90 1D -1.87%, HACK RS91 1D -2.22% 1W +0.09% — 1M은 두 자릿수지만 1W·1D 동반 마이너스로 조정 국면 진입. WDAY·HUBS·MDB 배제 유지."
+    },
+    {
+      "name": "크립토·우라늄",
+      "desc": "URA RS43 1M -5.65%, IBIT 부재 — 배경 약세 지속."
+    },
+    {
+      "name": "유틸·리츠",
+      "desc": "XLU RS49 1M -3.75%, XLRE RS64 1M -1.86% — 신고가권이나 방어 온기 최약(D·SO·DUK·AEP)."
+    }
+  ],
+  "still_strong": [
+    {
+      "name": "에너지",
+      "desc": "CRAK RS91 1D +1.44% 1W +9.17% 1M +10.93%, USO RS91 1W +6.72%, XOP RS86 1W +8.11%, XLE RS84 1W +7.54% → MPC·PSX·VLO·PBF·EOG. 나흘째 순환 상수"
+    },
+    {
+      "name": "아시아 반도체",
+      "desc": "EWY RS92 1W +13.56% 1M +18.2%, EWT RS91 1W +5.15% 1M +13.09% → SNDK·WDC·SMCI 메모리 온기"
+    },
+    {
+      "name": "금융",
+      "desc": "KRE RS79 1M +14.28%, XLF 계열 → JPM·BAC·USB·MS·C·WFC·GS 신고가 7개. durable 상수"
+    }
+  ],
+  "underrated": [
+    {
+      "ticker": "NASA",
+      "rs": 38,
+      "w": 3.8,
+      "m": 19.0
+    },
+    {
+      "ticker": "URA",
+      "rs": 43,
+      "w": 0.7,
+      "m": 18.4
+    },
+    {
+      "ticker": "EUV",
+      "rs": 57,
+      "w": 4.1,
+      "m": 17.9
+    },
+    {
+      "ticker": "LYTE",
+      "rs": null,
+      "w": 9.3,
+      "m": 14.1
+    },
+    {
+      "ticker": "GLD",
+      "rs": 55,
+      "w": 2.0,
+      "m": 11.4
+    },
+    {
+      "ticker": "IGV",
+      "rs": 62,
+      "w": -0.2,
+      "m": 11.2
+    },
+    {
+      "ticker": "REMX",
+      "rs": 51,
+      "w": 0.4,
+      "m": 11.2
+    }
+  ],
+  "actions": [
+    "SNDK·WDC·STX 메모리 재점화가 이틀째 굳는지 최우선 확인 — DRAM 1W +22%·EWY 1W +13.6% 지속 시 성장 코어 메모리 확정.",
+    "AEHR·TER·ONTO·CRDO·AXTI 장비·광학이 SOXX·EWT·EUV 위에서 그룹으로 넓어지는지 점검.",
+    "MPC·PSX·VLO·PBF 에너지 순환이 닷새째 이어지는지 확인 — CRAK 1M +10.9% 유지 관건.",
+    "소프트 냉각(IGV RS62·SKYY·HACK)이 조정으로 굳는지 반등하는지 감시 — 1D 반등 없으면 배제 유지.",
+    "ARX·HTFL·NIQ·SHAZ froth 확산 경계 — 커지면 다소 과열→과열 재분류, 강도 즉시 하향.",
+    "오프닝 판단: 반도체·메모리 재점화 + 에너지 순환 유지면 배경 있는 브레이크아웃 선별 공격, froth 확산·반도체 하루 냉각 시 에너지·금융 코어로 압축."
+  ],
+  "read": [
+    "오늘 핵심은 이번 주 반도체↔소프트 톱니가 반도체 쪽으로 확실히 기울었고, 이번엔 메모리가 엔진으로 붙었다는 점이다. SNDK +8.88%·WDC +5.35% 메모리에 AEHR·TER·ONTO 장비, CRDO·AXTI 광학이 무더기로 켜지며 Electronic Technology 26개로 1위 탈환. DRAM 1W +22.2%·EWY 1W +13.6% ETF가 급가속해 — 개별 froth가 아닌 실제 자금 로테이션이다.",
+    "반면 8/14 대폭발했던 소프트는 냉각이 굳어졌다. IGV RS가 68→62로 밀리고 SKYY·HACK이 1D 이틀째 마이너스 — 1M은 두 자릿수라 붕괴는 아니지만 조정 국면 진입이다. 에너지(MPC·PSX·VLO·PBF)는 신고가 10개로 나흘째 순환, 반도체 코어에 에너지 순환이 병행되는 건강한 이중축이다.",
+    "breadth 135/28이다. 폭은 소폭 줄었지만 Bull Snort 조건 충족 0개로 froth 극단이 오히려 식었고, 신고가 42개가 에너지·헬스·금융으로 넓게 받쳐 하단은 튼튼하다. 리더 냉각이 아니라 소프트→반도체 건강한 이동이다.",
+    "정리하면 선별 공격 유지 국면이다. SNDK·WDC 메모리가 오늘 1순위, AEHR·TER·CRDO 장비·광학이 2순위, MPC·PSX 에너지 순환이 3순위. 소프트는 배제 유지, ARX·HTFL·NIQ froth는 추격 금지. 반도체 ETF 동반 재점화 + froth 완화라 순도는 좋으나 두 자릿수 갭이 많아 다소 과열로 본다"
+  ]
+}
