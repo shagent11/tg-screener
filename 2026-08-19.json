@@ -1,0 +1,405 @@
+{
+  "date": "2026-08-19",
+  "headline": "반도체·메모리 코어 1D 급냉각(DRAM -8.76%·EWY -8.13%·SOXX -4.96%·NBIS -7.6%) + 에너지·헬스 방어 로테이션(XLE +1.76%·XLV +1.6%) + 상단 froth 반전(SHAZ·EROC·NBIS 적색)이 오늘 축. UWL 2/71 급락. 방어적 선별 우위, froth·반도체 추격 금지",
+  "oneline": "반도체·메모리 코어 1D 급냉각(DRAM -8.76%·EWY -8.13%·SOXX -4.96%·NBIS -7.6%) + 에너지·헬스 방어 로테이션(XLE +1.76%·XLV +1.6%) + 상단 froth 반전(SHAZ·EROC·NBIS 적색)이 오늘 축. UWL 2/71 급락. 방어적 선별 우위, froth·반도체 추격 금지",
+  "verdict": "방어적 선별 (전일 대비 하향)",
+  "priority_line": "우선순위: 에너지(MPC·PSX·VLO·EOG·TRGP·CLMT) + 헬스 방어/바이오(ABCL·HAE·SRRK). AMLX(RV12.8x)·HTFL·SHAZ·EROC froth와 NBIS·AEHR 반도체는 추격 금지.",
+  "regime": [
+    "추세추종 약화. 성장 코어(반도체)가 1D 이탈하며 방향성이 흐려지고 무게가 방어·순환으로 이동.",
+    "risk-on 후퇴, 로테이션 성격. 반도체 급락 + 에너지·헬스 방어 유입으로 리더십이 방어 쪽으로 갈렸다."
+  ],
+  "heat_label": "중립 (성장→방어 로테이션 + froth 청산, 단 하단 붕괴 아님)",
+  "heat_reasons": [
+    "근거 1: 반도체·성장 ETF 1D 광범위 급락 — DRAM -8.76%·EWY -8.13%·EUV -7.84%·SOXX -4.96%·QTUM -3.83%·XLK -2.47%·QQQ -1.69%.",
+    "근거 2: froth 리더 반전 — SHAZ -10.56%·EROC -12.53%·NBIS -7.6% 적색, 중복 28→21 축소.",
+    "근거 3: 방어 로테이션 — XLV 1D +1.6% 헬스가 유일 대형 플러스, 유틸 신고가 5개(D·DUK·SO·PLD·AEP), 에너지 신고가 11개.",
+    "근거 4: 그러나 52주 신고가 46개가 에너지11·헬스8·금융8로 넓게 받쳐 하단 건강 — 공포 아닌 로테이션 + froth 청산으로 판정."
+  ],
+  "breadth": [
+    {
+      "date": "8/15",
+      "breadth": 141,
+      "overlap": 27
+    },
+    {
+      "date": "8/18",
+      "breadth": 135,
+      "overlap": 28
+    },
+    {
+      "date": "8/19",
+      "breadth": 136,
+      "overlap": 21
+    }
+  ],
+  "today": {
+    "date": "8/19",
+    "breadth": 136,
+    "overlap": 21
+  },
+  "highs": {
+    "total": 46,
+    "composition": [
+      {
+        "name": "에너지",
+        "count": 11
+      },
+      {
+        "name": "헬스",
+        "count": 8
+      },
+      {
+        "name": "금융",
+        "count": 8
+      }
+    ]
+  },
+  "uwl": {
+    "hits": 2,
+    "total": 71
+  },
+  "etf": [
+    {
+      "ticker": "DRAM",
+      "rs": 93,
+      "note": "메모리 1D 급냉각",
+      "d": -8.76,
+      "w": 8.06,
+      "m": 10.58
+    },
+    {
+      "ticker": "SOXX",
+      "rs": 92,
+      "note": "반도체 1D 급락",
+      "d": -4.96,
+      "w": -1.21,
+      "m": 4.49
+    },
+    {
+      "ticker": "EWY",
+      "rs": 92,
+      "note": "한국 메모리 급락",
+      "d": -8.13,
+      "w": 1.74,
+      "m": 8.59
+    },
+    {
+      "ticker": "CRAK",
+      "rs": 91,
+      "note": "정유 최강, 오늘 코어",
+      "d": 0.37,
+      "w": 6.43,
+      "m": 11.34
+    },
+    {
+      "ticker": "USO",
+      "rs": 91,
+      "note": "원유",
+      "d": 0.28,
+      "w": 4.74,
+      "m": 6.06
+    },
+    {
+      "ticker": "XBI",
+      "rs": 91,
+      "note": "바이오 배경 유지",
+      "d": 0.36,
+      "w": 1.02,
+      "m": 7.05
+    },
+    {
+      "ticker": "EWT",
+      "rs": 91,
+      "note": "대만 공급망 냉각",
+      "d": -3.16,
+      "w": 0.36,
+      "m": 9.52
+    },
+    {
+      "ticker": "QTUM",
+      "rs": 90,
+      "note": "양자 냉각",
+      "d": -3.83,
+      "w": -0.61,
+      "m": 9.66
+    },
+    {
+      "ticker": "XTL",
+      "rs": 89,
+      "note": "텔레콤·테크 상대 견조",
+      "d": -0.23,
+      "w": 2.26,
+      "m": 8.05
+    },
+    {
+      "ticker": "XOP",
+      "rs": 87,
+      "note": "E&P",
+      "d": 1.09,
+      "w": 5.7,
+      "m": 9.75
+    },
+    {
+      "ticker": "XLE",
+      "rs": 86,
+      "note": "통합 에너지 1D 강화",
+      "d": 1.76,
+      "w": 6.15,
+      "m": 9.89
+    },
+    {
+      "ticker": "XLK",
+      "rs": 84,
+      "note": "대형 테크 냉각",
+      "d": -2.47,
+      "w": -1.1,
+      "m": 7.39
+    },
+    {
+      "ticker": "XLV",
+      "rs": 77,
+      "note": "헬스 유일 대형 1D 플러스",
+      "d": 1.6,
+      "w": 0.86,
+      "m": 4.89
+    },
+    {
+      "ticker": "QQQ",
+      "rs": 74,
+      "note": "나스닥 1D 하락",
+      "d": -1.69,
+      "w": -0.8,
+      "m": 3.74
+    },
+    {
+      "ticker": "EUV",
+      "rs": 45,
+      "note": "장비 급락",
+      "d": -7.84,
+      "w": -0.58,
+      "m": 8.65
+    }
+  ],
+  "etf_asof": "8/18",
+  "axes": [
+    {
+      "no": 1,
+      "name": "에너지",
+      "tag": "신고가 11 + 순환",
+      "tickers": [
+        "MPC",
+        "EOG",
+        "PSX",
+        "VLO",
+        "FANG",
+        "CVX",
+        "COP",
+        "XOM",
+        "TRGP",
+        "UGI",
+        "CLMT"
+      ],
+      "raw": "MPC +2.24%, EOG·PSX·VLO 100%, FANG·CVX·COP·XOM, TRGP +7.13%(가스), UGI +9.4%, CLMT +5.09% 정유"
+    },
+    {
+      "no": 2,
+      "name": "헬스·바이오",
+      "tag": "2위 25개",
+      "tickers": [
+        "AMLX",
+        "HAE",
+        "OCUL",
+        "ABCL",
+        "SLS",
+        "SRRK",
+        "IMMX"
+      ],
+      "raw": "AMLX +63.8% RV12.8x, HAE +15.93%, OCUL, ABCL, SLS, SRRK +5.13%, IMMX"
+    },
+    {
+      "no": 3,
+      "name": "소프트",
+      "tag": "1위 36개, froth+일부 퀄리티",
+      "tickers": [
+        "HUBS",
+        "DUOL",
+        "DT",
+        "HTFL",
+        "SHAZ",
+        "NIQ",
+        "MRX"
+      ],
+      "raw": "HUBS +5.14%, DUOL +7.28%, DT +3.5% 퀄리티 / HTFL, SHAZ -10.56%, NIQ, MRX froth"
+    },
+    {
+      "no": 4,
+      "name": "반도체",
+      "tag": "이탈·3위 12개",
+      "tickers": [
+        "COHU",
+        "AEHR",
+        "ATRO",
+        "P",
+        "NBIS"
+      ],
+      "raw": "COHU, AEHR, ATRO, P — NBIS -7.6% 코어 붕괴"
+    }
+  ],
+  "priority": {
+    "ranked": [
+      {
+        "rank": 1,
+        "tickers": [
+          "MPC",
+          "PSX",
+          "VLO",
+          "EOG",
+          "TRGP"
+        ],
+        "why": "에너지 순환이 방어장에서 코어로 남는지 = 오늘 유일 1D 강세축, XLE 1D +1.76% 지속 관건"
+      },
+      {
+        "rank": 2,
+        "tickers": [
+          "NBIS",
+          "SNDK",
+          "AEHR",
+          "SOXX"
+        ],
+        "why": "반도체 급락이 하루짜리 조정인지 추세 전환인지 = 성장 코어 생사 여부"
+      },
+      {
+        "rank": 3,
+        "tickers": [
+          "HAE",
+          "ABCL",
+          "SRRK"
+        ],
+        "why": "헬스 로테이션이 AMLX froth 제외하고 그룹으로 확산하는지"
+      }
+    ],
+    "watch": "froth(SHAZ·EROC·HTFL) 추가 반전(공포 판별), QQQ·XLK 1D 냉각 지속 여부.",
+    "watch_tickers": [
+      "SHAZ",
+      "EROC",
+      "HTFL",
+      "QQQ",
+      "XLK"
+    ]
+  },
+  "leaders": [
+    {
+      "ticker": "HTFL",
+      "overlap": 3,
+      "d": 7.84,
+      "cap": 3.93,
+      "m1": 78.2,
+      "note": "오늘 최다 등장, 소프트 초고베타. 배경 ETF 없음, froth성 — 관망."
+    },
+    {
+      "ticker": "MPC",
+      "overlap": 2,
+      "d": 2.24,
+      "cap": 102.84,
+      "m1": null,
+      "note": "정유 대장. CRAK 1M +11.3%·신고가 100% 직결, 에너지 순환 코어, 최우선 체크."
+    },
+    {
+      "ticker": "HAE",
+      "overlap": 2,
+      "d": 15.93,
+      "cap": 4.76,
+      "m1": null,
+      "note": "의료기기, 헬스 로테이션 속 신규 부상."
+    }
+  ],
+  "froth": [
+    {
+      "ticker": "AMLX",
+      "d": 63.8
+    },
+    {
+      "ticker": "EROC",
+      "d": -12.53
+    },
+    {
+      "ticker": "SHAZ",
+      "d": -10.56
+    }
+  ],
+  "getting_strong": [
+    {
+      "name": "헬스·바이오(방어 로테이션)",
+      "desc": "XLV RS77 1D +1.6% 1M +4.89%, XBI RS91 1D +0.36% 1M +7.05% → AMLX·HAE·ABCL·OCUL·SLS·SRRK. 2위 25개로 오늘 최대 변화. 단 AMLX +63.8% RV12.8x는 단독 froth 폭발이라 그룹 확산과 구분 필요."
+    }
+  ],
+  "getting_weak": [
+    {
+      "name": "반도체·메모리·장비(1D 붕괴)",
+      "desc": "DRAM RS93 1D -8.76%, EWY RS92 1D -8.13%, EUV RS45 1D -7.84%, SOXX RS92 1D -4.96%, EWT 1D -3.16% → SNDK·WDC·AEHR·CRDO·TER 코어 붕괴, NBIS -7.6%. 8/18 엔진이 하루 만에 급냉각."
+    },
+    {
+      "name": "대형테크·양자",
+      "desc": "XLK 1D -2.47%, QQQ 1D -1.69%, QTUM 1D -3.83% — 성장 전반 동반 냉각."
+    },
+    {
+      "name": "크립토·우라늄",
+      "desc": "IBIT RS22, URA RS41 1W -2.66% — 배경 약세 지속."
+    }
+  ],
+  "still_strong": [
+    {
+      "name": "에너지",
+      "desc": "CRAK RS91 1D +0.37% 1W +6.43% 1M +11.34%, XLE RS86 1D +1.76% 1W +6.15% 1M +9.89%, XOP RS87 1W +5.70%, USO RS91 1W +4.74% → MPC·PSX·VLO·EOG·TRGP·CLMT. 오늘 유일 1D 플러스 코어, 순환 상수"
+    },
+    {
+      "name": "금융",
+      "desc": "신고가 8개 JPM·BAC·USB·PNC·MS·C·WFC·GS. durable 상수"
+    }
+  ],
+  "underrated": [
+    {
+      "ticker": "LAZR",
+      "rs": null,
+      "w": 6.9,
+      "m": 39.9
+    },
+    {
+      "ticker": "SLV",
+      "rs": 65,
+      "w": -2.1,
+      "m": 15.6
+    },
+    {
+      "ticker": "NASA",
+      "rs": 30,
+      "w": 0.7,
+      "m": 14.1
+    },
+    {
+      "ticker": "URA",
+      "rs": 41,
+      "w": -2.7,
+      "m": 14.1
+    },
+    {
+      "ticker": "IGV",
+      "rs": 63,
+      "w": -2.3,
+      "m": 11.1
+    }
+  ],
+  "actions": [
+    "MPC·PSX·VLO·EOG·TRGP 에너지가 방어장에서 코어로 남는지 최우선 확인 — XLE 1D +1.76% 지속 시 오늘 대장축.",
+    "반도체 급락(NBIS·SNDK·AEHR·SOXX·DRAM)이 하루 조정인지 추세 전환인지 감시 — 1D 반등·UWL 재확대 없으면 배제 유지.",
+    "XLV·XBI 헬스 로테이션이 HAE·ABCL 그룹으로 넓어지는지 확인 — AMLX froth는 제외.",
+    "froth(SHAZ·EROC·HTFL·ARX) 추가 반전 경계 — 청산 이어지면 중립→다소 공포 재분류, 방어 강화.",
+    "오프닝 판단: 에너지·헬스 방어 강세 + 반도체 추가 하락이면 방어·순환 코어로 압축, 반도체 1D 반등 시 선별 재확인."
+  ],
+  "read": [
+    "오늘 핵심은 8/18 전면 재점화했던 반도체·메모리 코어가 하루 만에 ETF 단에서 급냉각했다는 점이다. DRAM 1D -8.76%·EWY -8.13%·EUV -7.84%·SOXX -4.96%로 메모리·아시아반도체·장비가 동반 급락, NBIS -7.6%. Electronic Technology 26→12개 반토막, UWL 8→2개 급락 — 이번 주 내내 반복된 \"반도체 하루짜리 톱니\"가 다시 확인됐고 이번엔 낙폭이 컸다.",
+    "대신 자금이 에너지 + 헬스 방어로 이동했다. XLE 1D +1.76%·XOP +1.09%·CRAK/USO 플러스가 오늘 유일한 1D 강세 코어(에너지 신고가 11개), XLV 1D +1.6%로 헬스가 유일 대형 플러스, AMLX·HAE·ABCL 바이오 개별 부상. 명백한 성장→방어 로테이션이다.",
+    "문제는 스크리너 상단 froth가 반전 중이란 점이다. AMLX +63.8% RV12.8x 단독 폭발 외 SHAZ -10.56%·EROC -12.53%·NBIS -7.6% 다수 적색, 중복 28→21 축소. 다만 신고가 46개가 에너지·헬스·금융으로 넓게 받쳐 하단은 붕괴 아님 — 공포가 아니라 로테이션 + froth 청산이다. 중립으로 본다.",
+    "정리하면 방어적 선별 국면이다. MPC·PSX 에너지 순환이 1순위, HAE·ABCL 헬스 로테이션이 2순위(AMLX froth 제외), 반도체는 급락이 하루짜리인지 확인 전 관망. froth(SHAZ·EROC·HTFL)·반도체(NBIS·AEHR) 추격 금지"
+  ]
+}
