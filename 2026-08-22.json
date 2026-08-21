@@ -1,0 +1,390 @@
+{
+  "date": "2026-08-22",
+  "headline": "금속 전면 확산(GDX 1W +14.7%, ERO·FCX·AU·HMY·SCCO) + 크립토 risk-on 합류(IBIT 1W +23%, HOOD +13.7%) + 에너지 순환 유지 + 바이오 반등(MRNA +8.86%)이 오늘 축. 반도체 이탈 지속. 금속·에너지·크립토 실물 순환 선별, froth 추격 금지",
+  "oneline": "금속 전면 확산(GDX 1W +14.7%, ERO·FCX·AU·HMY·SCCO) + 크립토 risk-on 합류(IBIT 1W +23%, HOOD +13.7%) + 에너지 순환 유지 + 바이오 반등(MRNA +8.86%)이 오늘 축. 반도체 이탈 지속. 금속·에너지·크립토 실물 순환 선별, froth 추격 금지",
+  "verdict": "선별적 공격 (전일 선별 방어에서 소폭 상향)",
+  "priority_line": "우선순위: 금속·귀금속(ERO·FCX·AU·HMY·SCCO·NEM) + 에너지(COP·EOG·PSX·VLO·DK) + 크립토 프록시(HOOD·IBIT). 바이오(MRNA·AMLX·HTFL froth)는 추격 금지.",
+  "regime": [
+    "추세추종 재활성, 단 실물·크립토 주도. 성장 테크가 빠진 자리를 금속·귀금속·크립토가 넓게 접수하며 방향성이 다시 살아났다.",
+    "risk-on 복귀하되 성격은 실물 순환+크립토. 반도체·소프트가 아니라 금속·에너지·비트코인으로 갈린 순환."
+  ],
+  "heat_label": "다소 과열 (금 파라볼릭 + 크립토 급등 + froth 잔존, 단 breadth 건강)",
+  "heat_reasons": [
+    "근거 1: GDX 1M +35.45%·1W +14.72% 금 광산 파라볼릭 지속, 안전자산 쏠림 과열.",
+    "근거 2: IBIT 1W +23.01% 크립토 급등 + HOOD +13.7%·EZPW +12% 초강세 — 위험선호 과열 신호 동반.",
+    "근거 3: froth 잔존 — MRNA 1M +143.8%·AMLX 1M +110.9%·HTFL 1M +97.6% 초고베타 여전.",
+    "근거 4: 다만 신고가 52개가 헬스12·에너지11·금융7·산업6로 넓게 받치고 금속 브레드스(Bull Snort 5개) 실체 있어 — 공포 아닌 froth성 다소 과열."
+  ],
+  "breadth": [
+    {
+      "date": "8/20",
+      "breadth": 224,
+      "overlap": 26
+    },
+    {
+      "date": "8/21",
+      "breadth": 226,
+      "overlap": 23
+    },
+    {
+      "date": "8/22",
+      "breadth": 245,
+      "overlap": 37
+    }
+  ],
+  "today": {
+    "date": "8/22",
+    "breadth": 245,
+    "overlap": 37
+  },
+  "highs": {
+    "total": 52,
+    "composition": [
+      {
+        "name": "헬스",
+        "count": 12
+      },
+      {
+        "name": "에너지",
+        "count": 11
+      },
+      {
+        "name": "금융",
+        "count": 7
+      },
+      {
+        "name": "산업",
+        "count": 6
+      }
+    ]
+  },
+  "uwl": {
+    "hits": 0,
+    "total": 71
+  },
+  "etf": [
+    {
+      "ticker": "SOXX",
+      "rs": 92,
+      "note": "반도체 이탈 지속",
+      "d": -0.44,
+      "w": -5.37,
+      "m": -3.47
+    },
+    {
+      "ticker": "USO",
+      "rs": 91,
+      "note": "원유 1W 최강",
+      "d": 0.07,
+      "w": 7.9,
+      "m": 2.45
+    },
+    {
+      "ticker": "CRAK",
+      "rs": 91,
+      "note": "정유 1D 재가속",
+      "d": 2.09,
+      "w": 3.69,
+      "m": 8.64
+    },
+    {
+      "ticker": "GDX",
+      "rs": 90,
+      "note": "금 광산 파라볼릭, 오늘도 최강",
+      "d": 2.98,
+      "w": 14.72,
+      "m": 35.45
+    },
+    {
+      "ticker": "XOP",
+      "rs": 90,
+      "note": "E&P",
+      "d": 1.11,
+      "w": 5.38,
+      "m": 7.53
+    },
+    {
+      "ticker": "QTUM",
+      "rs": 89,
+      "note": "양자 냉각 심화",
+      "d": 0.85,
+      "w": -5.1,
+      "m": 4.43
+    },
+    {
+      "ticker": "XLE",
+      "rs": 86,
+      "note": "통합 에너지",
+      "d": -0.17,
+      "w": 3.7,
+      "m": 7.37
+    },
+    {
+      "ticker": "XLK",
+      "rs": 82,
+      "note": "대형테크 1W 약세",
+      "d": 0.11,
+      "w": -4.1,
+      "m": 2.89
+    },
+    {
+      "ticker": "SLV",
+      "rs": 77,
+      "note": "은 확산",
+      "d": 1.72,
+      "w": 6.61,
+      "m": 16.62
+    },
+    {
+      "ticker": "ARKK",
+      "rs": 76,
+      "note": "혁신주 위험선호 반등",
+      "d": 3.53,
+      "w": 4.35,
+      "m": 12.19
+    },
+    {
+      "ticker": "RSP",
+      "rs": 74,
+      "note": "동일가중 1D 회복, 폭 소폭 개선",
+      "d": 0.63,
+      "w": -0.56,
+      "m": 4.06
+    },
+    {
+      "ticker": "QQQ",
+      "rs": 73,
+      "note": "나스닥 성장축 약세",
+      "d": 0.35,
+      "w": -2.72,
+      "m": 1.4
+    },
+    {
+      "ticker": "IGV",
+      "rs": 70,
+      "note": "소프트 1W 약세(1M 배경만)",
+      "d": 1.43,
+      "w": -2.91,
+      "m": 12.58
+    },
+    {
+      "ticker": "GLD",
+      "rs": 68,
+      "note": "금 현물 배경 강화",
+      "d": 1.95,
+      "w": 5.27,
+      "m": 11.68
+    },
+    {
+      "ticker": "REMX",
+      "rs": 56,
+      "note": "희토류·크리티컬메탈 급등",
+      "d": 6.69,
+      "w": 4.88,
+      "m": 13.7
+    },
+    {
+      "ticker": "IBIT",
+      "rs": 35,
+      "note": "₿ 크립토 risk-on 급합류",
+      "d": 6.02,
+      "w": 23.01,
+      "m": 17.58
+    }
+  ],
+  "etf_asof": "8/21",
+  "axes": [
+    {
+      "no": 1,
+      "name": "금속·귀금속",
+      "tag": "3위 27개, Bull Snort 5개",
+      "tickers": [
+        "ERO",
+        "FCX",
+        "AU",
+        "HMY",
+        "SCCO",
+        "TECK",
+        "BVN",
+        "NEM"
+      ],
+      "raw": "ERO +9.4%, FCX +7.6%, AU +5.3%, HMY +6.9%, SCCO +8.7%, TECK +4.6%, BVN +3.8%, NEM"
+    },
+    {
+      "no": 2,
+      "name": "에너지",
+      "tag": "신고가 11",
+      "tickers": [
+        "COP",
+        "EOG",
+        "PSX",
+        "FANG",
+        "VLO",
+        "CVX",
+        "MPC",
+        "XOM",
+        "DK",
+        "DVN",
+        "OXY",
+        "SLB"
+      ],
+      "raw": "COP·EOG·PSX·FANG·VLO·CVX·MPC·XOM, DK +11.6% 정유, DVN·OXY·SLB"
+    },
+    {
+      "no": 3,
+      "name": "크립토·위험선호",
+      "tag": "",
+      "tickers": [
+        "IBIT",
+        "BTC",
+        "ETH",
+        "ARKG",
+        "HOOD",
+        "EZPW"
+      ],
+      "raw": "IBIT +6%·BTC +6%·ETH +3.9%·ARKG +3.8%, HOOD +13.7%, EZPW +12% ₿"
+    },
+    {
+      "no": 4,
+      "name": "바이오",
+      "tag": "2위 39개, 반등+froth",
+      "tickers": [
+        "MRNA",
+        "TEM",
+        "TGTX",
+        "SLS",
+        "XNCR",
+        "HAE"
+      ],
+      "raw": "MRNA +8.86%(되돌림), TEM +9.06%, TGTX +7.3%, SLS +15.37%, XNCR·HAE"
+    }
+  ],
+  "priority": {
+    "ranked": [
+      {
+        "rank": 1,
+        "tickers": [
+          "ERO",
+          "FCX",
+          "SCCO",
+          "TECK"
+        ],
+        "why": "금속 확산이 금 단독에서 산업금속으로 굳는지 = REMX·SLV 1W 강세 지속 관건, 실물 순환 코어"
+      },
+      {
+        "rank": 2,
+        "tickers": [
+          "COP",
+          "EOG",
+          "PSX",
+          "DK"
+        ],
+        "why": "에너지가 이레째 코어로 남는지, USO 1W +7.9% 지속 관건"
+      },
+      {
+        "rank": 3,
+        "tickers": [
+          "HOOD",
+          "IBIT"
+        ],
+        "why": "크립토 risk-on 합류가 진짜 전환인지 = IBIT 1W +23% 지속·되돌림 여부 ₿"
+      }
+    ],
+    "watch": "MRNA·AMLX froth 되돌림 지속성, GDX 파라볼릭 과열 반전, 바이오(TEM·TGTX) 그룹 재점화 여부.",
+    "watch_tickers": [
+      "MRNA",
+      "AMLX",
+      "GDX",
+      "TEM",
+      "TGTX"
+    ]
+  },
+  "leaders": [
+    {
+      "ticker": "VIRT",
+      "overlap": 3,
+      "d": 11.01,
+      "cap": 10.5,
+      "m1": null,
+      "note": "마켓메이커, 거래대금·변동성 수혜."
+    }
+  ],
+  "froth": [],
+  "getting_strong": [
+    {
+      "name": "산업금속·귀금속 확산",
+      "desc": "SLV RS77 1D +1.72% 1W +6.61% 1M +16.62%, REMX RS56 1D +6.69% 1W +4.88% 1M +13.70% → ERO·FCX·SCCO·TECK·HMY. 금 단독에서 은·구리·희토류로 넓어짐, Bull Snort 금속 5개."
+    },
+    {
+      "name": "크립토·위험선호(신규 합류)",
+      "desc": "IBIT RS35 1D +6.02% 1W +23.01% 1M +17.58%, ARKK RS76 1D +3.53% 1W +4.35% 1M +12.19% ₿ → HOOD·ARKG·BTC·ETH. 어제까지 배경 약세였다가 오늘 risk-on 급합류."
+    }
+  ],
+  "getting_weak": [
+    {
+      "name": "반도체·메모리·장비(이탈 지속)",
+      "desc": "SOXX RS92 1D -0.44% 1W -5.37% 1M -3.47%, EWY 1W -2.09%, EWT 1W -2.79% → SNDK·WDC·AEHR 배제 유지. 엿새째 성장 코어 소멸."
+    },
+    {
+      "name": "대형테크·소프트·양자",
+      "desc": "XLK 1W -4.10%, QTUM 1W -5.10%, IGV 1W -2.91%, SKYY 1W -2.13% — 성장 테마 1W 동반 약세(단 IGV·SKYY 1M 배경만 유지)."
+    },
+    {
+      "name": "나스닥",
+      "desc": "QQQ 1W -2.72% — 지수 성장축 약세, 온기는 실물·크립토로만."
+    }
+  ],
+  "still_strong": [
+    {
+      "name": "에너지",
+      "desc": "XOP RS90 1D +1.11% 1W +5.38% 1M +7.53%, USO RS91 1W +7.90%, CRAK RS91 1D +2.09% 1W +3.69% 1M +8.64% → COP·EOG·PSX·VLO·MPC·DK. 이레째 순환 상수"
+    },
+    {
+      "name": "금 광산",
+      "desc": "GDX RS90 1D +2.98% 1W +14.72% 1M +35.45% → NEM·AU·HMY·BVN. 격상 이후 파라볼릭 지속(과열 경계)"
+    },
+    {
+      "name": "금융",
+      "desc": "신고가 7개 JPM·BAC·USB·PNC·MS·C·GS. durable 상수"
+    }
+  ],
+  "underrated": [
+    {
+      "ticker": "IBIT",
+      "rs": 35,
+      "w": 23.0,
+      "m": 17.6
+    },
+    {
+      "ticker": "REMX",
+      "rs": 56,
+      "w": 4.9,
+      "m": 13.7
+    },
+    {
+      "ticker": "URA",
+      "rs": 54,
+      "w": 1.7,
+      "m": 13.1
+    },
+    {
+      "ticker": "GLD",
+      "rs": 68,
+      "w": 5.3,
+      "m": 11.7
+    }
+  ],
+  "actions": [
+    "ERO·FCX·SCCO·TECK 산업금속이 금 단독에서 그룹 확산으로 굳는지 최우선 확인 — REMX·SLV 1W 강세 지속 시 실물 순환 코어.",
+    "COP·EOG·PSX·DK 에너지가 이레째 코어로 남는지 점검 — USO 1W +7.9% 유지 관건.",
+    "HOOD·IBIT 크립토 risk-on 합류가 진짜 전환인지 감시 — IBIT 1W +23% 되돌림 없이 지속되는지 확인.",
+    "GDX 파라볼릭·MRNA froth 과열 반전 경계 — 쏠림 청산 시 다소 과열→다소 공포 재분류, 방어 강화.",
+    "오프닝 판단: 금속·에너지·크립토 실물+위험선호 강세 유지면 배경 있는 브레이크아웃 선별 공격, 금 파라볼릭·froth 청산 시 에너지·금융 신고가 코어로 압축."
+  ],
+  "read": [
+    "오늘 핵심은 8/21 격상됐던 금 광산이 금속 전면 확산으로 굳고, 크립토가 risk-on으로 합류했다는 점이다. GDX 1W +14.72%·1M +35.45% 파라볼릭에 더해 ERO·FCX·AU·SCCO·TECK·HMY가 Bull Snort 상단을 도배(금속 5개), SLV 1W +6.61%·REMX 1W +4.88%로 은·구리·희토류까지 넓어졌다. 금 단독 쏠림이 산업금속 그룹 확산으로 바뀐 게 질적 개선이다.",
+    "동시에 IBIT 1W +23.01%·HOOD +13.7%로 크립토·브로커가 위험선호로 급합류했다. 어제까지 배경 약세던 크립토가 하루 만에 켜진 건 risk-on 복귀 신호다. 에너지(USO 1W +7.9%·신고가 11개)는 이레째 순환 상수로 병행, 어제 붕괴한 MRNA는 +8.86% 되돌림하며 바이오도 반등 시도했다.",
+    "다만 froth와 과열은 여전하다. GDX 1M +35% 파라볼릭, IBIT 1W +23% 급등, MRNA 1M +143.8%·AMLX 1M +110.9%·HTFL 1M +97.6% 초고베타가 상단에 잔존한다. 반면 반도체·소프트·양자는 1W 동반 약세(SOXX 1W -5.37%)로 성장 테크는 완전 소외. 신고가 52개가 헬스·에너지·금융·산업으로 넓게 받쳐 하단은 건강 — 공포 아닌 froth성 다소 과열이다.",
+    "정리하면 선별적 공격 국면이다. ERO·FCX 산업금속이 1순위(금 파라볼릭보다 확산이 건강), COP·EOG 에너지가 2순위, HOOD·IBIT 크립토 프록시가 3순위. 반도체·성장 테크는 배제, MRNA·AMLX·HTFL froth는 추격 금지"
+  ]
+}
