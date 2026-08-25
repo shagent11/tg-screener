@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2026-08-26 스크리너 요약</title>
+<style>
+  :root{
+    --paper:#E4E5E0; --card:#FAFAF8; --ink:#14171A; --dim:#6E736F;
+    --rule:#CFD2CB; --up:#C0392B; --down:#1D5FA6; --warn:#9A6B12;
+    --sans:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Segoe UI",system-ui,sans-serif;
+    --mono:ui-monospace,"SF Mono",Menlo,"Roboto Mono","Courier New",monospace;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.55;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:760px;margin:0 auto;padding:22px 16px 60px}
+
+  .top{border-bottom:2px solid var(--ink);padding-bottom:14px;margin-bottom:22px}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+  h1{font-size:clamp(26px,7.4vw,40px);line-height:1.04;letter-spacing:-.035em;font-weight:800;margin:6px 0 10px}
+  h1 span{display:block}
+  .verdict{font-size:15px;color:#33383a;margin:0}
+  .verdict b{font-weight:700}
+  .stats{display:flex;margin-top:16px;border-top:1px solid var(--rule)}
+  .stat{flex:1;padding:10px 0 2px;border-right:1px solid var(--rule)}
+  .stat:last-child{border-right:0}
+  .stat .n{font-family:var(--mono);font-size:26px;font-weight:600;letter-spacing:-.02em;display:block;line-height:1}
+  .stat .n small{font-size:15px;color:var(--dim);font-weight:400}
+  .stat .k{font-size:10.5px;color:var(--dim);letter-spacing:.04em;margin-top:5px;display:block}
+
+  section{margin-top:34px}
+  h2{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-family:var(--mono);font-weight:600;
+     margin:0 0 4px;padding-bottom:7px;border-bottom:1px solid var(--ink)}
+  .sub{font-size:12.5px;color:var(--dim);margin:9px 0 14px}
+  .card{background:var(--card);border:1px solid var(--rule);padding:14px 14px 10px;margin-top:12px}
+
+  .swarm{width:100%;height:auto;display:block;margin-top:6px}
+  .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:11px;color:var(--dim);font-family:var(--mono);margin-top:8px}
+  .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;vertical-align:1px}
+
+  table{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:12.5px}
+  th{text-align:right;font-weight:600;font-size:10px;letter-spacing:.08em;color:var(--dim);
+     padding:0 0 6px;border-bottom:1px solid var(--rule);text-transform:uppercase}
+  th:first-child,td:first-child{text-align:left}
+  td{padding:7px 0;border-bottom:1px solid #E7E8E3;text-align:right;white-space:nowrap}
+  tr:last-child td{border-bottom:0}
+  .tk{font-weight:700}
+  .note{font-family:var(--sans);font-size:11px;color:var(--dim);text-align:left;padding-left:10px;white-space:normal}
+  .up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--dim)}
+  .rsbar{position:relative;width:52px;height:5px;background:#DEDFDA;display:inline-block;vertical-align:2px;margin-right:7px}
+  .rsbar i{position:absolute;left:0;top:0;bottom:0;background:var(--ink);display:block}
+
+  .axis{border-top:1px solid var(--rule);padding:14px 0 4px;display:flex;gap:13px;align-items:flex-start}
+  .axis:first-of-type{border-top:0}
+  .rank{font-family:var(--mono);font-size:11px;font-weight:700;width:26px;height:26px;flex:0 0 26px;
+        border-radius:50%;display:flex;align-items:center;justify-content:center;
+        background:var(--ink);color:var(--card);margin-top:2px}
+  .rank.watch{background:transparent;color:var(--dim);border:1px dashed var(--dim);font-size:9px}
+  .axis h3{margin:0;font-size:15px;letter-spacing:-.01em;font-weight:700}
+  .axis .why{font-size:12.5px;color:#4A4F50;margin:3px 0 8px}
+  .chips{display:flex;flex-wrap:wrap;gap:5px}
+  .chip{font-family:var(--mono);font-size:11.5px;font-weight:600;padding:3px 7px;border:1px solid var(--rule);background:var(--card)}
+  .chip.hot{border-color:var(--up);color:var(--up)}
+  .chip.froth{border-style:dashed;border-color:var(--warn);color:var(--warn)}
+
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:520px){.cols{grid-template-columns:1fr}}
+  .cols h4{margin:0 0 8px;font-size:12px;font-family:var(--mono);letter-spacing:.08em}
+  .cols ul{margin:0;padding-left:16px;font-size:12.5px}
+  .cols li{margin-bottom:6px;color:#3A3F40}
+  .cols li b{font-family:var(--mono);font-weight:700;font-size:12px}
+
+  .bchart{width:100%;height:auto;display:block}
+  ol.act{margin:0;padding-left:20px;font-size:13.5px}
+  ol.act li{margin-bottom:9px;color:#33383a}
+  .flag{border-left:3px solid var(--warn);background:#F6F1E4;padding:11px 13px;font-size:13px;color:#4A4335;margin-top:12px}
+  footer{margin-top:38px;padding-top:12px;border-top:1px solid var(--rule);font-size:11px;color:var(--dim)}
+
+  /* 텔레그램 이미지용 압축 모드 */
+  body.card .full{display:none}
+  body.card .wrap{padding-bottom:22px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div class="eyebrow" id="eyebrow"></div>
+    <h1 id="headline"></h1>
+    <p class="verdict" id="verdict"></p>
+    <div class="stats" id="stats"></div>
+  </div>
+
+  <section>
+    <h2>RS 스펙트럼</h2>
+    <p class="sub">ETF를 상대강도(RS) 축 위에 그대로 올린 그림. 색은 1주 등락(<span class="up">적색 상승</span> / <span class="down">청색 하락</span> / 회색 미제공).</p>
+    <div class="card">
+      <svg class="swarm" viewBox="0 0 1000 275" role="img" aria-label="ETF RS 분포">
+        <g id="swarm"></g>
+        <line x1="40" y1="228" x2="960" y2="228" stroke="#14171A" stroke-width="2"></line>
+        <g id="ticks"></g>
+      </svg>
+      <div class="legend">
+        <span><span class="dot" style="background:#C0392B"></span>1W 상승</span>
+        <span><span class="dot" style="background:#1D5FA6"></span>1W 하락</span>
+        <span><span class="dot" style="background:#9AA09B"></span>1W 미제공</span>
+        <span><span class="dot" style="background:#7A3FA3"></span>RS 저평가(1M 상승)</span>
+      </div>
+    </div>
+    <p class="sub" id="rsnote" style="margin-top:12px"></p>
+    <p class="sub" id="rsnote2"></p>
+  </section>
+
+  <section>
+    <h2>오늘의 축 · 우선순위</h2>
+    <p class="sub">숫자는 실제 진입 우선순위. 관찰은 아직 확인 단계.</p>
+    <div id="axes"></div>
+    <div class="flag" id="frothbox"></div>
+  </section>
+
+  <section class="full">
+    <h2>ETF 강도표</h2>
+    <p class="sub" id="etfasof"></p>
+    <div class="card">
+      <table>
+        <thead><tr><th>ETF</th><th>RS</th><th>1D</th><th>1W</th><th>1M</th><th class="note">배경</th></tr></thead>
+        <tbody id="etfrows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="full">
+    <h2>바뀐 것</h2>
+    <div class="cols" style="margin-top:14px">
+      <div class="card"><h4 class="up">↑ 붙는 쪽</h4><ul id="strongs"></ul></div>
+      <div class="card"><h4 class="down">↓ 빠지는 쪽</h4><ul id="weaks"></ul></div>
+    </div>
+  </section>
+
+  <section class="full">
+    <h2>breadth 추이</h2>
+    <p class="sub">막대 = 중복 종목수(리더십 응집), 선 = 전체 종목수(참여 폭).</p>
+    <div class="card"><svg class="bchart" viewBox="0 0 1000 300" role="img" aria-label="breadth 추이"><g id="bars"></g></svg></div>
+    <p class="sub" id="highsnote" style="margin-top:12px"></p>
+  </section>
+
+  <section class="full">
+    <h2>반복 출현 리더</h2>
+    <p class="sub">중복 횟수 = 여러 스크리너에 동시에 걸린 횟수. 많을수록 신호가 겹친다.</p>
+    <div class="card">
+      <table>
+        <thead><tr><th>티커</th><th>중복</th><th>1D</th><th>시총</th><th class="note">성격</th></tr></thead>
+        <tbody id="leaders"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="full">
+    <h2>내일 확인할 것</h2>
+    <ol class="act" id="actions"></ol>
+  </section>
+
+  <footer id="foot"></footer>
+</div>
+
+<script id="payload" type="application/json">{"date": "2026-08-26", "headline": "바이오 froth 재폭발(MRNA 1W +152%, XBI 1D +3%) + 금·귀금속·우라늄 파라볼릭(GDX 1M +40%, URA 1D +5.4%) + 에너지 순환 균열(XLE·XOP 1W 마이너스) + 성장테크 낙폭 완화가 오늘 축. 바이오·금 froth 추격 금지, 강도 극단 구간", "oneline": "바이오 froth 재폭발(MRNA 1W +152%, XBI 1D +3%) + 금·귀금속·우라늄 파라볼릭(GDX 1M +40%, URA 1D +5.4%) + 에너지 순환 균열(XLE·XOP 1W 마이너스) + 성장테크 낙폭 완화가 오늘 축. 바이오·금 froth 추격 금지, 강도 극단 구간", "verdict": "선별적 공격 (froth 재점화로 배제 강화)", "priority_line": "우선순위: 금속·귀금속(FCX·NEM·GDX) + 위험선호 프록시(ARKK·IBIT·HOOD). 바이오는 XNCR·TWST 등 상대 퀄리티만, MRNA·PURR·GENB·AMLX froth는 추격 금지.", "regime": ["추세추종 선별 유지, 단 froth 재점화로 상단 소음 다시 커짐. 온기가 바이오·금속 초강세로 재집중되며 폭보다 강도가 앞선다.", "risk-on 유지하되 froth성. 실물 코어(금)에 바이오·크립토 위험선호가 다시 얹힌 형태."], "heat_label": "다소 과열 (froth 재점화 + 금 파라볼릭 심화, 단 폭은 좁음)", "heat_reasons": ["근거 1: MRNA 1W +152%·1M +177% froth 재폭발, PURR 1M +80.9%·GENB·AMLX 초고베타 재점화 — 투기 광기 되살아남.", "근거 2: GDX 1M +39.76%·SLV 1M +19%·URA 1D +5.36% — 금·은·우라늄 파라볼릭 심화, 안전자산+실물 쏠림 극단.", "근거 3: 다만 Bull Snort 3개로 froth 폭은 좁고 바이오 개별 집중 — 전면 과열 아닌 국지적 froth.", "근거 4: 신고가 51개가 헬스10·에너지10·금융7·산업7로 넓게 받쳐 하단 건강 — 공포 신호 전무."], "breadth": [{"date": "8/22", "breadth": 245, "overlap": 37}, {"date": "8/25", "breadth": 240, "overlap": 31}, {"date": "8/26", "breadth": 243, "overlap": 32}], "today": {"date": "8/26", "breadth": 243, "overlap": 32}, "highs": {"total": 51, "composition": [{"name": "헬스", "count": 10}, {"name": "에너지", "count": 10}, {"name": "금융", "count": 7}, {"name": "산업", "count": 7}]}, "uwl": {"hits": 1, "total": 71}, "etf": [{"ticker": "EWY", "rs": 92, "note": "한국 반등, 반도체 프록시 온기", "d": 3.75, "w": 2.48, "m": 6.98}, {"ticker": "XBI", "rs": 91, "note": "바이오 froth 재점화·ETF 재가속", "d": 3.0, "w": 6.8, "m": 10.68}, {"ticker": "CRAK", "rs": 91, "note": "정유만 1W 플러스 유지", "d": -1.05, "w": 1.87, "m": 8.58}, {"ticker": "GDX", "rs": 90, "note": "금 광산 파라볼릭 최강", "d": 1.91, "w": 16.55, "m": 39.76}, {"ticker": "HACK", "rs": 89, "note": "사이버 1W 급약세", "d": -1.35, "w": -6.02, "m": 3.53}, {"ticker": "XOP", "rs": 88, "note": "E&P 1W 꺾임", "d": -1.88, "w": -1.59, "m": 4.16}, {"ticker": "QTUM", "rs": 86, "note": "양자 1W 약세 완화", "d": 1.26, "w": -3.41, "m": 3.92}, {"ticker": "XLE", "rs": 84, "note": "통합 에너지 1W 균열", "d": -1.66, "w": -2.13, "m": 4.48}, {"ticker": "XLK", "rs": 81, "note": "대형테크 1W 낙폭 완화(전일 -5.63%)", "d": 0.94, "w": -2.44, "m": 2.2}, {"ticker": "XLV", "rs": 80, "note": "헬스 대형 견조", "d": 0.34, "w": 3.92, "m": 7.89}, {"ticker": "ARKK", "rs": 76, "note": "혁신 위험선호 재가속", "d": 2.92, "w": 7.96, "m": 17.06}, {"ticker": "SLV", "rs": 75, "note": "은 확산", "d": 0.19, "w": 6.32, "m": 19.07}, {"ticker": "RSP", "rs": 74, "note": "동일가중 방어, breadth 하단 유지", "d": -0.07, "w": 0.41, "m": 4.43}, {"ticker": "QQQ", "rs": 72, "note": "나스닥 낙폭 완화", "d": 0.62, "w": -1.32, "m": 2.94}, {"ticker": "GLD", "rs": 71, "note": "금 현물 배경 강화", "d": 0.32, "w": 6.34, "m": 15.3}, {"ticker": "URA", "rs": 59, "note": "우라늄 급등, 신규 최강", "d": 5.36, "w": 8.82, "m": 17.64}, {"ticker": "IBIT", "rs": 44, "note": "₿ 크립토 위험선호 유지", "d": 0.18, "w": 23.35, "m": 22.76}], "etf_asof": "8/25", "axes": [{"no": 1, "name": "바이오", "tag": "재폭발, 1위 57개", "tickers": ["MRNA", "PURR", "GENB", "TWST", "XNCR", "AMLX", "QURE"], "raw": "MRNA +14.36%(1W +152%), PURR +11.56%, GENB +15%, TWST +7.54%, XNCR, AMLX, QURE(Bull Snort)"}, {"no": 2, "name": "금속·귀금속", "tag": "3위 27개", "tickers": ["FCX", "NEM", "ERO", "HBM", "MP", "GDX"], "raw": "FCX·NEM 100% 신고가, ERO·HBM·MP, GDX 1M +39.76%"}, {"no": 3, "name": "에너지", "tag": "신고가 10, 균열", "tickers": ["COP", "PSX", "VLO", "MPC", "CVX", "EOG", "XOM", "XLE", "XOP"], "raw": "COP·PSX·VLO·MPC·CVX·EOG·XOM — 개별 신고가나 XLE·XOP 1W 마이너스"}, {"no": 4, "name": "위험선호", "tag": "", "tickers": ["ARKK", "IBIT", "BMNR", "GLXY", "RUM"], "raw": "ARKK 1W +7.96%, IBIT 1W +23.35%, BMNR·GLXY·RUM 크립토/투기 ₿"}], "priority": {"ranked": [{"rank": 1, "tickers": ["FCX", "NEM", "UEC", "MP"], "why": "금속·귀금속·우라늄 파라볼릭이 지속되는지 = GDX 1M +40%·URA 1D +5.4% 유지 관건, 단 쏠림 과열 경계"}, {"rank": 2, "tickers": ["TWST", "XNCR", "QURE"], "why": "바이오가 froth 재점화 속 그룹으로 이틀 이상 가는지 = XBI 1D +3% 지속 여부"}, {"rank": 3, "tickers": ["ARKK", "IBIT"], "why": "위험선호 재가속이 진짜인지, 1W +8~23% 되돌림 여부 ₿"}], "watch": "MRNA·PURR froth 되돌림 시점(과열 반전 판별), 에너지(XLE·XOP) 1W 균열 심화 여부, EWY·XLK 성장 낙폭 완화 지속.", "watch_tickers": ["MRNA", "PURR", "XLE", "XOP", "EWY", "XLK"]}, "leaders": [{"ticker": "TWST", "overlap": 3, "d": 7.54, "cap": 9.97, "m1": null, "note": "합성 DNA·바이오툴, XBI 재점화 배경. 바이오 중 상대 퀄리티, 최우선 체크."}], "froth": [], "getting_strong": [{"name": "우라늄·크리티컬메탈", "desc": "URA RS59 1D +5.36% 1W +8.82% 1M +17.64%, LIT RS75 1M +11.58% → UEC·MP. 금속 순환이 우라늄·리튬으로 확산, 오늘 최대 신규 강세."}, {"name": "위험선호 혁신 재가속", "desc": "ARKK RS76 1D +2.92% 1W +7.96% 1M +17.06% → BMNR·GLXY·RUM. 크립토·투기 성장주와 연결, 1W 재점화."}], "getting_weak": [{"name": "에너지(순환 균열)", "desc": "XLE RS84 1D -1.66% 1W -2.13% 1M +4.48%, XOP RS88 1D -1.88% 1W -1.59% 1M +4.16% → 신고가 잔존하나 ETF 1W 마이너스 전환, 여드레 코어 첫 균열."}, {"name": "사이버", "desc": "HACK RS89 1W -6.02%, CIBR RS86 1W -4.99% — 1W 급약세 지속 → CRWD·RBRK 배제."}, {"name": "소프트·클라우드", "desc": "IGV 1W -0.15%(1M +15.37% 배경만), SKYY 1W -1.69% — 1M 배경만 유지, ETF 미지원."}], "still_strong": [{"name": "금 광산·귀금속", "desc": "GDX RS90 1D +1.91% 1W +16.55% 1M +39.76%, SLV RS75 1W +6.32% 1M +19.07%, GLD RS71 1M +15.3% → FCX·NEM·ERO. 파라볼릭 심화(과열 꼬리)"}, {"name": "바이오", "desc": "XBI RS91 1D +3.0% 1W +6.8% 1M +10.68% → MRNA·TWST·XNCR·QURE. froth 재점화로 ETF까지 재가속"}, {"name": "금융", "desc": "신고가 7개 JPM·BAC·USB·MS·C·GS, XLF 1M +4.44%. durable 상수"}], "underrated": [{"ticker": "IBIT", "rs": 44, "w": 23.4, "m": 22.8}, {"ticker": "URA", "rs": 59, "w": 8.8, "m": 17.6}, {"ticker": "IGV", "rs": 68, "w": -0.1, "m": 15.4}, {"ticker": "REMX", "rs": 46, "w": 2.1, "m": 14.3}], "actions": ["FCX·NEM·UEC·MP 금속·귀금속·우라늄 파라볼릭이 지속되는지 최우선 확인 — GDX 1M +40%·URA 1D +5.4% 유지, 쏠림 과열 신호 병행 감시.", "TWST·XNCR·QURE 바이오가 froth 재점화 속 그룹으로 이틀 이상 가는지 점검 — XBI 1D +3% 지속 없으면 froth 하루짜리로 관망.", "ARKK·IBIT 위험선호 재가속이 진짜 전환인지 감시 — 1W +8~23% 되돌림 여부 확인.", "에너지(XLE·XOP) 1W 균열 심화·MRNA froth 반전 경계 — 에너지 순환 종료 시 코어 축소, froth 청산 시 다소 과열→중립 재분류.", "오프닝 판단: 금속·우라늄·바이오 강세 유지면 배경 있는 브레이크아웃 선별 공격, froth 청산·에너지 균열 심화 시 금·금융 신고가 코어로 압축."], "read": ["오늘 핵심은 8/25 식었던 바이오 froth가 하루 만에 재폭발했다는 점이다. MRNA +14.36%(1W +152%·1M +177%)로 대장이 되살아나고 PURR·GENB·AMLX가 재점화, XBI 1D +3.0%로 ETF까지 다시 켜졌다. Health Technology가 카운트 1위(57개)로 복귀했다 — 이번 주 내내 반복된 froth 냉각↔재점화 톱니가 또 확인됐다.", "금 광산·귀금속은 파라볼릭이 더 심화됐다. GDX 1M +39.76%·SLV 1M +19%·GLD 1M +15.3%에 URA 1D +5.36% 우라늄까지 붙어 실물+안전자산 쏠림이 극단이다. 여기에 ARKK 1W +7.96%·IBIT 1W +23.35% 위험선호가 병행 — 온기가 바이오·금속·크립토 초강세로 재집중됐다.", "중요한 변화는 에너지 균열이다. 여드레 상수였던 XLE·XOP가 1W 마이너스로 처음 꺾였다(개별 신고가는 잔존). 성장 테크는 XLK 1W -2.44%로 급락이 멈추고 EWY·EWT 한국·대만이 반등 — 소외 축에서 낙폭 진정 조짐. 신고가 51개가 헬스·에너지·금융·산업으로 넓게 받쳐 하단은 건강, 공포 아닌 froth성 다소 과열이다.", "정리하면 froth 재점화된 선별 공격 국면이다. 온도는 중립→다소 과열로 재상향. FCX·NEM·UEC 금속·우라늄이 1순위(파라볼릭 과열 경계), TWST·XNCR 바이오 퀄리티가 2순위, ARKK·IBIT 위험선호가 3순위. MRNA·PURR·CAI froth와 에너지 균열은 추격 금지·관망"]}</script>
+<script>
+(function(){
+  var D = JSON.parse(document.getElementById("payload").textContent);
+  var UP="#C0392B", DOWN="#1D5FA6", NA="#9AA09B", UNDR="#7A3FA3";
+  var SVG="http://www.w3.org/2000/svg";
+  var $=function(id){return document.getElementById(id);};
+  function el(tag,attrs){var n=document.createElementNS(SVG,tag);
+    for(var k in attrs) n.setAttribute(k,attrs[k]); return n;}
+  function esc(s){return String(s==null?"":s).replace(/[&<>]/g,function(c){
+    return {"&":"&amp;","<":"&lt;",">":"&gt;"}[c];});}
+  function pct(v){
+    if(v===null||v===undefined) return '<span class="flat">—</span>';
+    return '<span class="'+(v>0?"up":v<0?"down":"flat")+'">'+(v>0?"+":"")+v.toFixed(2)+'</span>';
+  }
+  if(location.hash.indexOf("card")>-1) document.body.classList.add("card");
+
+  /* ---------- 헤더 ---------- */
+  $("eyebrow").textContent = "US Screener · " + D.date;
+  $("headline").innerHTML = (D.headline||"").split(/\s*\+\s*/)
+    .map(function(p,i,a){return "<span>"+esc(p)+(i<a.length-1?" +":"")+"</span>";}).join("");
+  $("verdict").innerHTML = "<b>"+esc(D.verdict)+".</b> " + esc((D.regime&&D.regime[0])||D.oneline||"");
+
+  var t=D.today||{}, st=[];
+  st.push({n:t.breadth, k:"breadth 종목수"});
+  st.push({n:t.overlap, k:"중복"});
+  if(D.highs&&D.highs.total) st.push({n:D.highs.total, k:"52주 신고가"});
+  if(D.uwl) st.push({n:D.uwl.hits+"<small>/"+D.uwl.total+"</small>", k:"UWL 성장환경"});
+  $("stats").innerHTML = st.map(function(s){
+    return '<div class="stat"><span class="n">'+s.n+'</span><span class="k">'+s.k+'</span></div>';
+  }).join("");
+
+  /* ---------- RS 스펙트럼 ---------- */
+  var g=$("swarm"), placed=[], SP=33, TOP=24;
+  // ETF 흐름 목록 + RS 저평가 후보(별도 결정론적 계산)를 합쳐서 같은 축에 표시. 티커 겹치면 저평가 쪽을 우선.
+  var underrTickers = {};
+  (D.underrated||[]).forEach(function(u){ underrTickers[u.ticker]=true; });
+  // RS 미제공(신규 ETF, rs:null)은 축 위치를 계산할 수 없어 스펙트럼 플롯에서는 제외 — ETF 강도표에는 별도로 포함시킨다.
+  var spectrum = D.etf.filter(function(r){ return !underrTickers[r.ticker]; })
+    .concat((D.underrated||[]).map(function(u){
+      return {ticker:u.ticker, rs:u.rs, w:u.w, m:u.m, note:"", underrated:true};
+    }));
+  var spectrumPlot = spectrum.filter(function(r){ return r.rs!==null && r.rs!==undefined; });
+  // 1차: x좌표와 쌓임 단(row)만 계산
+  spectrumPlot.slice().sort(function(a,b){return a.rs-b.rs;}).forEach(function(d){
+    var x=40+(d.rs/100)*920, row=0, ok=false;
+    while(!ok){ ok=true;
+      for(var i=0;i<placed.length;i++)
+        if(placed[i].row===row && Math.abs(placed[i].x-x)<150){ok=false;row++;break;}
+    }
+    placed.push({x:x,row:row,d:d});
+  });
+  // 2차: 가장 높이 쌓인 단에 맞춰 뷰박스를 늘린다 (안 그러면 위로 잘려 사라진다)
+  var maxRow=placed.reduce(function(m,p){return Math.max(m,p.row);},0);
+  var axisY=TOP+maxRow*SP+23, boxH=axisY+47;
+  var svg=g.parentNode;
+  svg.setAttribute("viewBox","0 0 1000 "+boxH);
+  svg.querySelector("line").setAttribute("y1",axisY);
+  svg.querySelector("line").setAttribute("y2",axisY);
+  placed.forEach(function(p){
+    var d=p.d, x=p.x, y=TOP+(maxRow-p.row)*SP;
+    var col = d.underrated ? UNDR : ((d.w===null||d.w===undefined) ? NA : (d.w>=0?UP:DOWN));
+    var left = x>600;
+    g.appendChild(el("line",{x1:x,x2:x,y1:y+9,y2:axisY-2,stroke:col,"stroke-width":1,opacity:.35}));
+    g.appendChild(el("circle",{cx:x,cy:y,r:8,fill:col}));
+    var tx=el("text",{x:left?x-15:x+15,y:y+7,"text-anchor":left?"end":"start",
+      "font-family":'ui-monospace,Menlo,monospace',"font-size":21,"font-weight":700,fill:"#14171A"});
+    tx.textContent=d.ticker;
+    var sp=el("tspan",{"font-size":16,"font-weight":400,fill:"#6E736F"});
+    sp.textContent=" "+d.rs; tx.appendChild(sp); g.appendChild(tx);
+  });
+  [0,25,50,75,100].forEach(function(v){
+    var x=40+(v/100)*920;
+    $("ticks").appendChild(el("line",{x1:x,x2:x,y1:axisY,y2:axisY+10,stroke:"#6E736F"}));
+    var t2=el("text",{x:x,y:axisY+34,"text-anchor":"middle","font-family":'ui-monospace,Menlo,monospace',
+      "font-size":17,fill:"#6E736F"}); t2.textContent="RS "+v; $("ticks").appendChild(t2);
+  });
+  // RS는 높은데 방향이 꺾인 ETF를 자동으로 지목
+  var trap=D.etf.filter(function(r){return r.rs>=80 && r.w!==null && r.w<0;})
+                .sort(function(a,b){return a.w-b.w;})[0];
+  $("rsnote").innerHTML = trap
+    ? esc(trap.ticker)+"는 RS "+trap.rs+"로 상단이지만 1W "+trap.w.toFixed(1)+
+      "%로 <b>방향이 꺾였다</b> — RS만 보고 들어가면 안 되는 자리."
+    : "RS 상단 그룹의 1W 방향이 모두 살아 있다 — 리더십과 모멘텀이 일치.";
+  // 반대 케이스: RS는 낮은데 1M은 이미 플러스인 ETF(보라 점)
+  var best=(D.underrated||[]).slice().sort(function(a,b){return b.m-a.m;})[0];
+  $("rsnote2").innerHTML = best
+    ? esc(best.ticker)+"는 RS "+best.rs+"로 하단이지만 1M "+(best.m>0?"+":"")+best.m.toFixed(1)+
+      "%로 <b>이미 오르는 중</b> — RS가 아직 못 따라온 자리."
+    : "RS 하단 그룹은 1M도 아직 마이너스 — 저평가 신호 없음.";
+
+  /* ---------- 축 / 우선순위 ---------- */
+  function overlapCount(a,b){var s=0;a.forEach(function(t){if(b.indexOf(t)>-1)s++;});return s;}
+  var html = D.priority.ranked.map(function(r){
+    var best=null,score=0;
+    (D.axes||[]).forEach(function(ax){
+      var n=overlapCount(r.tickers,ax.tickers);
+      if(n>score){score=n;best=ax;}
+    });
+    return '<div class="axis"><div class="rank">'+r.rank+'</div><div>'+
+      '<h3>'+esc(best?best.name:"우선순위 "+r.rank)+(best&&best.tag?' <span style="font-size:11px;color:#6E736F;font-weight:400">'+esc(best.tag)+'</span>':'')+'</h3>'+
+      '<p class="why">'+esc(r.why)+'</p><div class="chips">'+
+      r.tickers.map(function(t){return '<span class="chip hot">'+esc(t)+'</span>';}).join("")+
+      '</div></div></div>';
+  }).join("");
+  if(D.priority.watch){
+    html += '<div class="axis"><div class="rank watch">관찰</div><div>'+
+      '<h3>확인 단계</h3><p class="why">'+esc(D.priority.watch)+'</p><div class="chips">'+
+      (D.priority.watch_tickers||[]).map(function(t){return '<span class="chip">'+esc(t)+'</span>';}).join("")+
+      '</div></div></div>';
+  }
+  $("axes").innerHTML = html;
+
+  if(D.froth && D.froth.length){
+    $("frothbox").innerHTML = "<b>추격 금지.</b> " +
+      D.froth.map(function(f){return esc(f.ticker)+" "+(f.d>0?"+":"")+f.d+"%";}).join(" · ") +
+      " — 초고베타 froth. 갭 상단 추격은 제외하고, 확산되면 과열로 재분류.";
+  } else { $("frothbox").style.display="none"; }
+
+  /* ---------- ETF 표 ---------- */
+  $("etfasof").textContent = D.etf_asof ? "기준일 "+D.etf_asof+" — 오늘 라이브와 거의 일치." : "";
+  $("etfrows").innerHTML = spectrum.filter(function(r){return !r.underrated || r.m>10;})
+    .sort(function(a,b){return (b.rs===null?-1:b.rs)-(a.rs===null?-1:a.rs);}).map(function(r){
+    var note = esc(r.note);
+    if (r.underrated) {
+      var noteText = (r.rs===null ? "RS 미제공(신규) — 1M " : "RS 저평가 — 1M ") + (r.m>0?"+":"") + r.m.toFixed(1) + "%";
+      note = "<span style='color:"+UNDR+"'>"+noteText+"</span>";
+    }
+    var rsCell = r.rs===null
+      ? "<span class='rsbar'></span><span style='color:"+UNDR+"'>N/A</span>"
+      : "<span class='rsbar'><i style='width:"+(r.rs*0.52)+"px;"+(r.underrated?"background:"+UNDR:"")+"'></i></span>"+r.rs;
+    return "<tr><td class='tk'"+(r.underrated?" style='color:"+UNDR+"'":"")+">"+esc(r.ticker)+"</td>"+
+      "<td>"+rsCell+"</td>"+
+      "<td>"+pct(r.d)+"</td><td>"+pct(r.w)+"</td><td>"+pct(r.m)+"</td>"+
+      "<td class='note'>"+note+"</td></tr>";
+  }).join("");
+
+  /* ---------- 강 / 약 ---------- */
+  function li(items){
+    return items.map(function(x){
+      return "<li><b>"+esc(x.name)+"</b> — "+esc(x.desc.slice(0,110))+"</li>";
+    }).join("");
+  }
+  $("strongs").innerHTML = li((D.getting_strong||[]).concat(D.still_strong||[]).slice(0,5));
+  $("weaks").innerHTML   = li((D.getting_weak||[]).slice(0,5));
+
+  /* ---------- breadth ---------- */
+  var bd=D.breadth||[], bg=$("bars"), W=1000, pad=70, base=232;
+  if(bd.length){
+    var bw=(W-pad*2)/bd.length;
+    var os=bd.map(function(p){return p.o||p.overlap;});
+    var bs=bd.map(function(p){return p.breadth;});
+    var maxO=Math.max.apply(null,os)*1.15;
+    var minB=Math.min.apply(null,bs)-8, maxB=Math.max.apply(null,bs)+8;
+    var pts=[], barW=Math.min(92,bw*0.55);
+    bd.forEach(function(p,i){
+      var cx=pad+bw*i+bw/2, h=(p.overlap/maxO)*150, lastOne=(i===bd.length-1);
+      bg.appendChild(el("rect",{x:cx-barW/2,y:base-h,width:barW,height:h,
+        fill:lastOne?"#14171A":"#C3C6C0"}));
+      var ot=el("text",{x:cx,y:base-h+30,"text-anchor":"middle",
+        "font-family":'ui-monospace,Menlo,monospace',"font-size":22,"font-weight":700,
+        fill:lastOne?"#FAFAF8":"#5C615C"}); ot.textContent=p.overlap; bg.appendChild(ot);
+      var dt=el("text",{x:cx,y:base+30,"text-anchor":"middle",
+        "font-family":'ui-monospace,Menlo,monospace',"font-size":20,fill:"#6E736F"});
+      dt.textContent=p.date; bg.appendChild(dt);
+      pts.push([cx, 95-((p.breadth-minB)/(maxB-minB))*70, p.breadth]);
+    });
+    bg.appendChild(el("polyline",{points:pts.map(function(p){return p[0]+","+p[1];}).join(" "),
+      fill:"none",stroke:UP,"stroke-width":3}));
+    pts.forEach(function(p){
+      bg.appendChild(el("circle",{cx:p[0],cy:p[1],r:6,fill:UP}));
+      var t3=el("text",{x:p[0],y:p[1]-16,"text-anchor":"middle",
+        "font-family":'ui-monospace,Menlo,monospace',"font-size":21,"font-weight":700,fill:UP});
+      t3.textContent=p[2]; bg.appendChild(t3);
+    });
+    bg.appendChild(el("line",{x1:pad-20,x2:W-pad+20,y1:base,y2:base,stroke:"#14171A","stroke-width":2}));
+  }
+  if(D.highs && D.highs.composition && D.highs.composition.length){
+    $("highsnote").innerHTML = "52주 신고가 "+D.highs.total+"개 구성 — <b>"+
+      D.highs.composition.map(function(c){return esc(c.name)+" "+c.count;}).join(" · ")+
+      "</b>. 하단이 넓게 받치면 자금 이탈이 아니라 확산이다.";
+  }
+
+  /* ---------- 리더 ---------- */
+  $("leaders").innerHTML = (D.leaders||[]).map(function(r){
+    return "<tr><td class='tk'>"+esc(r.ticker)+"</td><td>"+r.overlap+"중복</td><td>"+pct(r.d)+
+      "</td><td>$"+r.cap.toFixed(1)+"B</td><td class='note'>"+esc(r.note)+"</td></tr>";
+  }).join("");
+
+  /* ---------- 액션 ---------- */
+  $("actions").innerHTML = (D.actions||[]).map(function(a){return "<li>"+esc(a)+"</li>";}).join("");
+
+  $("foot").textContent = "원문 리포트("+D.date+") 자동 요약." +
+    (D.etf_asof? " ETF 수치 기준일 "+D.etf_asof+".":"");
+})();
+</script>
+</body>
+</html>
