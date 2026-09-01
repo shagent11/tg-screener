@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       dry_run:
-        description: "발송 없이 HTML/PNG만 생성"
+        description: "GitHub Pages 배포 없이 HTML만 생성"
         type: boolean
         default: false
 
@@ -25,11 +25,7 @@ jobs:
 
       - name: install
         run: |
-          # 러너에 한글 폰트가 없으면 캡처가 전부 □ 로 깨진다
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq fonts-noto-cjk
           pip install -r requirements.txt
-          playwright install --with-deps chromium
 
       # getUpdates offset을 캐시에 보관해 같은 리포트를 두 번 처리하지 않는다
       - uses: actions/cache@v4
@@ -38,7 +34,7 @@ jobs:
           key: tg-offset-${{ github.run_id }}
           restore-keys: tg-offset-
 
-      - name: fetch + build + send
+      - name: fetch + build
         env:
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
@@ -48,8 +44,7 @@ jobs:
           set -o pipefail
           {
             python fetch_telegram.py > report.txt
-            python build.py report.txt --shot --strict \
-              ${{ inputs.dry_run && ' ' || '--send' }}
+            python build.py report.txt --strict
           } 2>&1 | tee build.log
 
       - name: 실패 알림 (텔레그램)
