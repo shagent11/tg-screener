@@ -1,0 +1,364 @@
+{
+  "date": "2026-09-04",
+  "headline": "성장 전면 확산 + 크립토·핀테크 froth 폭발(IBIT 1D +5.85%, MSTR·HOOD·CRCL·ROBN 급등)이 오늘 축. 방어·에너지·헬스 하단 위에 고베타가 올라탄 risk-on 가속",
+  "oneline": "성장 전면 확산 + 크립토·핀테크 froth 폭발(IBIT 1D +5.85%, MSTR·HOOD·CRCL·ROBN 급등)이 오늘 축. 방어·에너지·헬스 하단 위에 고베타가 올라탄 risk-on 가속 — 성장 리더는 타되 크립토 froth는 추격 자제, 온도는 다소 과열 초입",
+  "verdict": "선별적 공격 (성장 리더 질 양호 + 하단 신고가 건강, 단 크립토·초고베타 froth 배제)",
+  "priority_line": "우선순위: 소프트(SNOW·GTLB·ESTC·TEAM·CRM) + AI하드웨어(DELL·HPE) + 에너지(MPC·VLO·SLB) + 헬스(SRPT·MMED). MSTR·ROBN·ASST 초고베타 froth는 추격 금지.",
+  "regime": [
+    "추세추종 선별적 공격 국면. 소프트·AI하드웨어·크립토가 동반 점화하며 방어 일변도에서 공격으로 전환, 단 초고베타 froth는 옥석 가림 필요.",
+    "risk-on 가속·확산 성격. 성장이 에너지·헬스 위로 전면 재확산하는 건강한 확장이나, 크립토 쏠림이 froth 경계를 만든다."
+  ],
+  "heat_label": "다소 과열 (크립토·초고베타 froth 재점화 + breakout 만석, 단 하단 신고가 건강)",
+  "heat_reasons": [
+    "근거 1: 크립토·핀테크 초고베타 클러스터 동시 점화 — MSTR +17.6%·HOOD +16.6%·CRCL +16.5%·ROBN +32.7%·ASST 1M +125.9%, froth 성격 뚜렷.",
+    "근거 2: Breakout·Trend++ 각 100개 만석 + IBIT 1D +5.85%·ARKK 1D +4.5% — 추격 매수 열기 상승.",
+    "근거 3: 다만 Bull Snort 7개로 아직 극단 아님, 신고가 55개가 에너지·헬스·금융·유틸로 넓게 분포 — 하단 건강, 완전 과열은 아님.",
+    "근거 4: 성장환경 (7/71) 개선·소프트 리더 질 양호 — froth 소음과 실체 리더가 혼재, 그래서 '다소 과열'."
+  ],
+  "breadth": [
+    {
+      "date": "9/03",
+      "breadth": 214,
+      "overlap": 22
+    },
+    {
+      "date": "9/04",
+      "breadth": 209,
+      "overlap": 24
+    }
+  ],
+  "today": {
+    "date": "9/04",
+    "breadth": 209,
+    "overlap": 24
+  },
+  "highs": {
+    "total": 55,
+    "composition": []
+  },
+  "uwl": {
+    "hits": 7,
+    "total": 71
+  },
+  "etf": [
+    {
+      "ticker": "USO",
+      "rs": 92,
+      "note": "원유 1W 폭발 유지·1D 소강",
+      "d": 0.67,
+      "w": 10.88,
+      "m": 21.44
+    },
+    {
+      "ticker": "EWT",
+      "rs": 92,
+      "note": "대만 반도체 프록시 배경 강세",
+      "d": 0.64,
+      "w": 2.02,
+      "m": 9.75
+    },
+    {
+      "ticker": "CRAK",
+      "rs": 91,
+      "note": "정유 1W 견조, 에너지 코어",
+      "d": 0.74,
+      "w": 5.64,
+      "m": 16.13
+    },
+    {
+      "ticker": "XBI",
+      "rs": 91,
+      "note": "바이오 1D·1W 눌림·1M 배경 강",
+      "d": -0.6,
+      "w": -2.01,
+      "m": 10.49
+    },
+    {
+      "ticker": "XOP",
+      "rs": 89,
+      "note": "E&P 1W 강세·1D 숨고르기",
+      "d": -0.43,
+      "w": 4.39,
+      "m": 12.22
+    },
+    {
+      "ticker": "XLE",
+      "rs": 88,
+      "note": "통합 에너지 견조",
+      "d": -0.74,
+      "w": 3.84,
+      "m": 11.99
+    },
+    {
+      "ticker": "HACK",
+      "rs": 87,
+      "note": "사이버 1D 반등이나 1W·1M 정체",
+      "d": 1.97,
+      "w": -2.15,
+      "m": 1.35
+    },
+    {
+      "ticker": "SKYY",
+      "rs": 85,
+      "note": "클라우드 1D 반등·1M 배경 강",
+      "d": 2.89,
+      "w": 0.44,
+      "m": 11.15
+    },
+    {
+      "ticker": "GDX",
+      "rs": 84,
+      "note": "금광 1D 급반등이나 1W 눌림, 추세 미회복",
+      "d": 3.95,
+      "w": -0.64,
+      "m": 30.77
+    },
+    {
+      "ticker": "XLK",
+      "rs": 80,
+      "note": "대형테크 1D 반등",
+      "d": 1.29,
+      "w": -0.27,
+      "m": 1.89
+    },
+    {
+      "ticker": "XLV",
+      "rs": 78,
+      "note": "헬스 대형 견조·신고가 다수",
+      "d": 0.18,
+      "w": 0.76,
+      "m": 6.95
+    },
+    {
+      "ticker": "XLF",
+      "rs": 74,
+      "note": "금융 1D 반등, 신고가 회복",
+      "d": 1.56,
+      "w": 1.12,
+      "m": 2.34
+    },
+    {
+      "ticker": "ARKK",
+      "rs": 73,
+      "note": "혁신주 1D 급등, 위험선호 확산",
+      "d": 4.5,
+      "w": 0.74,
+      "m": 16.87
+    },
+    {
+      "ticker": "QQQ",
+      "rs": 72,
+      "note": "나스닥 1D 반등·성장 재확산",
+      "d": 1.19,
+      "w": 0.1,
+      "m": 1.34
+    },
+    {
+      "ticker": "IGV",
+      "rs": 66,
+      "note": "소프트 1D 급반등, 성장 확산 엔진",
+      "d": 3.41,
+      "w": 1.19,
+      "m": 8.93
+    },
+    {
+      "ticker": "IBIT",
+      "rs": 64,
+      "note": "₿ 크립토 폭발·RS 52",
+      "d": 5.85,
+      "w": 3.18,
+      "m": 28.25
+    },
+    {
+      "ticker": "FINX",
+      "rs": 53,
+      "note": "핀테크 1W 강세 지속, 크립토 연동",
+      "d": 1.73,
+      "w": 6.88,
+      "m": 11.14
+    }
+  ],
+  "etf_asof": "9/03",
+  "axes": [
+    {
+      "no": 1,
+      "name": "소프트·테크서비스",
+      "tag": "전면 확산",
+      "tickers": [
+        "SNOW",
+        "ESTC",
+        "TEAM",
+        "GTLB",
+        "CRM",
+        "RNG",
+        "IOT"
+      ],
+      "raw": "SNOW +16.55%(Bull Snort, RV 4.8x), ESTC +7.31%, TEAM +4.42%, GTLB·CRM·RNG·IOT"
+    },
+    {
+      "no": 2,
+      "name": "크립토·핀테크",
+      "tag": "froth 폭발",
+      "tickers": [
+        "MSTR",
+        "HOOD",
+        "CRCL",
+        "ROBN",
+        "ASST"
+      ],
+      "raw": "MSTR +17.56%, HOOD +16.57%(Bull Snort), CRCL +16.46%, ROBN +32.7%, ASST +10.28%(1M +125.9%) ₿"
+    },
+    {
+      "no": 3,
+      "name": "AI 하드웨어",
+      "tag": "신규 지속",
+      "tickers": [
+        "DELL",
+        "HPE"
+      ],
+      "raw": "DELL +4.91%(3중복, $335B), HPE +5.0%(Bull Snort)"
+    },
+    {
+      "no": 4,
+      "name": "에너지·헬스 코어",
+      "tag": "유지",
+      "tickers": [
+        "MPC",
+        "VLO",
+        "CVX",
+        "PSX",
+        "SRPT",
+        "MMED",
+        "PLSE",
+        "ATRC"
+      ],
+      "raw": "MPC·VLO·CVX·PSX 신고가100%대, SRPT·MMED·PLSE·ATRC"
+    }
+  ],
+  "priority": {
+    "ranked": [
+      {
+        "rank": 1,
+        "tickers": [
+          "SNOW",
+          "GTLB",
+          "ESTC",
+          "TEAM"
+        ],
+        "why": "소프트 전면 확산이 그룹 추세로 굳는지 = IGV 1D +3.41%·성장환경 (7/71) 유지·RV 급등 후속 관건, 오늘 최대 성장 축"
+      },
+      {
+        "rank": 2,
+        "tickers": [
+          "DELL",
+          "HPE"
+        ],
+        "why": "AI 하드웨어가 이틀째 리더십 유지하는지 = XLK 1D +1.29% 배경·Bull Snort 후속 여부"
+      },
+      {
+        "rank": 3,
+        "tickers": [
+          "MPC",
+          "VLO",
+          "SLB",
+          "SRPT",
+          "MMED"
+        ],
+        "why": "에너지·헬스 하단이 계속 받치는지, USO 1W +10.88%·XBI 1M +10.49% 유지"
+      }
+    ],
+    "watch": "크립토 froth(MSTR·HOOD·CRCL·ROBN·ASST)가 과열로 번지는지 vs 청산되는지 — IBIT 1D +5.85% 후속이면 froth 경계 상향.",
+    "watch_tickers": [
+      "MSTR",
+      "HOOD",
+      "CRCL",
+      "ROBN",
+      "ASST",
+      "IBIT"
+    ]
+  },
+  "leaders": [
+    {
+      "ticker": "DELL",
+      "overlap": 3,
+      "d": 4.91,
+      "cap": 335.0,
+      "m1": null,
+      "note": "AI 서버·하드웨어, HPE와 동반 Bull Snort. 이틀째 최다 등장, 대형 퀄리티 신규 축 최우선 체크."
+    }
+  ],
+  "froth": [],
+  "getting_strong": [
+    {
+      "name": "크립토·핀테크(froth 폭발)",
+      "desc": "IBIT RS64(52→64) 1D +5.85% 1M +28.25%, FINX RS53 1W +6.88% ₿ → MSTR·HOOD·CRCL·ROBN·ASST. 오늘 최대 신규, 위험선호 대장이나 초고베타 froth 경계."
+    },
+    {
+      "name": "소프트·클라우드(전면 확산)",
+      "desc": "IGV RS66 1D +3.41%, SKYY RS85 1D +2.89%, ARKK RS73 1D +4.5% → SNOW·ESTC·TEAM·GTLB, 어제 재점화가 오늘 전면 브레이크아웃으로 확대."
+    }
+  ],
+  "getting_weak": [
+    {
+      "name": "사이버(1W 눌림)",
+      "desc": "HACK RS87 1W -2.15% 1M +1.35%, CIBR RS85 1W -1.57% → CRWD 신고가권이나 그룹 1W 정체, 소프트 급등에서 소외."
+    },
+    {
+      "name": "금·은(배경만)",
+      "desc": "GLD RS56 1W -2.52%(1D +1.85% 반등), GDX RS84 1D +3.95%나 1W -0.64% → NEM·FCX 신고가만, 1D 반등뿐 추세는 눌림."
+    }
+  ],
+  "still_strong": [
+    {
+      "name": "에너지",
+      "desc": "USO RS92 1W +10.88% 1M +21.44%, CRAK RS91 1W +5.64% 1M +16.13%, XOP RS89 1W +4.39% → MPC·VLO·CVX·PSX·COP·SLB 신고가11"
+    },
+    {
+      "name": "헬스",
+      "desc": "XBI RS91 1M +10.49%, XLV RS78 1M +6.95% → SRPT·MMED·PLSE·ATRC·JNJ·BMY·AMGN 신고가11"
+    },
+    {
+      "name": "대형테크·반도체",
+      "desc": "XLK RS80 1D +1.29%, EWT RS92 1M +9.75% → CRM·DELL·NVDA·AAPL·MSFT"
+    }
+  ],
+  "underrated": [
+    {
+      "ticker": "IBIT",
+      "rs": 64,
+      "w": 3.2,
+      "m": 28.2
+    },
+    {
+      "ticker": "SLV",
+      "rs": 66,
+      "w": -1.8,
+      "m": 12.2
+    },
+    {
+      "ticker": "FINX",
+      "rs": 53,
+      "w": 6.9,
+      "m": 11.1
+    },
+    {
+      "ticker": "BKCH",
+      "rs": 53,
+      "w": 12.5,
+      "m": 2.7
+    }
+  ],
+  "actions": [
+    "SNOW·GTLB·ESTC·TEAM 소프트 전면 확산이 그룹 추세로 굳는지 최우선 확인 — IGV 1D +3.41%·성장환경 (7/71) 유지·RV 급등 후속이면 성장 리더십 본격 확정.",
+    "DELL·HPE AI 하드웨어가 이틀째 리더십 유지하는지 점검 — XLK 1D 반등·Bull Snort 후속이면 대형 성장 축 견고.",
+    "MPC·VLO·SLB / SRPT·MMED 에너지·헬스 하단이 계속 받치는지 감시 — USO 1W +10.88%·XBI 1M +10.49% 유지면 이중 구조 유효.",
+    "크립토 froth 경계 — IBIT 1D +5.85% 폭발이 지속 확산이면 다소 과열→과열 재분류, MSTR·ROBN·ASST 초고베타는 매수보다 청산 신호 감시.",
+    "오프닝 판단: 성장 확산 + 에너지·헬스 유지면 소프트·AI하드웨어 리더 선별 공격, 크립토 froth 과열·성장 되돌림 시 에너지·헬스·신고가 코어로 압축(초고베타 추격 자제)."
+  ],
+  "read": [
+    "오늘 핵심은 어제 소프트 재점화가 성장 전면 확산으로 폭발하고 여기에 크립토·핀테크 froth가 합류했다는 점이다. SNOW +16.6%·MSTR +17.6%·HOOD +16.6%·CRCL +16.5% 브레이크아웃이 동시에 터지고 Technology Services가 59개로 스크리너를 압도했다. IGV 1D +3.41%·SKYY +2.89%·ARKK +4.5% 성장 ETF가 1D 전면 반등하며 엔진이 완전히 재가동됐다.",
+    "오늘 최대 신규는 크립토다. IBIT가 1D +5.85%로 폭발하며 RS가 52→64로 뛰었고 MSTR·HOOD·CRCL·ROBN +32.7%·ASST 1M +125.9%가 초고베타로 불붙었다. 위험선호가 소프트를 넘어 크립토·핀테크로 번진 것 — 강력하지만 froth 성격이 뚜렷해 온도를 다소 과열로 올린다.",
+    "그 아래 판은 그대로다. 에너지 신고가 11개(MPC·VLO·CVX)·헬스 11개(JNJ·BMY·AMGN)가 하단을 받치고 원유 1W +10.88%, XBI 1M +10.49% 배경이 견고하다. breadth 209/24·신고가 55개로 하단은 여전히 건강 — froth 위험은 크립토 쏠림에 국한된다.",
+    "정리하면 성장 전면 확산 + 크립토 froth 폭발, 온도 다소 과열 초입. SNOW·GTLB·TEAM 소프트가 1순위, DELL·HPE AI하드웨어가 2순위, MPC·SRPT 에너지·헬스 하단이 3순위. MSTR·ROBN·ASST 초고베타 froth와 사이버 1W 눌림은 추격 자제"
+  ]
+}
