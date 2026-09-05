@@ -1,0 +1,392 @@
+{
+  "date": "2026-09-05",
+  "headline": "크립토 froth 냉각(IBIT 1D -2.42%·HOOD -2.09%, Bull Snort 4) + 반도체·메모리 브레이크아웃 신규 부상(SNDK·ALAB·SMTC) + 소프트 ETF 1W 냉각(IGV RS62 1W -4.77%) + 에너지·헬스 하단 유지가 오늘 축. 테크 내 소프트→반도체 회전, 온도 중립 회귀",
+  "oneline": "크립토 froth 냉각(IBIT 1D -2.42%·HOOD -2.09%, Bull Snort 4) + 반도체·메모리 브레이크아웃 신규 부상(SNDK·ALAB·SMTC) + 소프트 ETF 1W 냉각(IGV RS62 1W -4.77%) + 에너지·헬스 하단 유지가 오늘 축. 테크 내 소프트→반도체 회전, 온도 중립 회귀 — 반도체 리더 선별, 크립토 추격 자제",
+  "verdict": "선별적 (froth 냉각 + 소프트 1W 꺾임, 반도체·실물 코어만 견조)",
+  "priority_line": "우선순위: 반도체·메모리(SNDK·ALAB·SMTC·DELL·KXIAY) + 에너지(MPC·VLO·SLB) + 헬스(SRPT·MRNA·PLSE). 크립토(HOOD·MSTR·ASST)와 소프트 ETF 추격은 자제.",
+  "regime": [
+    "추세추종 선별 국면으로 반 발 후퇴. 어제 선별적 공격에서 froth가 식고 소프트 ETF가 1W 꺾이며 무차별 추격은 부적합, 반도체·에너지·헬스 코어만 선별.",
+    "risk-on 유지·회전 성격. 위험선호가 죽은 게 아니라 크립토·소프트에서 반도체 하드웨어로 옮겨탄 정상 순환."
+  ],
+  "heat_label": "중립 (froth 냉각 + 신고가 하단 건강 + 리더십 반도체로 회전)",
+  "heat_reasons": [
+    "근거 1: Bull Snort 7→4개로 froth 급감, 어제 대장 크립토(IBIT 1D -2.42%·HOOD -2.09%)가 소강 — 과열 신호 후퇴.",
+    "근거 2: 신고가 51개가 에너지11·헬스10·금융8·유틸6로 넓게 분포 — 하단 견고, 공포 신호 전무.",
+    "근거 3: 소프트 ETF 1W 냉각(IGV -4.77%·CIBR -6.14%)으로 리더십이 반도체로 좁게 이동 — 확산보다 회전, 그래서 중립.",
+    "근거 4: ASST 1M +119.8%·DLLL 소형 froth 잔존은 있으나 Bull Snort 밖 소음 수준 — 극단 아님."
+  ],
+  "breadth": [
+    {
+      "date": "9/04",
+      "breadth": 209,
+      "overlap": 24
+    },
+    {
+      "date": "9/05",
+      "breadth": 183,
+      "overlap": 18
+    }
+  ],
+  "today": {
+    "date": "9/05",
+    "breadth": 183,
+    "overlap": 18
+  },
+  "highs": {
+    "total": 51,
+    "composition": [
+      {
+        "name": "에너지",
+        "count": 11
+      },
+      {
+        "name": "헬스",
+        "count": 10
+      },
+      {
+        "name": "금융",
+        "count": 8
+      },
+      {
+        "name": "유틸",
+        "count": 6
+      }
+    ]
+  },
+  "uwl": {
+    "hits": 5,
+    "total": 71
+  },
+  "etf": [
+    {
+      "ticker": "CRAK",
+      "rs": 92,
+      "note": "정유 1W 재가속·오늘도 상승, 에너지 코어",
+      "d": 1.31,
+      "w": 6.64,
+      "m": 16.32
+    },
+    {
+      "ticker": "EWT",
+      "rs": 92,
+      "note": "대만 반도체 1D 강세, 오늘 반도체 회전 배경",
+      "d": 1.86,
+      "w": 2.4,
+      "m": 10.01
+    },
+    {
+      "ticker": "USO",
+      "rs": 91,
+      "note": "원유 1W 폭발 유지·1D 소강",
+      "d": -0.09,
+      "w": 10.79,
+      "m": 22.42
+    },
+    {
+      "ticker": "XBI",
+      "rs": 91,
+      "note": "바이오 1D·1W 눌림·1M 배경 강",
+      "d": -0.35,
+      "w": -1.75,
+      "m": 6.97
+    },
+    {
+      "ticker": "XOP",
+      "rs": 88,
+      "note": "E&P 1W 강세 유지",
+      "d": -0.84,
+      "w": 2.83,
+      "m": 10.68
+    },
+    {
+      "ticker": "HACK",
+      "rs": 87,
+      "note": "사이버 1D 반등이나 1W 정체",
+      "d": 1.97,
+      "w": -2.15,
+      "m": 1.35
+    },
+    {
+      "ticker": "XLE",
+      "rs": 86,
+      "note": "통합 에너지 견조",
+      "d": -0.87,
+      "w": 2.74,
+      "m": 9.0
+    },
+    {
+      "ticker": "GDX",
+      "rs": 86,
+      "note": "금광 1W 눌림·추세 미회복",
+      "d": -2.2,
+      "w": -4.78,
+      "m": 20.75
+    },
+    {
+      "ticker": "XLK",
+      "rs": 84,
+      "note": "대형테크 RS 80",
+      "d": 0.7,
+      "w": -0.42,
+      "m": -0.03
+    },
+    {
+      "ticker": "SKYY",
+      "rs": 84,
+      "note": "클라우드 1W 눌림",
+      "d": -1.44,
+      "w": -2.93,
+      "m": 3.74
+    },
+    {
+      "ticker": "CIBR",
+      "rs": 84,
+      "note": "사이버 1W 최대 낙폭",
+      "d": -0.77,
+      "w": -6.14,
+      "m": -5.02
+    },
+    {
+      "ticker": "XLV",
+      "rs": 76,
+      "note": "헬스 대형 1D 눌림·신고가 다수",
+      "d": -1.04,
+      "w": 0.01,
+      "m": 4.77
+    },
+    {
+      "ticker": "ARKK",
+      "rs": 75,
+      "note": "혁신주 1D 눌림·1M 배경 유지",
+      "d": -1.06,
+      "w": -0.57,
+      "m": 12.31
+    },
+    {
+      "ticker": "QQQ",
+      "rs": 73,
+      "note": "나스닥 정체·반도체만 견인",
+      "d": 0.18,
+      "w": -0.11,
+      "m": -0.1
+    },
+    {
+      "ticker": "XLF",
+      "rs": 72,
+      "note": "금융 완만·신고가만 유지",
+      "d": -0.79,
+      "w": 0.21,
+      "m": -0.14
+    },
+    {
+      "ticker": "IBIT",
+      "rs": 66,
+      "note": "₿ 크립토 1D 냉각·1M 배경만",
+      "d": -2.42,
+      "w": 0.8,
+      "m": 24.6
+    },
+    {
+      "ticker": "IGV",
+      "rs": 62,
+      "note": "소프트 ETF 1W 냉각·RS 하락, 개별만 버팀",
+      "d": -2.23,
+      "w": -4.77,
+      "m": 1.18
+    },
+    {
+      "ticker": "FINX",
+      "rs": 53,
+      "note": "핀테크 1W 강세 유지, 크립토 냉각 속 상대 견조",
+      "d": 1.73,
+      "w": 6.88,
+      "m": 11.14
+    }
+  ],
+  "etf_asof": "9/04",
+  "axes": [
+    {
+      "no": 1,
+      "name": "반도체·메모리",
+      "tag": "신규 폭발",
+      "tickers": [
+        "SNDK",
+        "ALAB",
+        "SMTC",
+        "KXIAY",
+        "CBRS"
+      ],
+      "raw": "SNDK +11.90%, ALAB +9.75%(Bull Snort, RV 2.4x), SMTC +9.22%, KXIAY +10.41%, CBRS +10.30%"
+    },
+    {
+      "no": 2,
+      "name": "소프트",
+      "tag": "개별만 유지",
+      "tickers": [
+        "GTLB",
+        "DOCU",
+        "IOT",
+        "HNGE"
+      ],
+      "raw": "GTLB +1.05%, DOCU +3.70%(Bull Snort), IOT +3.7%(Bull Snort), HNGE 3중복"
+    },
+    {
+      "no": 3,
+      "name": "에너지·헬스 코어",
+      "tag": "지속",
+      "tickers": [
+        "MPC",
+        "VLO",
+        "PSX",
+        "CVX",
+        "MRNA",
+        "SRPT",
+        "PLSE",
+        "ATRC",
+        "MRX"
+      ],
+      "raw": "MPC·VLO·PSX·CVX 신고가100%대, MRNA·SRPT·PLSE·ATRC·MRX"
+    },
+    {
+      "no": 4,
+      "name": "크립토·핀테크",
+      "tag": "냉각",
+      "tickers": [
+        "HOOD",
+        "ASST",
+        "IBIT"
+      ],
+      "raw": "HOOD -2.09%, ASST +1.19%(1M +119.8% 잔존), IBIT 1D -2.42% ₿"
+    }
+  ],
+  "priority": {
+    "ranked": [
+      {
+        "rank": 1,
+        "tickers": [
+          "SNDK",
+          "ALAB",
+          "SMTC",
+          "KXIAY"
+        ],
+        "why": "반도체·메모리 브레이크아웃이 그룹 추세로 굳는지 = EWT 1D +1.86%·XLK RS84 배경 유지·후속 거래량 관건, 오늘 최대 신규 축"
+      },
+      {
+        "rank": 2,
+        "tickers": [
+          "DELL"
+        ],
+        "why": "AI 하드웨어가 반도체 회전의 대형 축으로 사흘째 리더십 유지하는지 = XLK·EWT 배경 동반 여부"
+      },
+      {
+        "rank": 3,
+        "tickers": [
+          "MPC",
+          "VLO",
+          "SLB",
+          "MRNA",
+          "SRPT"
+        ],
+        "why": "에너지·헬스 하단이 계속 받치는지, USO 1W +10.79%·XBI 1M +6.97% 유지"
+      }
+    ],
+    "watch": "소프트 ETF 1W 냉각(IGV -4.77%)이 개별 소프트(GTLB·DOCU)로 번지는지, 크립토 froth(HOOD·MSTR)가 추가 청산인지 반등인지.",
+    "watch_tickers": [
+      "IGV",
+      "GTLB",
+      "DOCU",
+      "HOOD",
+      "MSTR"
+    ]
+  },
+  "leaders": [
+    {
+      "ticker": "DELL",
+      "overlap": 3,
+      "d": 1.5,
+      "cap": 339.79,
+      "m1": null,
+      "note": "AI 서버·하드웨어, 사흘째 최다 등장. 반도체 회전의 대형 축, EWT·XLK 배경. 최우선 체크."
+    },
+    {
+      "ticker": "HNGE",
+      "overlap": 3,
+      "d": 1.77,
+      "cap": 7.45,
+      "m1": null,
+      "note": "헬스케어 소프트, 오늘 신규 최다 등장. 관찰 대상."
+    }
+  ],
+  "froth": [],
+  "getting_strong": [
+    {
+      "name": "반도체·메모리(신규 폭발)",
+      "desc": "Electronic Technology 19개, Breakout에 SNDK +11.9%·ALAB +9.75%·SMTC +9.22%·KXIAY +10.4%·CBRS +10.3% → EWT 1D +1.86%·XLK RS 80→84 배경 위 개별 브레이크아웃. 오늘 최대 신규 온기, 메모리·AI 인프라 수요."
+    },
+    {
+      "name": "핀테크(배경만)",
+      "desc": "FINX RS53 1W +6.88% 1M +11.14% → HOOD 1D 눌림에도 1W 배경은 유지, 크립토 냉각 속 상대적 견조."
+    }
+  ],
+  "getting_weak": [
+    {
+      "name": "소프트·클라우드(1W 냉각)",
+      "desc": "IGV RS62 1W -4.77% 1D -2.23%, SKYY RS84 1W -2.93% → GTLB·DOCU·IOT 개별만 버팀, ETF 추세 꺾임으로 리더십 좁아짐."
+    },
+    {
+      "name": "사이버(1W 급락)",
+      "desc": "CIBR RS84 1W -6.14% 1M -5.02%, HACK 1W -2.15% → CRWD 신고가권만, 그룹 이탈 지속."
+    },
+    {
+      "name": "크립토(1D 냉각)",
+      "desc": "IBIT RS66 1D -2.42%, GDX RS86 1W -4.78% ₿ → HOOD·MSTR 소강, 금광도 1W 눌림."
+    }
+  ],
+  "still_strong": [
+    {
+      "name": "에너지",
+      "desc": "USO RS91 1W +10.79% 1M +22.42%, CRAK RS92 1W +6.64% 1M +16.32%, XOP RS88 1W +2.83% → MPC·VLO·PSX·CVX·COP·SLB 신고가11"
+    },
+    {
+      "name": "헬스",
+      "desc": "XBI RS91 1M +6.97%, XLV RS76 1M +4.77% → MRNA·SRPT·PLSE·ATRC·MRX·JNJ·AMGN 신고가10"
+    },
+    {
+      "name": "대만 반도체 프록시",
+      "desc": "EWT RS92 1D +1.86% 1W +2.4% 1M +10.01% → NVDA·DELL, 반도체 배경 최강"
+    }
+  ],
+  "underrated": [
+    {
+      "ticker": "IBIT",
+      "rs": 66,
+      "w": 0.8,
+      "m": 24.6
+    },
+    {
+      "ticker": "FINX",
+      "rs": 53,
+      "w": 6.9,
+      "m": 11.1
+    },
+    {
+      "ticker": "BKCH",
+      "rs": 66,
+      "w": 12.5,
+      "m": 2.7
+    }
+  ],
+  "actions": [
+    "SNDK·ALAB·SMTC·KXIAY 반도체·메모리 브레이크아웃이 그룹 추세로 굳는지 최우선 확인 — EWT 1D +1.86%·XLK RS84 배경 유지·후속 거래량이면 반도체 회전 본격 확정.",
+    "DELL이 반도체 회전의 대형 축으로 사흘째 리더십 유지하는지 점검 — XLK·EWT 배경 동반이면 대형 성장 축 견고.",
+    "MPC·VLO·SLB / MRNA·SRPT 에너지·헬스 하단이 계속 받치는지 감시 — USO 1W +10.79%·XBI 1M +6.97% 유지면 이중 구조 유효.",
+    "소프트 ETF 1W 냉각 경계 — IGV -4.77%·CIBR -6.14%가 GTLB·DOCU 개별로 번지면 리더십 추가 축소, 반등 시 소프트 재점화 재분류.",
+    "오프닝 판단: 반도체 브레이크아웃 + 에너지·헬스 유지면 반도체·메모리 리더 선별 매수, 크립토 froth 추가 청산·소프트 확산 실패 시 에너지·헬스·신고가 코어로 압축(초고베타 추격 자제)."
+  ],
+  "read": [
+    "오늘 핵심은 어제 폭발했던 크립토·초고베타 froth가 하루 만에 식고, 온기가 테크 안에서 소프트에서 반도체·메모리로 회전했다는 점이다. IBIT 1D -2.42%·HOOD -2.09%로 어제 대장 크립토가 소강했고 Bull Snort가 7→4개로 급감 — froth 경계가 다시 내려갔다.",
+    "그 자리를 반도체가 채웠다. Breakout에 SNDK +11.9%·ALAB +9.75%·SMTC +9.22%·KXIAY +10.4%·CBRS +10.3%가 쏟아지고 EWT 1D +1.86%·XLK RS 80→84로 배경이 강해졌다. 반대로 소프트 ETF IGV는 RS62·1W -4.77%로 꺾여 GTLB·DOCU·IOT 개별만 버틴다 — 성장 리더십이 소프트에서 반도체로 좁게 옮겨탄 것이다.",
+    "그 아래 판은 그대로다. 에너지 신고가 11개(MPC·VLO·PSX)와 원유 1W +10.79%·CRAK 1M +16.32%가 하단을 받치고 헬스 10개(JNJ·AMGN·MRNA)도 유지된다. breadth 183/18·신고가 51개로 하단은 건강 — froth 냉각으로 온도는 다소 과열에서 중립으로 회귀했다.",
+    "정리하면 froth 냉각 + 소프트→반도체 회전, 온도 중립. SNDK·ALAB·SMTC 반도체가 1순위, DELL AI하드웨어가 2순위, MPC·MRNA 에너지·헬스 하단이 3순위. 크립토 froth(HOOD·MSTR·ASST)와 소프트 ETF 추격은 자제"
+  ]
+}
