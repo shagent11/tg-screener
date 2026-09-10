@@ -1,0 +1,394 @@
+{
+  "date": "2026-09-10",
+  "headline": "froth 냉각(Bull Snort 15→8)에도 breadth 두터움. 메모리·한국반도체 폭발(DRAM RS94·EWY RS93·SKHY) + 소프트 재점화(NET·META·OKTA) + 정유 재가속(VLO·CVI·CLMT) 삼각 회전. 온도 중립, 메모리·소프트·정유 리더 선별 공격",
+  "oneline": "froth 냉각(Bull Snort 15→8)에도 breadth 두터움. 메모리·한국반도체 폭발(DRAM RS94·EWY RS93·SKHY) + 소프트 재점화(NET·META·OKTA) + 정유 재가속(VLO·CVI·CLMT) 삼각 회전. 온도 중립, 메모리·소프트·정유 리더 선별 공격",
+  "verdict": "선별적 공격 (broad 신고가 + 메모리·소프트·정유 실체 리더, 단 바이오 냉각·초고베타 소형 배제)",
+  "priority_line": "우선순위: 메모리·반도체(DRAM·SKHY·MXL·DELL) + 소프트(NET·META·OKTA·DOCN) + 정유(VLO·CVI·MPC·DINO). ASST 1M +117.9% 초고베타 소형은 추격 자제.",
+  "regime": [
+    "추세추종 선별적 공격 유지. froth는 식었지만 참여 폭이 넓고 신고가가 광범위해 코어 섹터엔 여전히 우호적.",
+    "risk-on 회전 성격. AI 인프라 froth가 잠잠해진 자리를 메모리·소프트·에너지가 나눠 채우는 정상 순환."
+  ],
+  "heat_label": "중립 (froth 냉각 + broad 신고가 + 리더십 회전)",
+  "heat_reasons": [
+    "근거 1: Bull Snort 15→8개로 급감, 초고베타 스파크 줄고 CHYM·META·FSLY 등 대형 실체 중심 — 과열 신호 후퇴.",
+    "근거 2: 52주 신고가 48개가 에너지·헬스·금융·유틸·소재로 넓게 분포 — 하단 견고, 공포 신호 전무.",
+    "근거 3: 중복 33→24개로 리더 집중 완화, Trend++/Breakout 폭은 유지 — 확산은 건강, froth는 정리.",
+    "근거 4: SIG +24.0%·ASST 1M +117.9% 초고베타 잔존은 유일 경계 — 그래서 다소 과열 아닌 중립."
+  ],
+  "breadth": [
+    {
+      "date": "9/09",
+      "breadth": 217,
+      "overlap": 33
+    },
+    {
+      "date": "9/10",
+      "breadth": 175,
+      "overlap": 24
+    }
+  ],
+  "today": {
+    "date": "9/10",
+    "breadth": 175,
+    "overlap": 24
+  },
+  "highs": {
+    "total": 48,
+    "composition": [
+      {
+        "name": "에너지",
+        "count": 11
+      },
+      {
+        "name": "헬스",
+        "count": 8
+      },
+      {
+        "name": "금융",
+        "count": 7
+      },
+      {
+        "name": "유틸",
+        "count": 6
+      }
+    ]
+  },
+  "uwl": null,
+  "etf": [
+    {
+      "ticker": "DRAM",
+      "rs": 94,
+      "note": "메모리 폭발·오늘 최강 RS",
+      "d": 0.79,
+      "w": 11.06,
+      "m": 24.61
+    },
+    {
+      "ticker": "EWY",
+      "rs": 93,
+      "note": "한국(메모리) 급등, DRAM과 동조",
+      "d": 0.46,
+      "w": 7.9,
+      "m": 17.04
+    },
+    {
+      "ticker": "USO",
+      "rs": 92,
+      "note": "원유 1D 재가속",
+      "d": 2.7,
+      "w": 7.57,
+      "m": 22.84
+    },
+    {
+      "ticker": "CRAK",
+      "rs": 92,
+      "note": "정유 강세 지속, 오늘 신고가 코어",
+      "d": 2.33,
+      "w": 6.76,
+      "m": 20.88
+    },
+    {
+      "ticker": "EWT",
+      "rs": 92,
+      "note": "대만 반도체 프록시 배경 강세",
+      "d": 0.2,
+      "w": 2.76,
+      "m": 9.01
+    },
+    {
+      "ticker": "SOXX",
+      "rs": 91,
+      "note": "반도체 1W 강세·1M 배경 약",
+      "d": 0.68,
+      "w": 6.79,
+      "m": -2.54
+    },
+    {
+      "ticker": "XOP",
+      "rs": 90,
+      "note": "E&P 1M 배경 강",
+      "d": 0.57,
+      "w": 1.94,
+      "m": 14.98
+    },
+    {
+      "ticker": "XLE",
+      "rs": 90,
+      "note": "통합 에너지 1D 반등",
+      "d": 0.83,
+      "w": 1.62,
+      "m": 12.24
+    },
+    {
+      "ticker": "XBI",
+      "rs": 90,
+      "note": "바이오 1W 냉각·개별만",
+      "d": -1.57,
+      "w": -3.08,
+      "m": 2.18
+    },
+    {
+      "ticker": "GDX",
+      "rs": 87,
+      "note": "금광 재가속, 배경 최강(3M +34.44%)",
+      "d": 1.08,
+      "w": 2.59,
+      "m": 11.89
+    },
+    {
+      "ticker": "XLK",
+      "rs": 84,
+      "note": "대형테크 1W 반등, 소프트 견인",
+      "d": null,
+      "w": 2.4,
+      "m": -0.11
+    },
+    {
+      "ticker": "ARKK",
+      "rs": 73,
+      "note": "혁신주 1W 반등",
+      "d": -1.77,
+      "w": 1.89,
+      "m": 6.38
+    },
+    {
+      "ticker": "SLV",
+      "rs": 73,
+      "note": "은 1W 반등, 귀금속 동조",
+      "d": 2.27,
+      "w": 3.39,
+      "m": 5.05
+    },
+    {
+      "ticker": "QQQ",
+      "rs": 73,
+      "note": "나스닥 완만·반도체·소프트 견인",
+      "d": -0.29,
+      "w": 1.3,
+      "m": 2.43
+    },
+    {
+      "ticker": "XLF",
+      "rs": 71,
+      "note": "금융 정체·신고가만 유지",
+      "d": -0.42,
+      "w": -0.83,
+      "m": -0.56
+    },
+    {
+      "ticker": "IBIT",
+      "rs": 59,
+      "note": "₿ 크립토 RS 55",
+      "d": -0.23,
+      "w": 1.8,
+      "m": 20.55
+    },
+    {
+      "ticker": "FINX",
+      "rs": 45,
+      "note": "핀테크 1W 강세, RS 대비 저평가",
+      "d": 1.73,
+      "w": 6.88,
+      "m": 11.14
+    }
+  ],
+  "etf_asof": "9/09",
+  "axes": [
+    {
+      "no": 1,
+      "name": "메모리·한국 반도체",
+      "tag": "신규 폭발",
+      "tickers": [
+        "SKHL",
+        "SKHY",
+        "MXL",
+        "COHU",
+        "DRAM"
+      ],
+      "raw": "SKHL +14.27%, SKHY +7.05%, MXL +7.53%, COHU +6.60%(1W +29.3%) (DRAM RS94 배경)"
+    },
+    {
+      "no": 2,
+      "name": "소프트 재점화",
+      "tag": "",
+      "tickers": [
+        "NET",
+        "META",
+        "FSLY",
+        "DOCN",
+        "OKTA",
+        "CHYM"
+      ],
+      "raw": "NET +10.51%(Breakout 대장), META +6.55%(Bull Snort), FSLY +5.7%, DOCN +4.7%, OKTA +3.07%, CHYM +6.93%"
+    },
+    {
+      "no": 3,
+      "name": "정유·에너지",
+      "tag": "재가속",
+      "tickers": [
+        "VLO",
+        "CVI",
+        "CLMT",
+        "MPC",
+        "DINO",
+        "PSX",
+        "SEI"
+      ],
+      "raw": "VLO 3중복 +1.59%, CVI +3.49%(1M +49.8%), CLMT +3.30%, MPC·DINO·PSX 신고가100%, SEI +5.8%"
+    },
+    {
+      "no": 4,
+      "name": "신고가 코어",
+      "tag": "유지",
+      "tickers": [
+        "CVX",
+        "MPC",
+        "PSX",
+        "JNJ",
+        "GILD",
+        "BMY",
+        "BAC",
+        "JPM",
+        "C"
+      ],
+      "raw": "CVX·MPC·PSX / JNJ·GILD·BMY / BAC·JPM·C 신고가 다수"
+    }
+  ],
+  "priority": {
+    "ranked": [
+      {
+        "rank": 1,
+        "tickers": [
+          "SKHL",
+          "SKHY",
+          "MXL",
+          "COHU"
+        ],
+        "why": "메모리·한국 반도체 폭발이 그룹 추세로 굳는지 = DRAM RS94·EWY RS93 배경 유지·후속 거래량 관건, 오늘 최대 신규 축"
+      },
+      {
+        "rank": 2,
+        "tickers": [
+          "NET",
+          "META",
+          "OKTA",
+          "DOCN"
+        ],
+        "why": "소프트 재점화가 이어지는지 = XLK 1W +2.40%·ARKK 1W +1.89% 배경·NET 브레이크아웃 후속 여부"
+      },
+      {
+        "rank": 3,
+        "tickers": [
+          "VLO",
+          "CVI",
+          "CLMT",
+          "MPC"
+        ],
+        "why": "정유 재가속이 원유 위에서 유지되는지 = USO 1D +2.7%·CRAK 1W +6.76% 후속"
+      }
+    ],
+    "watch": "GDX·SLV 귀금속 재가속 지속 여부, XBI 1W -3.08% 냉각 vs ROIV 개별, SIG·ASST 초고베타 froth 청산 여부.",
+    "watch_tickers": [
+      "GDX",
+      "SLV",
+      "XBI",
+      "ROIV",
+      "SIG",
+      "ASST"
+    ]
+  },
+  "leaders": [
+    {
+      "ticker": "VLO",
+      "overlap": 3,
+      "d": 1.59,
+      "cap": 111.99,
+      "m1": null,
+      "note": "정유 대장, 오늘 최다 등장. CRAK 1D +2.33%·USO 1D +2.7% 원유 재가속 직결, 에너지 코어 최우선 체크."
+    },
+    {
+      "ticker": "OKTA",
+      "overlap": 2,
+      "d": 3.07,
+      "cap": 30.2,
+      "m1": null,
+      "note": "사이버 소프트, UWL 복귀·소프트 재점화 신호."
+    },
+    {
+      "ticker": "CHYM",
+      "overlap": 2,
+      "d": 6.93,
+      "cap": 13.08,
+      "m1": null,
+      "note": "핀테크·소프트(Chime), FINX 1W +6.88% 배경, Bull Snort 등장."
+    }
+  ],
+  "froth": [],
+  "getting_strong": [
+    {
+      "name": "메모리·한국 반도체(신규 폭발)",
+      "desc": "DRAM RS94 1D +0.79% 1W +11.06% 1M +24.61%, EWY RS93 1W +7.90% → SKHL·SKHY·MXL·COHU, 오늘 최강 RS·최대 신규 온기, AI 메모리 수요."
+    },
+    {
+      "name": "소프트·클라우드(재점화)",
+      "desc": "XLK 1W +2.40%, ARKK 1W +1.89% 배경 위 NET +10.51%·META +6.55%·OKTA·FSLY·DOCN → 어제까지 소외됐던 소프트가 Breakout 대장으로 복귀."
+    }
+  ],
+  "getting_weak": [
+    {
+      "name": "바이오 대형(1W 냉각)",
+      "desc": "XBI RS90 1D -1.57% 1W -3.08% 1M +2.18% → 어제 튀던 ROIV·TNGX 개별만 남고 그룹 이탈, 헬스 신고가는 JNJ·GILD 대형 value로 이동."
+    },
+    {
+      "name": "금융(1W 눌림)",
+      "desc": "XLF RS71 1D -0.42% 1W -0.83% → BAC·JPM·C 신고가는 유지되나 ETF 정체, 중심축 아님."
+    }
+  ],
+  "still_strong": [
+    {
+      "name": "에너지",
+      "desc": "USO RS92 1D +2.70% 1W +7.57% 1M +22.84%, CRAK RS92 1D +2.33% 1M +20.88%, XOP RS90 1M +14.98%, XLE RS90 → VLO·CVI·CLMT·MPC·DINO·CVX·PSX·SLB 신고가11"
+    },
+    {
+      "name": "반도체·대만/한국",
+      "desc": "EWT RS92 1M +9.01%, SOXX RS91 1W +6.79%, XLK RS84 1W +2.40% → MXL·ASX·DELL·NVDA·CRM"
+    },
+    {
+      "name": "정밀 귀금속(배경)",
+      "desc": "GDX RS87 1M +11.89%, SLV RS73 1W +3.39% → NEM·FCX·CF 신고가"
+    }
+  ],
+  "underrated": [
+    {
+      "ticker": "IBIT",
+      "rs": 59,
+      "w": 1.8,
+      "m": 20.5
+    },
+    {
+      "ticker": "FINX",
+      "rs": 45,
+      "w": 6.9,
+      "m": 11.1
+    },
+    {
+      "ticker": "BKCH",
+      "rs": 58,
+      "w": 12.5,
+      "m": 2.7
+    }
+  ],
+  "actions": [
+    "SKHL·SKHY·MXL·COHU 메모리·한국 반도체 폭발이 그룹 추세로 굳는지 최우선 확인 — DRAM RS94·EWY RS93 배경 유지·후속 거래량이면 메모리 리더십 본격 확정.",
+    "NET·META·OKTA·DOCN 소프트 재점화가 이어지는지 점검 — XLK 1W +2.40%·ARKK 반등 동반이면 성장 리더십 재확산.",
+    "VLO·CVI·CLMT·MPC 정유 재가속이 유지되는지 감시 — USO 1D +2.7%·CRAK 1W +6.76% 후속이면 에너지 코어 상수.",
+    "froth·냉각 경계 — Bull Snort 8개 유지·초고베타 소형(SIG·ASST) 확산 없으면 중립 유지, 바이오(XBI -3.08%)·금융(XLF -0.83%) 추가 냉각이면 코어 압축.",
+    "오프닝 판단: 메모리·소프트·정유 확산이면 세 축 리더 선별 공격, froth 재점화나 코어 되돌림 시 에너지·신고가 value로 압축(초고베타 추격 자제)."
+  ],
+  "read": [
+    "오늘 핵심은 어제 15개까지 치솟았던 froth가 8개로 다시 식으면서, 리더십이 AI 컴퓨트·광학에서 메모리·소프트·정유로 옮겨탔다는 점이다. DRAM RS94 1M +24.61%·EWY RS93 1W +7.90% 메모리·한국이 폭발하며 SKHY·SKHL·MXL·COHU가 신규로 붙었다 — AI 메모리 수요가 오늘의 최강 신호다.",
+    "동시에 소프트가 재점화했다. NET +10.51% Breakout, META +6.55%, OKTA·FSLY·DOCN이 살아나며 Technology Services가 29개로 다시 1위. XLK 1W +2.40%·ARKK 1W +1.89% 성장 ETF 반등이 이를 받친다. 어제까지 IGV 냉각으로 소외됐던 소프트가 돌아온 것이다.",
+    "하단은 그대로다. USO 1D +2.7%·CRAK 1W +6.76% 원유 재가속이 VLO·CVI·CLMT 정유 신고가로 이어지고, 52주 신고가 48개가 에너지·헬스·금융·유틸로 넓게 깔렸다. 반대로 바이오 대형은 XBI 1W -3.08%로 냉각 — 헬스는 JNJ·GILD 대형 value로 좁아졌다.",
+    "정리하면 froth 냉각 + 메모리·소프트·정유 삼각 회전, 온도 중립. SKHY·MXL 메모리가 1순위, NET·META·OKTA 소프트가 2순위, VLO·CVI 정유가 3순위. 바이오 대형·금융 ETF·초고베타 소형(SIG·ASST) 추격은 자제"
+  ]
+}
