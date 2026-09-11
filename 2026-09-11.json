@@ -1,0 +1,400 @@
+{
+  "date": "2026-09-11",
+  "headline": "froth 3일 연속 냉각(Bull Snort 4, 실질 스파크 QRVO뿐) + 에너지 단독 폭발(USO 1D +5.61%, CVI·CLMT·VLO) + 애플 생태계 신규(AAPL·SWKS·QRVO) + 메모리·한국 1D 되돌림 + 헬스·금융 대형 신고가 확산. 리더십 좁아지는 방어적 회전, 에너지·애플 선별만",
+  "oneline": "froth 3일 연속 냉각(Bull Snort 4, 실질 스파크 QRVO뿐) + 에너지 단독 폭발(USO 1D +5.61%, CVI·CLMT·VLO) + 애플 생태계 신규(AAPL·SWKS·QRVO) + 메모리·한국 1D 되돌림 + 헬스·금융 대형 신고가 확산. 리더십 좁아지는 방어적 회전, 에너지·애플 선별만",
+  "verdict": "선별적 (에너지 단독 강세 + 애플 신규 + 성장 ETF 1D 냉각, 초고베타·소프트 ETF 추격은 배제)",
+  "priority_line": "우선순위: 에너지(CVI·CLMT·VLO·MPC·DK) + 애플 생태계(AAPL·SWKS·QRVO) + 신고가 value(JNJ·ABBV·JPM). 메모리(DRAM·SKHY)는 1D 되돌림 소화 확인 후, ASST·HOOD 핀테크 froth는 자제.",
+  "regime": [
+    "추세추종 선별·방어 쪽으로 반 발 후퇴. froth·breadth·성장 모멘텀이 동시에 줄고 ETF 대부분 1D 마이너스라 무차별 공격은 부적합, 에너지·애플·신고가 value 코어만.",
+    "risk-on이 죽진 않았으나 회전이 방어적. 크립토·AI컴퓨트 froth가 빠진 자리를 에너지와 대형 신고가가 채우는 late-stage 순환."
+  ],
+  "heat_label": "중립 (froth 3일 냉각 + broad 신고가 유지, 단 성장 모멘텀 둔화로 방어 쪽 기울기)",
+  "heat_reasons": [
+    "근거 1: Bull Snort 8→4개, 그중 3개가 레버리지/원유 ETF — 실질 froth 거의 소진, 과열 신호 완전 후퇴.",
+    "근거 2: 52주 신고가 41개가 에너지11·금융7·헬스7·테크4로 넓게 분포 — 하단 견고, 공포 신호 전무.",
+    "근거 3: 다만 ETF 대부분 1D 마이너스·QQQ/SPY 1M -2%대·성장 리더 1D 되돌림 — 리더십이 에너지+방어로 좁아지며 성장 모멘텀 둔화.",
+    "근거 4: breadth 217→175→126, 중복 33→24→16, 신고가 48→41로 3일째 축소 — froth 정리는 건강하나 폭 자체도 줄어 방어적."
+  ],
+  "breadth": [
+    {
+      "date": "9/10",
+      "breadth": 175,
+      "overlap": 24
+    },
+    {
+      "date": "9/11",
+      "breadth": 126,
+      "overlap": 16
+    }
+  ],
+  "today": {
+    "date": "9/11",
+    "breadth": 126,
+    "overlap": 16
+  },
+  "highs": {
+    "total": 41,
+    "composition": [
+      {
+        "name": "에너지",
+        "count": 11
+      },
+      {
+        "name": "금융",
+        "count": 7
+      },
+      {
+        "name": "헬스",
+        "count": 7
+      },
+      {
+        "name": "테크",
+        "count": 4
+      }
+    ]
+  },
+  "uwl": null,
+  "etf": [
+    {
+      "ticker": "USO",
+      "rs": 93,
+      "note": "원유 단독 폭발·오늘 유일 공격 축",
+      "d": 5.61,
+      "w": 11.44,
+      "m": 26.96
+    },
+    {
+      "ticker": "DRAM",
+      "rs": 93,
+      "note": "메모리 1D 급되돌림·1W는 유지",
+      "d": -4.9,
+      "w": 5.25,
+      "m": 14.85
+    },
+    {
+      "ticker": "CRAK",
+      "rs": 92,
+      "note": "정유 1D 소화·1W 강세 유지",
+      "d": -1.04,
+      "w": 4.74,
+      "m": 16.19
+    },
+    {
+      "ticker": "EWY",
+      "rs": 92,
+      "note": "한국(메모리) 1D 되돌림·1W 배경",
+      "d": -4.19,
+      "w": 2.52,
+      "m": 9.36
+    },
+    {
+      "ticker": "SOXX",
+      "rs": 91,
+      "note": "반도체 1D 눌림·1W 강세 유지",
+      "d": -2.74,
+      "w": 4.19,
+      "m": -3.81
+    },
+    {
+      "ticker": "EWT",
+      "rs": 91,
+      "note": "대만 반도체 1D 되돌림",
+      "d": -2.54,
+      "w": 0.1,
+      "m": 4.71
+    },
+    {
+      "ticker": "XOP",
+      "rs": 90,
+      "note": "E&P 1D 플러스·1M 배경 강",
+      "d": 0.24,
+      "w": 1.16,
+      "m": 20.48
+    },
+    {
+      "ticker": "XBI",
+      "rs": 90,
+      "note": "바이오 1W 급락·개별만",
+      "d": -1.61,
+      "w": -5.08,
+      "m": -1.06
+    },
+    {
+      "ticker": "XLE",
+      "rs": 89,
+      "note": "통합 에너지 1D 소화·신고가 코어",
+      "d": -0.58,
+      "w": -0.29,
+      "m": 8.23
+    },
+    {
+      "ticker": "GDX",
+      "rs": 86,
+      "note": "금광 1D·1W 되돌림",
+      "d": -3.46,
+      "w": -4.62,
+      "m": 6.7
+    },
+    {
+      "ticker": "CIBR",
+      "rs": 86,
+      "note": "사이버 1M 최대 낙폭",
+      "d": -0.34,
+      "w": -0.21,
+      "m": -6.14
+    },
+    {
+      "ticker": "XLK",
+      "rs": 83,
+      "note": "대형테크 1D 눌림·1W 소폭 플러스",
+      "d": -1.41,
+      "w": 0.93,
+      "m": -1.32
+    },
+    {
+      "ticker": "SKYY",
+      "rs": 83,
+      "note": "클라우드 1W 냉각 지속",
+      "d": -0.97,
+      "w": -2.87,
+      "m": -2.59
+    },
+    {
+      "ticker": "XLV",
+      "rs": 73,
+      "note": "헬스 대형 1W 냉각, 신고가 value만",
+      "d": -0.55,
+      "w": -4.83,
+      "m": -1.56
+    },
+    {
+      "ticker": "QQQ",
+      "rs": 73,
+      "note": "나스닥 1M 마이너스·성장 모멘텀 둔화",
+      "d": -1.06,
+      "w": -0.3,
+      "m": -2.02
+    },
+    {
+      "ticker": "ARKK",
+      "rs": 72,
+      "note": "혁신주 1D·1W 눌림·1M 배경만",
+      "d": -1.77,
+      "w": -1.58,
+      "m": 2.99
+    },
+    {
+      "ticker": "XLF",
+      "rs": 71,
+      "note": "금융 ETF 정체·신고가만 유지",
+      "d": -0.33,
+      "w": -1.95,
+      "m": -1.57
+    },
+    {
+      "ticker": "IGV",
+      "rs": 60,
+      "note": "소프트 ETF 4일째 냉각",
+      "d": -0.62,
+      "w": -3.81,
+      "m": -3.07
+    },
+    {
+      "ticker": "IBIT",
+      "rs": 55,
+      "note": "₿ 크립토 RS 냉각·1M 배경만",
+      "d": -1.38,
+      "w": -1.69,
+      "m": 20.26
+    }
+  ],
+  "etf_asof": "9/10",
+  "axes": [
+    {
+      "no": 1,
+      "name": "에너지·정유",
+      "tag": "단독 폭발",
+      "tickers": [
+        "CVI",
+        "CLMT",
+        "VLO",
+        "COP",
+        "PSX",
+        "BNO",
+        "USO",
+        "TNK"
+      ],
+      "raw": "CVI +1.82%(1M +48.3%), CLMT 2중복 +1.35%, VLO·COP·PSX 신고가100%, BNO +6.42%·USO Bull Snort +5.6%, TNK +2.01%(1M +28.9%)"
+    },
+    {
+      "no": 2,
+      "name": "애플 생태계",
+      "tag": "신규",
+      "tickers": [
+        "AAPL",
+        "AAPU",
+        "SWKS",
+        "QRVO"
+      ],
+      "raw": "AAPL +3.56% 신고가·AAPU Bull Snort +7.0%, SWKS +9.79%·QRVO +6.77%(Bull Snort) RF반도체"
+    },
+    {
+      "no": 3,
+      "name": "소프트",
+      "tag": "개별만 잔존",
+      "tickers": [
+        "DOCU",
+        "GTLB",
+        "TEAM",
+        "DOCN"
+      ],
+      "raw": "DOCU 2중복 +2.09%, GTLB 2중복 +2.09%, TEAM 2중복 +1.03%, DOCN +24.1%(Weekly)"
+    },
+    {
+      "no": 4,
+      "name": "헬스·금융 신고가",
+      "tag": "방어 확산",
+      "tickers": [
+        "ELV",
+        "TVTX",
+        "ABBV",
+        "JNJ",
+        "GILD",
+        "BAC",
+        "JPM",
+        "C"
+      ],
+      "raw": "ELV +4.95%·TVTX 2중복·ABBV·JNJ·GILD / BAC·JPM·C 신고가 다수"
+    },
+    {
+      "no": 5,
+      "name": "메모리·반도체",
+      "tag": "1D 되돌림",
+      "tickers": [
+        "COHU",
+        "IOND"
+      ],
+      "raw": "COHU -3.44%(1W +20.8%), IOND +4.75%(1M +37.4%)"
+    }
+  ],
+  "priority": {
+    "ranked": [
+      {
+        "rank": 1,
+        "tickers": [
+          "CVI",
+          "CLMT",
+          "VLO",
+          "FRO",
+          "TNK"
+        ],
+        "why": "에너지 단독 강세가 이어지는지 = USO 1D +5.61%·1W +11.44% 후속·정유 마진 유지 관건, 오늘 유일 공격 축"
+      },
+      {
+        "rank": 2,
+        "tickers": [
+          "AAPL",
+          "SWKS",
+          "QRVO"
+        ],
+        "why": "애플 생태계가 새 축으로 굳는지 = AAPL 신고가 유지·SOXX 1W +4.19% 배경 동반·RF반도체 후속 여부"
+      },
+      {
+        "rank": 3,
+        "tickers": [
+          "COHU",
+          "SKHY",
+          "IOND"
+        ],
+        "why": "메모리·한국 1D 되돌림이 눌림인지 이탈인지 = DRAM 1W +5.25%·EWY 1W +2.52% 배경 방어 여부"
+      }
+    ],
+    "watch": "헬스·금융 대형 신고가(ELV·ABBV·JPM) 방어 확산 지속 여부, 소프트(DOCU·GTLB) IGV 냉각 속 반등 여부, XBI 1W -5.08% 추가 이탈 여부.",
+    "watch_tickers": [
+      "ELV",
+      "ABBV",
+      "JPM",
+      "DOCU",
+      "GTLB",
+      "IGV",
+      "XBI"
+    ]
+  },
+  "leaders": [
+    {
+      "ticker": "FRO",
+      "overlap": 2,
+      "d": 2.52,
+      "cap": 10.77,
+      "m1": null,
+      "note": "유조선/에너지 운송, 오늘 최다 등장. USO 1D +5.61% 원유 폭발과 직결, 에너지 축 최우선."
+    }
+  ],
+  "froth": [],
+  "getting_strong": [
+    {
+      "name": "애플 생태계·RF반도체(신규)",
+      "desc": "AAPL +3.56% 신고가·AAPU +7.0% Bull Snort, SWKS +9.79%·QRVO +6.77% Breakout/Bull Snort → 애플 강세가 RF/무선 반도체 공급망으로 직결, 오늘 최대 신규 온기."
+    },
+    {
+      "name": "헬스 대형 value(신고가 확산)",
+      "desc": "ELV +4.95% Breakout, ABBV·JNJ·TMO·GILD·BMY·MRK·CI 신고가7 → 대형 ETF(XLV 1W -4.83%)는 냉각이나 대형 value로 방어 유입, TVTX·ROIV 개별도 잔존."
+    }
+  ],
+  "getting_weak": [
+    {
+      "name": "바이오·헬스 ETF(1W 급락)",
+      "desc": "XBI RS90 1W -5.08% 1D -1.61%, XLV RS73 1W -4.83% → 대형 신고가 value로 이동, 바이오 순수 플레이는 이탈."
+    },
+    {
+      "name": "소프트·클라우드(1W 냉각 지속)",
+      "desc": "IGV RS60 1W -3.81%, SKYY RS83 1W -2.87%, CIBR 1M -6.14% → DOCU·GTLB·TEAM 개별만 버팀, ETF 추세는 계속 하락."
+    },
+    {
+      "name": "귀금속(1W 눌림)",
+      "desc": "GDX RS86 1W -4.62% 1D -3.46% → NEM·CF 신고가만, 어제 재가속이 하루 만에 되돌림."
+    }
+  ],
+  "still_strong": [
+    {
+      "name": "에너지",
+      "desc": "USO RS93 1D +5.61% 1W +11.44% 1M +26.96%, CRAK RS92 1W +4.74% 1M +16.19%, XOP RS90 1M +20.48%, XLE RS89 → CVI·CLMT·VLO·MPC·COP·PSX·XOM·EOG 신고가11"
+    },
+    {
+      "name": "반도체(1W 배경만)",
+      "desc": "SOXX RS91 1W +4.19%, EWT RS91, EWY RS92 1W +2.52% → COHU·IOND·SWKS·QRVO, 1D는 되돌림"
+    },
+    {
+      "name": "금융 대형(신고가 확산)",
+      "desc": "XLF RS71이나 BAC·JPM·C·USB·PNC·WFC·MS 신고가7"
+    }
+  ],
+  "underrated": [
+    {
+      "ticker": "IBIT",
+      "rs": 55,
+      "w": -1.7,
+      "m": 20.3
+    },
+    {
+      "ticker": "BKCH",
+      "rs": 47,
+      "w": 11.7,
+      "m": 11.9
+    }
+  ],
+  "actions": [
+    "CVI·CLMT·VLO·FRO·TNK 에너지 단독 강세가 이어지는지 최우선 확인 — USO 1D +5.61%·1W +11.44% 후속·정유 마진 유지면 에너지가 명확한 리더로 확정.",
+    "AAPL·SWKS·QRVO 애플 생태계가 새 축으로 굳는지 점검 — AAPL 신고가·SOXX 1W +4.19% 배경 동반이면 RF반도체 신규 리더십 성립.",
+    "COHU·SKHY·IOND 메모리·한국 1D 되돌림이 눌림에서 그치는지 감시 — DRAM 1W +5.25%·EWY 1W +2.52% 배경 방어면 눌림 매수 후보, 1W까지 깨지면 이탈로 재분류.",
+    "방어 기울기 경계 — breadth·신고가 3일째 축소·QQQ 1M -2%대·성장 UWL 3/71로 성장 모멘텀 둔화. 헬스·금융 대형 신고가만 확산되면 방어 압축, 성장 리더 반등 실패 시 리스크 축소.",
+    "오프닝 판단: 에너지 강세 + 애플 브레이크아웃 유지면 두 축 선별 공격, 성장 리더 추가 되돌림·에너지 되돌림 시 신고가 value(에너지·금융·헬스) 코어로 압축(초고베타·소프트 ETF 추격 자제)."
+  ],
+  "read": [
+    "오늘 핵심은 froth가 3일 연속 식으며(Bull Snort 15→8→4) 리더십이 에너지+방어 value로 좁아졌다는 점이다. Bull Snort 4개 중 3개가 AAPU·BNO·USO 레버리지/원유 ETF라 실질 개별 스파크는 QRVO 하나뿐 — 추격 열기는 거의 소진됐다.",
+    "그 자리를 에너지가 단독으로 채웠다. USO 1D +5.61%·1W +11.44%·1M +26.96%로 원유가 폭발하며 ETF 전 종목이 1D 마이너스인데 USO·XOP만 홀로 초록이다. CVI·CLMT·VLO·FRO·TNK가 오늘 유일한 공격 축 — 에너지가 명백한 1순위다.",
+    "새 변수는 애플 생태계다. AAPL +3.56% 신고가에 RF반도체 SWKS +9.79%·QRVO +6.77%가 공급망 수혜로 브레이크아웃했다. 반면 어제 대장이던 메모리·한국은 DRAM 1D -4.90%·EWY 1D -4.19%로 되돌림에 들어갔고(1W는 유지), 소프트는 DOCU·GTLB·TEAM 개별만 남았다. 성장 하드웨어 리더가 숨 고르기에 들어간 것이다.",
+    "유의점은 방어 쪽 기울기다. breadth 217→175→126, 신고가 48→41로 3일째 축소되고 QQQ/SPY 1M -2%대로 성장 모멘텀이 둔화됐다. 대신 헬스·금융 대형 신고가(ABBV·JNJ·JPM)가 확산 — 리스크 오프 성격의 late-stage 회전이다. 온도는 중립이나 성장 리더십이 얇아지고 있어 방어적으로 봐야 한다.",
+    "정리하면 froth 소진 + 에너지 단독 강세 + 애플 신규 + 성장 리더 되돌림, 온도 중립·방어 기울기. CVI·VLO 에너지가 1순위, AAPL·SWKS·QRVO 애플이 2순위, COHU·SKHY 메모리 눌림이 3순위. 소프트 ETF·초고베타·바이오 순수 플레이 추격은 자제"
+  ]
+}
