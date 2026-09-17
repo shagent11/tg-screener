@@ -1,0 +1,405 @@
+{
+  "date": "2026-09-17",
+  "headline": "헬스 전면 주도(Bull Snort 4개 싹쓸이·TMO·RVTY·INSP) + 에너지 1D 되돌림(USO -3.52%, 1W 배경 유지) + 반도체·광학 재등장(SMTC +11%·DELL·LITE·LYTE) + 사이버·소프트 1W 배경 강(HACK 1W +8.19%). 리더십 헬스+성장 하드웨어로 넓어짐, 온도 중립·확산형",
+  "oneline": "헬스 전면 주도(Bull Snort 4개 싹쓸이·TMO·RVTY·INSP) + 에너지 1D 되돌림(USO -3.52%, 1W 배경 유지) + 반도체·광학 재등장(SMTC +11%·DELL·LITE·LYTE) + 사이버·소프트 1W 배경 강(HACK 1W +8.19%). 리더십 헬스+성장 하드웨어로 넓어짐, 온도 중립·확산형",
+  "verdict": "선별적 공격 (헬스·진단·바이오 주도 + 반도체·광학 재등장 + 사이버/소프트 1W 배경, 에너지 1D 되돌림·초고베타는 관망)",
+  "priority_line": "우선순위: 헬스(RVTY·INSP·CAI·ADPT·BRKR·TMO) + 반도체·광학(SMTC·DELL·ANET·LITE) + 사이버/소프트(CRWD·OKTA·TEM). 에너지(CVI·VLO)는 1D 되돌림 소화 확인 후.",
+  "regime": [
+    "추세추종 선별적 공격 가능. 리더가 헬스 실체 그룹이고 froth가 낮으며 성장환경까지 회복 중이라 코어 섹터엔 우호적. 에너지 1D 되돌림 추격과 초고베타 소형만 배제.",
+    "risk-on 건강한 확산형. 어제 낙오했던 성장 하드웨어가 붙으며 폭이 넓어지는 late-cycle 회전."
+  ],
+  "heat_label": "중립 (헬스 실체 주도 + 성장환경 회복 + broad 신고가, froth 낮음)",
+  "heat_reasons": [
+    "근거 1: Bull Snort 4개 전부 우량 헬스(BBNX·ARQT·BRKR·ADPT), 저품질 소형 froth 아님 — 과열 신호 약함.",
+    "근거 2: 52주 신고가 38개가 에너지10·헬스9·금융5·테크4·소재4로 넓게 분포 — 하단 견고, 공포 신호 전무.",
+    "근거 3: UWL 성장환경 1→7개 회복 + 반도체(SMTC·DELL·UMC) 재등장 — 어제 극단적 협소가 완화.",
+    "근거 4: 다만 SPY 1M -2.85%·QQQ 1M -3.85%·IWM 1M -6.59%로 지수 모멘텀은 여전히 마이너스 — 폭발적 과열은 아님."
+  ],
+  "breadth": [
+    {
+      "date": "9/16",
+      "breadth": 190,
+      "overlap": 44
+    },
+    {
+      "date": "9/17",
+      "breadth": 133,
+      "overlap": 23
+    }
+  ],
+  "today": {
+    "date": "9/17",
+    "breadth": 133,
+    "overlap": 23
+  },
+  "highs": {
+    "total": 38,
+    "composition": [
+      {
+        "name": "에너지",
+        "count": 10
+      },
+      {
+        "name": "헬스",
+        "count": 9
+      },
+      {
+        "name": "금융",
+        "count": 5
+      },
+      {
+        "name": "테크",
+        "count": 4
+      },
+      {
+        "name": "소재",
+        "count": 4
+      }
+    ]
+  },
+  "uwl": null,
+  "etf": [
+    {
+      "ticker": "USO",
+      "rs": 93,
+      "note": "원유 1D 되돌림·1W·1M 배경 유지",
+      "d": -3.52,
+      "w": 4.95,
+      "m": 22.69
+    },
+    {
+      "ticker": "HACK",
+      "rs": 91,
+      "note": "사이버 1W 최강 배경",
+      "d": -0.94,
+      "w": 8.19,
+      "m": 1.54
+    },
+    {
+      "ticker": "EWT",
+      "rs": 91,
+      "note": "대만 반도체 1D 반등",
+      "d": 1.62,
+      "w": -2.78,
+      "m": 0.31
+    },
+    {
+      "ticker": "CIBR",
+      "rs": 90,
+      "note": "사이버 1W 지속 강세",
+      "d": -0.69,
+      "w": 6.6,
+      "m": 0.98
+    },
+    {
+      "ticker": "WCLD",
+      "rs": 90,
+      "note": "SaaS 순수 1W 재가속",
+      "d": -0.75,
+      "w": 3.68,
+      "m": 1.19
+    },
+    {
+      "ticker": "CLOU",
+      "rs": 90,
+      "note": "클라우드 1W 온기",
+      "d": -0.6,
+      "w": 2.52,
+      "m": -0.57
+    },
+    {
+      "ticker": "XBI",
+      "rs": 90,
+      "note": "바이오 ETF는 냉각이나 개별 폭발",
+      "d": 0.1,
+      "w": -3.94,
+      "m": -1.69
+    },
+    {
+      "ticker": "XLE",
+      "rs": 90,
+      "note": "통합 에너지 1D 급락",
+      "d": -2.88,
+      "w": -2.33,
+      "m": 2.92
+    },
+    {
+      "ticker": "XOP",
+      "rs": 90,
+      "note": "E&P 1D 급락·1M 배경만",
+      "d": -3.96,
+      "w": -2.13,
+      "m": 5.74
+    },
+    {
+      "ticker": "SKYY",
+      "rs": 89,
+      "note": "클라우드 소폭 반등",
+      "d": -0.3,
+      "w": 1.45,
+      "m": -1.27
+    },
+    {
+      "ticker": "IBB",
+      "rs": 88,
+      "note": "대형 바이오 안정·신고가 코어",
+      "d": 0.2,
+      "w": -2.02,
+      "m": 2.07
+    },
+    {
+      "ticker": "XLK",
+      "rs": 82,
+      "note": "대형테크 1D 안정·1W 냉각",
+      "d": 0.1,
+      "w": -1.92,
+      "m": -3.6
+    },
+    {
+      "ticker": "XLV",
+      "rs": 77,
+      "note": "헬스 대형 안정·value 신고가",
+      "d": 0.07,
+      "w": 0.27,
+      "m": 0.79
+    },
+    {
+      "ticker": "GDX",
+      "rs": 74,
+      "note": "금광 1W 급락",
+      "d": -1.41,
+      "w": -7.62,
+      "m": 2.05
+    },
+    {
+      "ticker": "IGV",
+      "rs": 72,
+      "note": "소프트 1W 플러스 유지",
+      "d": -0.56,
+      "w": 2.11,
+      "m": 1.66
+    },
+    {
+      "ticker": "IWM",
+      "rs": 72,
+      "note": "소형주 1M 뚜렷한 약세",
+      "d": -0.43,
+      "w": -3.25,
+      "m": -6.59
+    },
+    {
+      "ticker": "XLF",
+      "rs": 68,
+      "note": "금융 ETF 정체·신고가만",
+      "d": -1.62,
+      "w": -2.1,
+      "m": -3.5
+    },
+    {
+      "ticker": "IBIT",
+      "rs": 46,
+      "note": "₿ 크립토 RS·1W 냉각·1M 배경만",
+      "d": -0.16,
+      "w": -4.5,
+      "m": 19.87
+    }
+  ],
+  "etf_asof": "9/16",
+  "axes": [
+    {
+      "no": 1,
+      "name": "헬스·진단·바이오",
+      "tag": "전면 주도",
+      "tickers": [
+        "BBNX",
+        "ARQT",
+        "BRKR",
+        "ADPT",
+        "RVTY",
+        "INSP",
+        "CAI",
+        "TXG",
+        "TMO"
+      ],
+      "raw": "BBNX +15.3% RV 6.6x, ARQT +11.2%, BRKR +8.8%, ADPT +3.7%(Bull Snort 4/4), RVTY +3.95%·INSP·CAI·TXG·TMO 신고가·3중복"
+    },
+    {
+      "no": 2,
+      "name": "반도체·광학",
+      "tag": "재등장",
+      "tickers": [
+        "SMTC",
+        "DELL",
+        "ANET",
+        "LITE",
+        "UMC",
+        "BE",
+        "LYTE"
+      ],
+      "raw": "SMTC +11.03%(신고가+Breakout), DELL +3.64% 3중복, ANET +2.44%, LITE +9.59%, UMC·BE, LYTE ETF 1D +6.36%"
+    },
+    {
+      "no": 3,
+      "name": "사이버·소프트",
+      "tag": "1W 배경",
+      "tickers": [
+        "HACK",
+        "CIBR",
+        "CRWD",
+        "OKTA",
+        "DBX",
+        "TEM"
+      ],
+      "raw": "HACK 1W +8.19%·CIBR 1W +6.6%, CRWD·OKTA·DBX·TEM"
+    },
+    {
+      "no": 4,
+      "name": "신고가 value",
+      "tag": "방어 유지",
+      "tickers": [
+        "MPC",
+        "VLO",
+        "PSX",
+        "CVX",
+        "XOM",
+        "TMO",
+        "ABBV",
+        "GILD",
+        "JNJ",
+        "JPM",
+        "WFC",
+        "C"
+      ],
+      "raw": "MPC·VLO·PSX·CVX·XOM 에너지 / TMO·ABBV·GILD·JNJ 헬스 / JPM·WFC·C 금융"
+    },
+    {
+      "no": 5,
+      "name": "에너지",
+      "tag": "1D 되돌림",
+      "tickers": [
+        "USO",
+        "XOP",
+        "XLE",
+        "CVI",
+        "VLO",
+        "DINO",
+        "FRO"
+      ],
+      "raw": "USO 1D -3.52%·XOP -3.96%·XLE -2.88%, CVI·VLO·DINO·FRO 중복은 유지"
+    }
+  ],
+  "priority": {
+    "ranked": [
+      {
+        "rank": 1,
+        "tickers": [
+          "RVTY",
+          "ADPT",
+          "CAI",
+          "INSP",
+          "BRKR",
+          "BBNX"
+        ],
+        "why": "헬스 전면 주도가 지속되는지 = Bull Snort 헬스 4/4·XLV 1W +0.27% 배경·RV 유지 관건, 오늘 최강·최광 축"
+      },
+      {
+        "rank": 2,
+        "tickers": [
+          "SMTC",
+          "DELL",
+          "ANET",
+          "LITE"
+        ],
+        "why": "반도체·광학 재등장이 그룹 추세로 굳는지 = UWL 7개 유지·EWT 1D +1.62%·LYTE 1D +6.36% 후속 여부"
+      },
+      {
+        "rank": 3,
+        "tickers": [
+          "CRWD",
+          "OKTA",
+          "TEM"
+        ],
+        "why": "사이버·소프트 1W 배경이 개별 확산으로 이어지는지 = HACK 1W +8.19%·WCLD 1W +3.68% 후속"
+      }
+    ],
+    "watch": "에너지(CVI·VLO) 1D 되돌림이 눌림인지 = USO 1W +4.95% 배경 방어 여부, 헬스 대형 신고가(TMO·ABBV·JPM) 방어 확산 지속.",
+    "watch_tickers": [
+      "CVI",
+      "VLO",
+      "USO",
+      "TMO",
+      "ABBV",
+      "JPM"
+    ]
+  },
+  "leaders": [
+    {
+      "ticker": "DELL",
+      "overlap": 3,
+      "d": 3.64,
+      "cap": 358.0,
+      "m1": null,
+      "note": "컴퓨팅, 신고가 근접 + UWL 복귀로 성장 하드웨어 축."
+    }
+  ],
+  "froth": [],
+  "getting_strong": [
+    {
+      "name": "반도체·광학(재등장)",
+      "desc": "SMTC +11.03%(신고가+Breakout)·DELL +3.64% 3중복·ANET +2.44%·LITE +9.59%·LYTE ETF 1D +6.36%, EWT 1D +1.62% → 어제 UWL 전멸에서 Electronic Technology 10개로 복귀, 오늘 최대 신규 온기."
+    },
+    {
+      "name": "소프트·클라우드(1W 재가속)",
+      "desc": "WCLD RS90 1W +3.68%, IGV RS72 1W +2.11%, SKYY 1W +1.45% → TEM·DBX·CRWD 개별 동조, 성장환경 회복의 한 축."
+    }
+  ],
+  "getting_weak": [
+    {
+      "name": "귀금속(1W 급락)",
+      "desc": "GDX RS74 1D -1.41% 1W -7.62%(1M +2.05%) → NEM·CF 신고가만, ETF는 뚜렷한 되돌림."
+    },
+    {
+      "name": "크립토(RS·1W 냉각)",
+      "desc": "IBIT RS46 1W -4.5%(1M +19.87%) ₿ → froth 이탈, 1M 배경만."
+    },
+    {
+      "name": "지수·소형(1M 마이너스)",
+      "desc": "IWM 1M -6.59%·IWO 1M -8.44%·XLI 1M -9.49% → 광범위 소형·산업은 여전히 약세, 리더십은 대형 헬스·성장에 집중."
+    }
+  ],
+  "still_strong": [
+    {
+      "name": "헬스·진단·바이오",
+      "desc": "XLV RS77 1W +0.27% 1M +0.79%, IBB RS88 1M +2.07%, XBI RS90(개별만) → TMO·RVTY·INSP·CAI·ADPT·BRKR·BBNX·ARQT·TXG 신고가9 (같은 섹터 반복 = 진단·바이오 개별 확산이 그룹 추세로 굳는 실체 흐름)"
+    },
+    {
+      "name": "사이버(1W 배경 최강)",
+      "desc": "HACK RS91 1W +8.19%, CIBR RS90 1W +6.6% → CRWD·OKTA"
+    },
+    {
+      "name": "에너지(1D 되돌림, 1W·1M 배경)",
+      "desc": "USO RS93 1W +4.95% 1M +22.69%, CRAK RS92 1M +10.13% → CVI·VLO·DINO·MPC·PSX·XOM·CVX"
+    }
+  ],
+  "underrated": [
+    {
+      "ticker": "IBIT",
+      "rs": 46,
+      "w": -4.5,
+      "m": 19.9
+    }
+  ],
+  "actions": [
+    "RVTY·ADPT·CAI·INSP·BRKR·BBNX 헬스 주도가 지속되는지 최우선 확인 — Bull Snort 헬스 4/4·XLV 1W +0.27% 배경·RV 유지면 헬스 리더십 확정, 개별 소멸 시 단발로 재분류.",
+    "SMTC·DELL·ANET·LITE 반도체·광학 재등장이 그룹 추세로 굳는지 점검 — UWL 7개 유지·EWT 1D 반등·LYTE 후속이면 성장 하드웨어 복귀 성립.",
+    "CRWD·OKTA·TEM 사이버·소프트 1W 배경이 개별 확산으로 이어지는지 감시 — HACK 1W +8.19%·WCLD 1W +3.68% 후속이면 성장 축 보강.",
+    "에너지 되돌림 성격 판별 — CVI·VLO USO 1W +4.95% 배경 유지면 눌림 매수 후보, 1W까지 깨지면 이탈로 재분류.",
+    "오프닝 판단: 헬스 주도 + 반도체·광학 확산이면 두 축 선별 공격, 헬스 개별 소멸·반도체 되돌림 시 신고가 value(헬스·에너지·금융 대형)로 압축(귀금속·크립토·초고베타 추격 자제)."
+  ],
+  "read": [
+    "오늘 핵심은 어제 씨앗이던 헬스가 전면 주도로 굳었다는 점이다. Bull Snort 4개가 전부 헬스(BBNX·ARQT·BRKR·ADPT)이고 Health Technology 33개 주도, TMO·RVTY·INSP·CAI가 신고가·3중복을 채웠다 — 저품질 froth가 아니라 진단·바이오 실체 그룹의 확산이라 질이 좋다. 명백한 오늘의 1순위다.",
+    "둘째, 어제 대장 에너지가 1D 급되돌림에 들어갔다(USO 1D -3.52%·XOP -3.96%). 다만 USO 1W +4.95%·1M +22.69% 배경은 살아있어 눌림 성격이고, CVI·VLO·DINO는 여전히 중복 상위다 — 온기가 잠시 헬스로 넘어간 것이지 추세 훼손은 아니다.",
+    "셋째가 가장 중요한 반전이다. 어제 UWL 1/71로 \"성장 전멸\"이던 환경이 오늘 7/61로 회복됐고, SMTC +11%·DELL 3중복·LITE +9.59%·LYTE 1D +6.36%로 반도체·광학이 재등장했다. 메모리 붕괴 자리에 반도체·하드웨어 불씨가 돌아온 것 — 성장환경이 협소에서 중립으로 개선되는 신호다.",
+    "정리하면 헬스 전면 주도 + 에너지 1D 눌림 + 반도체·광학 재등장 + 사이버/소프트 1W 배경, 온도 중립·건강한 확산형. 헬스가 1순위, 반도체·광학이 2순위, 사이버/소프트가 3순위. 다만 SPY/QQQ 1M 마이너스·소형 약세는 여전해 폭발적 강세는 아니다. 귀금속·크립토·초고베타 추격은 자제"
+  ]
+}
