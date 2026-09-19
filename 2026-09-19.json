@@ -1,0 +1,401 @@
+{
+  "date": "2026-09-19",
+  "headline": "반도체·세미캡 대폭발(LRCX·AMAT·KLAC·FORM·ONTO / EWT 1M +5.48%) + 크립토 froth 재점화(MSTR +16.4%·COIN +11.66%·SNDK) + 소프트·AI 하루 눌림(SDGR·TEM 되돌림) + 헬스 상대 약화(XBI 1M -5.42%). 리더십 반도체로 이동, 온도 다소 과열",
+  "oneline": "반도체·세미캡 대폭발(LRCX·AMAT·KLAC·FORM·ONTO / EWT 1M +5.48%) + 크립토 froth 재점화(MSTR +16.4%·COIN +11.66%·SNDK) + 소프트·AI 하루 눌림(SDGR·TEM 되돌림) + 헬스 상대 약화(XBI 1M -5.42%). 리더십 반도체로 이동, 온도 다소 과열",
+  "verdict": "선별적 공격 (반도체·세미캡 + 소프트/AI 눌림 매수 + 대형테크 신고가, 크립토·초고베타 소형은 절제)",
+  "priority_line": "우선순위: 반도체·세미캡(LRCX·AMAT·KLAC·FORM·ONTO·WDC) + 대형테크(AMD·NVDA·AAPL) + 소프트 눌림(TEM·SDGR·NTSK). MSTR·MARA·COIN·PURR froth 추격은 자제.",
+  "regime": [
+    "추세추종 선별적 공격 유효. 반도체·세미캡이 우량 이름 중심으로 폭발해 코어 성장 섹터엔 우호적. 다만 크립토 froth 재점화·초고베타(PURR 1M +94%·SDGR 1M +60%) 추격만 절제.",
+    "risk-on 확산형이나 froth 온도 상승 국면. 소프트 → 반도체로 주도가 넘어가며 위험선호가 하드웨어·크립토까지 번짐."
+  ],
+  "heat_label": "다소 과열 (Bull Snort 급증 + 크립토 froth 재점화, 단 세미캡 이름 질·broad 신고가로 극단 아님)",
+  "heat_reasons": [
+    "근거 1: Bull Snort 11→20개 급증, 크립토 3종(MSTR +16.4%·MARA +13.75%·COIN +11.66%) 동반 스파이크 — froth 온도 뚜렷이 상승.",
+    "근거 2: 다만 Bull Snort 상단이 LRCX·AMAT·KLAC·ONTO 우량 세미캡, RV 2배대로 도배 아님 — 저품질 froth는 크립토·PURR 정도로 국한.",
+    "근거 3: 52주 신고가 38개가 에너지9·헬스9·금융6·테크4·소재4로 넓게 분포 — 하단 견고, 공포 신호 전무.",
+    "근거 4: 소형(IWM 1M -6.20%·IWO -7.77%)·금융(XLF -3.49%)·방산(ITA -15.44%)은 여전히 낙오 — 전면 과열은 아님."
+  ],
+  "breadth": [
+    {
+      "date": "9/18",
+      "breadth": 199,
+      "overlap": 32
+    },
+    {
+      "date": "9/19",
+      "breadth": 161,
+      "overlap": 21
+    }
+  ],
+  "today": {
+    "date": "9/19",
+    "breadth": 161,
+    "overlap": 21
+  },
+  "highs": {
+    "total": 38,
+    "composition": [
+      {
+        "name": "에너지",
+        "count": 9
+      },
+      {
+        "name": "헬스",
+        "count": 9
+      },
+      {
+        "name": "금융",
+        "count": 6
+      },
+      {
+        "name": "테크",
+        "count": 4
+      },
+      {
+        "name": "소재",
+        "count": 4
+      }
+    ]
+  },
+  "uwl": null,
+  "etf": [
+    {
+      "ticker": "USO",
+      "rs": 93,
+      "note": "원유 1M 배경만·1W 둔화",
+      "d": -0.96,
+      "w": 0.87,
+      "m": 17.27
+    },
+    {
+      "ticker": "CRAK",
+      "rs": 92,
+      "note": "정유 1W 정체·신고가 유지",
+      "d": -1.61,
+      "w": 0.02,
+      "m": 7.73
+    },
+    {
+      "ticker": "EWT",
+      "rs": 91,
+      "note": "대만 반도체 1M 최강·오늘 세미캡 배경",
+      "d": 0.9,
+      "w": 1.14,
+      "m": 5.48
+    },
+    {
+      "ticker": "HACK",
+      "rs": 91,
+      "note": "사이버 1W 배경 강·1D 조정",
+      "d": -1.5,
+      "w": 6.73,
+      "m": 2.61
+    },
+    {
+      "ticker": "CIBR",
+      "rs": 90,
+      "note": "사이버 1W 지속 강세",
+      "d": -1.76,
+      "w": 5.57,
+      "m": 2.65
+    },
+    {
+      "ticker": "WCLD",
+      "rs": 90,
+      "note": "SaaS 1W 유지·1D 눌림",
+      "d": -2.0,
+      "w": 3.15,
+      "m": 0.17
+    },
+    {
+      "ticker": "XBI",
+      "rs": 90,
+      "note": "바이오 1M 냉각·개별만",
+      "d": -0.97,
+      "w": -0.98,
+      "m": -5.42
+    },
+    {
+      "ticker": "XOP",
+      "rs": 90,
+      "note": "E&P 1W 냉각·신고가만",
+      "d": -1.03,
+      "w": -1.71,
+      "m": 2.25
+    },
+    {
+      "ticker": "XLE",
+      "rs": 90,
+      "note": "통합 에너지 1W 냉각",
+      "d": -0.26,
+      "w": -0.89,
+      "m": 0.72
+    },
+    {
+      "ticker": "SKYY",
+      "rs": 88,
+      "note": "클라우드 1W 온기",
+      "d": -1.44,
+      "w": 2.79,
+      "m": 0.37
+    },
+    {
+      "ticker": "XLK",
+      "rs": 83,
+      "note": "대형테크·반도체 신고가 확산",
+      "d": 0.82,
+      "w": 1.2,
+      "m": 1.72
+    },
+    {
+      "ticker": "XLV",
+      "rs": 77,
+      "note": "헬스 대형 안정·value 신고가",
+      "d": -0.25,
+      "w": 0.94,
+      "m": -2.37
+    },
+    {
+      "ticker": "ARKK",
+      "rs": 74,
+      "note": "혁신주 1W·1M 강세·크립토 견인",
+      "d": 1.51,
+      "w": 5.5,
+      "m": 9.16
+    },
+    {
+      "ticker": "IGV",
+      "rs": 71,
+      "note": "소프트 1W 유지·1D 되돌림",
+      "d": -1.35,
+      "w": 2.4,
+      "m": 2.18
+    },
+    {
+      "ticker": "IWM",
+      "rs": 70,
+      "note": "소형주 뚜렷한 약세",
+      "d": -0.47,
+      "w": -2.27,
+      "m": -6.2
+    },
+    {
+      "ticker": "XLF",
+      "rs": 65,
+      "note": "금융 ETF 약세·신고가만",
+      "d": -0.04,
+      "w": -2.75,
+      "m": -3.49
+    },
+    {
+      "ticker": "ITA",
+      "rs": 43,
+      "note": "방산 부진 심화",
+      "d": -0.02,
+      "w": -2.92,
+      "m": -15.44
+    }
+  ],
+  "etf_asof": "9/18",
+  "axes": [
+    {
+      "no": 1,
+      "name": "반도체·세미캡",
+      "tag": "신규 주도",
+      "tickers": [
+        "LRCX",
+        "AMAT",
+        "KLAC",
+        "FORM",
+        "ONTO",
+        "MTSI",
+        "WDC",
+        "LITE",
+        "ETN",
+        "AMD",
+        "NVDA",
+        "MSFT",
+        "AAPL"
+      ],
+      "raw": "LRCX +7.0%·AMAT +6.5%·KLAC +4.7%·FORM +6.1%·ONTO +5.4%·MTSI +4.8%·WDC +4.1%·LITE +4.2%·ETN +3.7%(Bull Snort), AMD·NVDA·MSFT·AAPL 신고가"
+    },
+    {
+      "no": 2,
+      "name": "크립토",
+      "tag": "froth 재점화",
+      "tickers": [
+        "MSTR",
+        "MARA",
+        "COIN",
+        "SNDK"
+      ],
+      "raw": "MSTR +16.4% RV 2.4x, MARA +13.75%, COIN +11.66% RV 2.1x, SNDK +10.99% ₿"
+    },
+    {
+      "no": 3,
+      "name": "소프트·AI",
+      "tag": "하루 눌림",
+      "tickers": [
+        "SDGR",
+        "TEM",
+        "PS",
+        "NTSK",
+        "OMDA"
+      ],
+      "raw": "SDGR -4.03%(1M +60%), TEM -3.14%(1M +39%), PS +13.69% 3중복, NTSK 2중복, OMDA Bull Snort"
+    },
+    {
+      "no": 4,
+      "name": "헬스",
+      "tag": "선별 잔존",
+      "tickers": [
+        "TWST",
+        "IOVA",
+        "CAI",
+        "INSP",
+        "ILMN",
+        "ADPT"
+      ],
+      "raw": "TWST +7.35% 3중복, IOVA 2중복, CAI 2중복, INSP +5.6% Bull Snort, ILMN·ADPT"
+    },
+    {
+      "no": 5,
+      "name": "신고가 value",
+      "tag": "방어 유지",
+      "tickers": [
+        "MPC",
+        "VLO",
+        "PSX",
+        "XOM",
+        "CVX",
+        "ABBV",
+        "TMO",
+        "GILD",
+        "JNJ",
+        "JPM",
+        "USB",
+        "C"
+      ],
+      "raw": "MPC·VLO·PSX·XOM·CVX 에너지 / ABBV·TMO·GILD·JNJ 헬스 / JPM·USB·C 금융"
+    }
+  ],
+  "priority": {
+    "ranked": [
+      {
+        "rank": 1,
+        "tickers": [
+          "LRCX",
+          "AMAT",
+          "KLAC",
+          "FORM",
+          "ONTO",
+          "WDC"
+        ],
+        "why": "반도체·세미캡 폭발이 이틀차로 이어지는지 = EWT 1M +5.48%·XLK 1D +0.82% 후속·RV 유지 관건, 오늘 최강·최광 신규 축"
+      },
+      {
+        "rank": 2,
+        "tickers": [
+          "TEM",
+          "SDGR",
+          "PS"
+        ],
+        "why": "소프트·AI 눌림이 매수 기회인지 = WCLD 1W +3.15%·IGV 1W +2.40% 배경 방어·재반등 여부"
+      },
+      {
+        "rank": 3,
+        "tickers": [
+          "AMD",
+          "NVDA",
+          "AAPL"
+        ],
+        "why": "대형테크 신고가가 세미캡과 그룹 추세로 굳는지 = XLK 후속"
+      }
+    ],
+    "watch": "크립토(MSTR·COIN·SNDK) froth가 과열로 번지는지, 헬스(TWST·INSP)가 XBI 1M -5.42% 냉각 속 개별로 버티는지.",
+    "watch_tickers": [
+      "MSTR",
+      "COIN",
+      "SNDK",
+      "TWST",
+      "INSP",
+      "XBI"
+    ]
+  },
+  "leaders": [
+    {
+      "ticker": "PS",
+      "overlap": 3,
+      "d": 13.69,
+      "cap": 19.93,
+      "m1": null,
+      "note": "소프트(Pinterest 계열 데이터), 오늘 최다 등장·거래 폭발."
+    }
+  ],
+  "froth": [],
+  "getting_strong": [
+    {
+      "name": "반도체 장비(세미캡, 신규 폭발)",
+      "desc": "LRCX +7.0%·AMAT +6.5%·KLAC +4.7%·FORM +6.1%·ONTO +5.4%·MTSI +4.8%·WDC +4.1% Bull Snort → 어제 대형 신고가에서 오늘 장비주 개별 폭발로 확장, 오늘 최대 신규 온기. (전용 반도체 ETF 부재, EWT 1M +5.48%·XLK가 배경)"
+    },
+    {
+      "name": "크립토(froth 재점화)",
+      "desc": "MSTR +16.4%·MARA +13.75%·COIN +11.66%·SNDK +10.99% ₿ → ARKK 1W +5.50%/1M +9.16% 배경, 고베타 위험선호 복귀(추격은 froth 경계)."
+    }
+  ],
+  "getting_weak": [
+    {
+      "name": "바이오(1M 냉각)",
+      "desc": "XBI RS90 1W -0.98% 1M -5.42%, IBB RS87 1M -2.77% → TWST·IOVA·INSP 개별만 버팀, 그룹 온기 후퇴(헬스 33→23개)."
+    },
+    {
+      "name": "에너지 E&P(1W 지속 냉각)",
+      "desc": "XOP RS90 1W -1.71%, XLE RS90 1W -0.89% → 신고가 코어는 유지되나 ETF 1W 마이너스, 온기 이탈."
+    },
+    {
+      "name": "소형·금융(광범위 약세)",
+      "desc": "IWM 1M -6.20%, XLF RS65 1M -3.49%, KRE 1M -5.54% → 리더십 대형 성장 집중, 소형·은행 낙오 지속."
+    }
+  ],
+  "still_strong": [
+    {
+      "name": "대형테크·반도체",
+      "desc": "XLK RS83 1D +0.82% 1W +1.20% 1M +1.72%, EWT RS91 1D +0.90% 1M +5.48% → AMD·NVDA·MSFT·AAPL 신고가 + LRCX·AMAT·KLAC·FORM 세미캡 (같은 섹터 반복 = AI 인프라·데이터센터 capex가 장비주로 확산되는 실체 흐름)"
+    },
+    {
+      "name": "사이버(1W 배경 강)",
+      "desc": "HACK RS91 1W +6.73%, CIBR RS90 1W +5.57% → CRWD"
+    },
+    {
+      "name": "에너지(신고가 유지, 1W 냉각)",
+      "desc": "CRAK RS92 1M +7.73%, USO RS93 1M +17.27% → MPC·VLO·PSX·XOM·CVX 신고가9"
+    }
+  ],
+  "underrated": [
+    {
+      "ticker": "IBIT",
+      "rs": 67,
+      "w": 4.9,
+      "m": 25.0
+    },
+    {
+      "ticker": "BKCH",
+      "rs": 54,
+      "w": 6.6,
+      "m": 22.6
+    }
+  ],
+  "actions": [
+    "LRCX·AMAT·KLAC·FORM·ONTO·WDC 반도체·세미캡 폭발이 이틀차로 이어지는지 최우선 확인 — EWT 1M +5.48%·XLK 1D +0.82% 후속·RV 유지면 세미캡 리더십 확정, 개별 소멸 시 단발 급등으로 재분류.",
+    "TEM·SDGR·PS 소프트·AI 눌림이 재반등하는지 점검 — WCLD 1W +3.15%·IGV 1W +2.40% 배경 방어면 눌림 매수 후보, 1W까지 깨지면 이탈로 재분류.",
+    "AMD·NVDA·AAPL 대형테크 신고가가 세미캡과 그룹 추세로 굳는지 감시 — XLK 후속이면 성장 하드웨어 확산 완성.",
+    "froth 과열 경계 — 크립토(MSTR·COIN)·PURR급 초고베타가 Bull Snort를 늘리며 저품질로 번지면 과열 전환, 추격은 자제.",
+    "오프닝 판단: 반도체·세미캡 확산 지속이면 축 선별 공격, 세미캡 되돌림·크립토 froth 저품질화 시 신고가 value(에너지·헬스·금융 대형)로 압축(크립토·초고베타 소형 추격 자제)."
+  ],
+  "read": [
+    "오늘 핵심은 반도체·세미캡이 전면 폭발하며 주도가 소프트에서 하드웨어로 넘어온 점이다. Bull Snort 20개 중 세미캡·반도체가 13개(LRCX +7%·AMAT +6.5%·KLAC +4.7%·FORM·ONTO·MTSI·WDC)로 도배됐고 AMD·NVDA·MSFT·AAPL이 신고가를 채웠다 — AI 인프라 capex가 전공정 장비로 확산되는 실체 추세, EWT 1M +5.48%가 배경을 받친다. 명백한 오늘의 1순위다.",
+    "둘째, 어제 대장 소프트는 하루 눌림이다(SDGR -4.03%·TEM -3.14%). 다만 1M +60%·+39% 모멘텀과 WCLD 1W +3.15%·IGV 1W +2.40% 배경이 살아있어 눌림 성격이지 훼손은 아니다 — 재반등 여부가 관건이다.",
+    "셋째 경계 신호는 크립토 froth 재점화다. MSTR +16.4%·MARA +13.75%·COIN +11.66%·SNDK +10.99%로 고베타 스파이크가 돌아왔고 Bull Snort가 11→20으로 급증했다. 세미캡 이름 질은 우량이라 극단 froth는 아니지만, 크립토·PURR(1M +94%)급 추격은 위험하다 — '다소 과열'로 본다. 헬스는 XBI 1M -5.42%로 그룹 온기가 후퇴했다(33→23개).",
+    "정리하면 반도체·세미캡 폭발 + 크립토 froth 재점화 + 소프트 눌림 + 헬스 후퇴, 온도 다소 과열·반도체 주도 확산형. 세미캡·반도체가 1순위, 소프트 눌림 매수가 2순위, 대형테크가 3순위. 크립토·초고베타 소형 추격은 자제"
+  ]
+}
