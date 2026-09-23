@@ -1,0 +1,405 @@
+{
+  "date": "2026-09-23",
+  "headline": "반도체·메모리 대가속(SOXX·DRAM 1W +14%·EWY·EWT / VICR·RMBS·MPWR·ALAB) + 헬스 재부상(신고가 10개·VKTX +35.7%·MRNA·NTRA) + froth 냉각(Bull Snort 11→8) + 소프트 1W 둔화(IGV +1.45%). 리더십 반도체+헬스로 쌍끌이, 온도 다소 과열 식는 중",
+  "oneline": "반도체·메모리 대가속(SOXX·DRAM 1W +14%·EWY·EWT / VICR·RMBS·MPWR·ALAB) + 헬스 재부상(신고가 10개·VKTX +35.7%·MRNA·NTRA) + froth 냉각(Bull Snort 11→8) + 소프트 1W 둔화(IGV +1.45%). 리더십 반도체+헬스로 쌍끌이, 온도 다소 과열 식는 중",
+  "verdict": "선별적 공격 (반도체·메모리 + 대형테크 + 헬스 재부상, 초고베타 단발 스파이크·에너지는 절제)",
+  "priority_line": "우선순위: 반도체·메모리(RMBS·MPWR·VICR·ALAB·AMD·NVDA) + 헬스(MRNA·NTRA·VKTX·GRAL) + 소프트 눌림(PS·TWLO·TEM). VKTX RV 16.2x·초고베타 추격은 자제.",
+  "regime": [
+    "추세추종 선별적 공격 유효. 반도체·메모리가 우량 대형 중심으로 폭발해 코어 성장에 매우 우호적, 헬스도 신고가·개별로 병주. 단 VKTX RV 16.2x·ALAB급 초고베타 추격만 절제.",
+    "risk-on 쌍끌이 확산형. 소프트 단일 주도에서 반도체+헬스로 폭이 넓어지며 위험선호 유지."
+  ],
+  "heat_label": "다소 과열 (반도체·메모리 급가속, 단 Bull Snort 냉각·헬스 broad로 극단 아님)",
+  "heat_reasons": [
+    "근거 1: SOXX·DRAM 1W +14%대 급등 — 반도체·메모리 단기 과열 초입.",
+    "근거 2: 다만 Bull Snort 11→8 추가 감소, 크립토 froth 부재 — froth 온도는 오히려 냉각.",
+    "근거 3: 52주 신고가 35개가 헬스10·에너지7·테크5로 넓게 분포, 헬스 신고가 부활 — 하단 견고.",
+    "근거 4: VKTX +35.7% RV 16.2x 단발 스파이크와 ALAB(1W +40%)급 초고베타는 국지적 froth 경계."
+  ],
+  "breadth": [
+    {
+      "date": "9/22",
+      "breadth": 201,
+      "overlap": 38
+    },
+    {
+      "date": "9/23",
+      "breadth": 196,
+      "overlap": 29
+    }
+  ],
+  "today": {
+    "date": "9/23",
+    "breadth": 196,
+    "overlap": 29
+  },
+  "highs": {
+    "total": 35,
+    "composition": [
+      {
+        "name": "헬스",
+        "count": 10
+      },
+      {
+        "name": "에너지",
+        "count": 7
+      },
+      {
+        "name": "테크",
+        "count": 5
+      }
+    ]
+  },
+  "uwl": null,
+  "etf": [
+    {
+      "ticker": "DRAM",
+      "rs": 93,
+      "note": "메모리 사이클 재가속·RS 최고",
+      "d": 3.31,
+      "w": 13.95,
+      "m": 8.49
+    },
+    {
+      "ticker": "SOXX",
+      "rs": 92,
+      "note": "반도체 전면 폭발·오늘 최강 축",
+      "d": 2.4,
+      "w": 13.97,
+      "m": 8.45
+    },
+    {
+      "ticker": "EWY",
+      "rs": 92,
+      "note": "한국 반도체·메모리 프록시",
+      "d": 1.83,
+      "w": 7.71,
+      "m": 6.87
+    },
+    {
+      "ticker": "EWT",
+      "rs": 92,
+      "note": "대만 반도체 1W 강세 유지",
+      "d": -0.46,
+      "w": 7.35,
+      "m": 9.39
+    },
+    {
+      "ticker": "USO",
+      "rs": 92,
+      "note": "원유 1W 급락·1M 배경만",
+      "d": -2.75,
+      "w": -9.01,
+      "m": 6.74
+    },
+    {
+      "ticker": "HACK",
+      "rs": 91,
+      "note": "사이버 1W 둔화·1M 배경 강",
+      "d": -0.81,
+      "w": 3.65,
+      "m": 10.62
+    },
+    {
+      "ticker": "CHAT",
+      "rs": 90,
+      "note": "생성형AI 순수 1W 급등",
+      "d": 0.77,
+      "w": 10.18,
+      "m": 5.93
+    },
+    {
+      "ticker": "CIBR",
+      "rs": 90,
+      "note": "사이버 1W 둔화",
+      "d": -0.5,
+      "w": 3.38,
+      "m": 9.4
+    },
+    {
+      "ticker": "IBB",
+      "rs": 87,
+      "note": "대형 바이오 냉각 탈출·재부상",
+      "d": 1.76,
+      "w": 3.43,
+      "m": -0.35
+    },
+    {
+      "ticker": "XLK",
+      "rs": 86,
+      "note": "대형테크 신고가 확산",
+      "d": 0.73,
+      "w": 6.38,
+      "m": 6.43
+    },
+    {
+      "ticker": "XOP",
+      "rs": 85,
+      "note": "E&P 1W 급락",
+      "d": -1.7,
+      "w": -6.74,
+      "m": -3.45
+    },
+    {
+      "ticker": "XLE",
+      "rs": 83,
+      "note": "통합 에너지 급락 지속",
+      "d": -1.09,
+      "w": -4.78,
+      "m": -3.33
+    },
+    {
+      "ticker": "ARKK",
+      "rs": 77,
+      "note": "혁신주 1W 강세 지속",
+      "d": 0.98,
+      "w": 9.19,
+      "m": 8.75
+    },
+    {
+      "ticker": "XSW",
+      "rs": 77,
+      "note": "소프트 동일가중 1W 냉각",
+      "d": -0.4,
+      "w": -0.47,
+      "m": 2.32
+    },
+    {
+      "ticker": "QQQ",
+      "rs": 76,
+      "note": "나스닥 broad 모멘텀 유지",
+      "d": 0.81,
+      "w": 5.45,
+      "m": 4.51
+    },
+    {
+      "ticker": "XLV",
+      "rs": 75,
+      "note": "헬스 대형 안정·신고가 코어",
+      "d": 0.52,
+      "w": 1.25,
+      "m": -1.18
+    },
+    {
+      "ticker": "IGV",
+      "rs": 72,
+      "note": "소프트 대형 1W 둔화",
+      "d": -0.35,
+      "w": 1.45,
+      "m": 4.15
+    },
+    {
+      "ticker": "XLF",
+      "rs": 54,
+      "note": "금융 약화 가속·신고가만",
+      "d": -1.97,
+      "w": -3.81,
+      "m": -4.4
+    }
+  ],
+  "etf_asof": "9/22",
+  "axes": [
+    {
+      "no": 1,
+      "name": "반도체·메모리",
+      "tag": "신규 주도",
+      "tickers": [
+        "VICR",
+        "RMBS",
+        "MPWR",
+        "ALAB",
+        "SMCI",
+        "SWKS",
+        "HPE",
+        "ANET",
+        "DELL",
+        "AMD",
+        "NVDA",
+        "AAPL",
+        "META",
+        "MSFT"
+      ],
+      "raw": "VICR +19.85%(Bull Snort), RMBS +8.54%, MPWR +8.06%, ALAB(1W +40.1%), SMCI·SWKS·HPE·ANET·DELL, AMD·NVDA·AAPL·META·MSFT 신고가"
+    },
+    {
+      "no": 2,
+      "name": "헬스",
+      "tag": "재부상",
+      "tickers": [
+        "VKTX",
+        "MRNA",
+        "NTRA",
+        "CAI",
+        "TNGX",
+        "OMER",
+        "TWST",
+        "GRAL",
+        "ILMN"
+      ],
+      "raw": "VKTX +35.7% RV 16.2x, MRNA +5.56% 3중복, NTRA +5.47% 3중복, CAI 3중복, TNGX·OMER Bull Snort, TWST·GRAL·ILMN"
+    },
+    {
+      "no": 3,
+      "name": "소프트·AI",
+      "tag": "1W 둔화·개별 잔존",
+      "tickers": [
+        "PS",
+        "TWLO",
+        "FIVN",
+        "INOD",
+        "SDGR",
+        "TEM",
+        "SHOP"
+      ],
+      "raw": "PS +6.53% 4중복 최다, TWLO +6.94% 3중복, FIVN·INOD Bull Snort, SDGR·TEM 2중복, SHOP +7.12%"
+    },
+    {
+      "no": 4,
+      "name": "신고가 value",
+      "tag": "방어 유지",
+      "tickers": [
+        "XOM",
+        "PSX",
+        "CVX",
+        "MPC",
+        "TMO",
+        "GILD",
+        "ABBV",
+        "LLY",
+        "JPM",
+        "C",
+        "USB"
+      ],
+      "raw": "XOM·PSX·CVX·MPC 에너지 / TMO·GILD·ABBV·LLY 헬스 / JPM·C·USB 금융"
+    }
+  ],
+  "priority": {
+    "ranked": [
+      {
+        "rank": 1,
+        "tickers": [
+          "RMBS",
+          "MPWR",
+          "VICR",
+          "ALAB"
+        ],
+        "why": "반도체·메모리 가속이 이틀차로 굳는지 = SOXX 1W +13.97%·DRAM 1W +13.95% 후속·RV 유지 관건, 오늘 최강·최광 축"
+      },
+      {
+        "rank": 2,
+        "tickers": [
+          "MRNA",
+          "NTRA",
+          "VKTX",
+          "TWST"
+        ],
+        "why": "헬스 재부상이 그룹 추세로 이어지는지 = IBB 1M 냉각 탈출·신고가 10개 지속 여부"
+      },
+      {
+        "rank": 3,
+        "tickers": [
+          "AMD",
+          "NVDA",
+          "AAPL"
+        ],
+        "why": "대형테크 신고가가 반도체와 그룹 추세로 굳는지 = XLK 1W +6.38% 후속"
+      }
+    ],
+    "watch": "소프트(PS·TWLO)가 IGV 1W +1.45% 둔화 속 개별로 버티는지, VKTX 단발 스파이크가 노이즈로 끝나는지.",
+    "watch_tickers": [
+      "PS",
+      "TWLO",
+      "IGV",
+      "VKTX"
+    ]
+  },
+  "leaders": [],
+  "froth": [],
+  "getting_strong": [
+    {
+      "name": "메모리(신규 폭발)",
+      "desc": "DRAM RS93 1D +3.31% 1W +13.95% 1M +8.49% → RMBS·MPWR, 메모리 사이클 재가속이 오늘 최대 신규 온기."
+    },
+    {
+      "name": "한국(반도체·메모리 프록시)",
+      "desc": "EWY RS92 1D +1.83% 1W +7.71% 1M +6.87% → 삼성·하이닉스 프록시, 메모리 강세 동조."
+    },
+    {
+      "name": "헬스(재부상)",
+      "desc": "IBB RS87 1D +1.76% 1W +3.43% 1M -0.35%(냉각 탈출), XLV RS75 1W +1.25% → MRNA·VKTX·NTRA·TWST·TMO·GILD 신고가10."
+    }
+  ],
+  "getting_weak": [
+    {
+      "name": "소프트(1W 둔화)",
+      "desc": "IGV RS72 1W +1.45%, XSW RS77 1W -0.47% 1D -0.40% → PS·TWLO·FIVN 개별만 버팀, ETF 폭은 냉각."
+    },
+    {
+      "name": "에너지(급락 지속)",
+      "desc": "USO RS92 1W -9.01%, XLE RS83 1W -4.78%, XOP RS85 1W -6.74% → 신고가 코어(XOM·PSX·CVX)만 버팀, ETF 온기 완전 이탈."
+    },
+    {
+      "name": "금융(약화 가속)",
+      "desc": "XLF RS54 1D -1.97% 1W -3.81% 1M -4.40% → JPM·C·USB 신고가만, 리더십 성장 집중."
+    }
+  ],
+  "still_strong": [
+    {
+      "name": "반도체·대형테크",
+      "desc": "SOXX RS92 1D +2.40% 1W +13.97% 1M +8.45%, XLK RS86 1W +6.38% 1M +6.43%, EWT RS92 1W +7.35% 1M +9.39% → AMD·NVDA·AAPL·META·MPWR·RMBS (AI 인프라 capex가 반도체·부품 전반으로 확산되는 실체 흐름)"
+    },
+    {
+      "name": "혁신·AI",
+      "desc": "ARKK RS77 1W +9.19% 1M +8.75%, CHAT RS90 1W +10.18% → SDGR·TEM·SHOP"
+    },
+    {
+      "name": "사이버(1M 배경 강, 1W 둔화)",
+      "desc": "HACK RS91 1M +10.62%(1W +3.65%), CIBR RS90 1M +9.40% → CRWD·RBRK"
+    }
+  ],
+  "underrated": [
+    {
+      "ticker": "BKCH",
+      "rs": 65,
+      "w": 13.6,
+      "m": 11.8
+    },
+    {
+      "ticker": "WGMI",
+      "rs": 63,
+      "w": 16.3,
+      "m": 7.2
+    },
+    {
+      "ticker": "LAZR",
+      "rs": null,
+      "w": 11.6,
+      "m": 1.6
+    },
+    {
+      "ticker": "LYTE",
+      "rs": null,
+      "w": 12.3,
+      "m": 1.5
+    },
+    {
+      "ticker": "EUV",
+      "rs": 30,
+      "w": 11.2,
+      "m": -1.0
+    }
+  ],
+  "actions": [
+    "RMBS·MPWR·VICR·ALAB 반도체·메모리 가속이 이틀차로 굳는지 최우선 확인 — SOXX 1W +13.97%·DRAM 1W +13.95% 후속·RV 유지면 반도체 리더십 확정, 개별 소멸 시 단발로 재분류.",
+    "MRNA·NTRA·VKTX·TWST 헬스 재부상이 그룹 추세로 이어지는지 점검 — IBB 1M 냉각 탈출·신고가 10개 지속이면 헬스 축 부활 확정, VKTX RV 16.2x 급등 추격은 자제.",
+    "AMD·NVDA·AAPL 대형테크 신고가가 반도체와 그룹 추세로 굳는지 감시 — XLK 1W +6.38% 후속이면 AI 인프라 축 상수.",
+    "소프트·froth 경계 — PS·TWLO가 IGV 1W +1.45% 둔화 속 개별로 버티는지, VKTX·ALAB급 초고베타가 늘면 국지 과열 전환.",
+    "오프닝 판단: 반도체·메모리+헬스 확산 지속이면 두 축 선별 공격, 반도체 되돌림·소프트 이탈 시 신고가 value(헬스 대형·에너지 코어)로 압축(초고베타 단발·에너지·금융 추격 자제)."
+  ],
+  "read": [
+    "오늘 핵심은 반도체·메모리가 ETF 단위로 폭발하며 온기가 반도체로 재집중된 점이다. SOXX 1W +13.97%·DRAM 1W +13.95%·EWY 1W +7.71%·EWT 1W +7.35%로 반도체·메모리·한국·대만이 일제히 급가속했고, VICR +19.85%·RMBS +8.54%·MPWR +8.06%·ALAB(1W +40%) 개별이 받친다 — AI 인프라 전력·메모리 수요가 부품 전반으로 확산되는 실체 추세, 명백한 오늘의 1순위다.",
+    "둘째, 헬스가 재부상했다. 52주 신고가 35개 중 헬스가 10개로 최다, IBB가 1M -0.35%로 냉각을 벗고, VKTX·MRNA·NTRA·TNGX·OMER가 개별·Bull Snort로 붙었다 — 어제 후퇴에서 그룹 배경까지 개선된 반등이다.",
+    "셋째, 어제 대장 소프트·사이버는 1W 둔화로 물러났다(IGV +1.45%·XSW -0.47%·HACK 1W +9.51%→+3.65%). 다만 PS 4중복·TWLO 3중복 개별 모멘텀은 살아있어 이탈보다 눌림·회전 성격이다.",
+    "넷째, froth는 계속 식는다. Bull Snort 11→8로 추가 감소, 크립토 부재 — VKTX RV 16.2x·ALAB급 국지적 초고베타만 경계하면 저품질 도배는 아니다. '다소 과열이나 열기 냉각 중'으로 본다. 에너지(USO 1W -9%)·금융(XLF 1W -3.81%)은 낙오 심화다.",
+    "정리하면 반도체·메모리 대가속 + 헬스 재부상 + froth 냉각 + 소프트 1W 둔화, 온도 다소 과열·식는 확산형. 반도체·메모리가 1순위, 헬스 재부상이 2순위, 대형테크가 3순위. VKTX·ALAB급 초고베타 추격은 자제"
+  ]
+}
