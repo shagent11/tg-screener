@@ -1,0 +1,392 @@
+{
+  "date": "2026-09-24",
+  "headline": "사이버·소프트 전면 재점화(Tech Services 37개 1위·PANW +5%·CRWD·FTNT·RBRK·FSLY +13.7%) + 반도체 대형 신고가 지속(AMD·NVDA·VICR·ACMR / SOXX 1W +11.65%) + froth 극단 냉각(Bull Snort 8→3) + 헬스·귀금속 급락(XBI -4.12%·GDX -4.36%). 리더십 사이버로 회귀, 온도 다소 과열·froth 냉각",
+  "oneline": "사이버·소프트 전면 재점화(Tech Services 37개 1위·PANW +5%·CRWD·FTNT·RBRK·FSLY +13.7%) + 반도체 대형 신고가 지속(AMD·NVDA·VICR·ACMR / SOXX 1W +11.65%) + froth 극단 냉각(Bull Snort 8→3) + 헬스·귀금속 급락(XBI -4.12%·GDX -4.36%). 리더십 사이버로 회귀, 온도 다소 과열·froth 냉각",
+  "verdict": "선별적 공격 (사이버·소프트 + 반도체 대형/장비, 헬스 그룹·귀금속·초고베타 SECZ는 절제)",
+  "priority_line": "우선순위: 사이버·소프트(PANW·CRWD·FTNT·RBRK·FSLY·TWLO) + 반도체(AMD·NVDA·VICR·ACMR) + 대형테크 신고가(META·AAPL·MSFT). SECZ(1M +129%)·크립토 ETF froth 추격은 자제.",
+  "regime": [
+    "추세추종 선별적 공격 유효. 사이버·소프트·반도체 성장 3축이 1W 배경으로 강하고 froth가 극단 냉각돼 질은 좋다. 다만 오늘 1D는 지수·헬스·귀금속 되돌림이라 추격보다 눌림·리더 선별이 낫다.",
+    "risk-on 사이버 재주도 확산형. 온기가 반도체·메모리에서 사이버·소프트로 회귀하며 성장주 내부 순환."
+  ],
+  "heat_label": "다소 과열 (성장 1W 배경 강 + 지수 1M 상승, 단 Bull Snort 극소·1D 되돌림으로 froth 냉각)",
+  "heat_reasons": [
+    "근거 1: Bull Snort 8→3 추가 급감 — 저품질 froth 거의 소멸, 온도 뚜렷이 냉각.",
+    "근거 2: 오늘 1D는 QQQ -0.84%·SOXX -1.23%·XBI -4.12%·GDX -4.36% 되돌림 — 순환·차익 성격, 공포 아님.",
+    "근거 3: 52주 신고가 28개가 에너지8·헬스7·테크5로 넓게 분포 — 하단 견고, 방어 value 재강화.",
+    "근거 4: SECZ +10.46%(1W +79.5%·1M +129.4% $2.34B)·크립토 ETF(BKCH 1W +13.81%·WGMI 1W +13.37%)만 국지 froth — 경계하되 전면 과열은 아님."
+  ],
+  "breadth": [
+    {
+      "date": "9/23",
+      "breadth": 196,
+      "overlap": 29
+    },
+    {
+      "date": "9/24",
+      "breadth": 164,
+      "overlap": 39
+    }
+  ],
+  "today": {
+    "date": "9/24",
+    "breadth": 164,
+    "overlap": 39
+  },
+  "highs": {
+    "total": 28,
+    "composition": [
+      {
+        "name": "에너지",
+        "count": 8
+      },
+      {
+        "name": "헬스",
+        "count": 7
+      },
+      {
+        "name": "테크",
+        "count": 5
+      }
+    ]
+  },
+  "uwl": null,
+  "etf": [
+    {
+      "ticker": "DRAM",
+      "rs": 93,
+      "note": "메모리 1W 강세 유지·RS 최고",
+      "d": -2.7,
+      "w": 9.73,
+      "m": 11.35
+    },
+    {
+      "ticker": "SOXX",
+      "rs": 92,
+      "note": "반도체 1W 최강·1D 되돌림",
+      "d": -1.23,
+      "w": 11.65,
+      "m": 10.5
+    },
+    {
+      "ticker": "EWY",
+      "rs": 92,
+      "note": "한국 반도체·메모리 1D 급락",
+      "d": -3.62,
+      "w": 3.35,
+      "m": 5.09
+    },
+    {
+      "ticker": "EWT",
+      "rs": 91,
+      "note": "대만 반도체 1W 둔화·1D 되돌림",
+      "d": -2.27,
+      "w": 3.32,
+      "m": 8.12
+    },
+    {
+      "ticker": "HACK",
+      "rs": 91,
+      "note": "사이버 재점화·1M 배경 최강",
+      "d": 1.71,
+      "w": 3.93,
+      "m": 11.9
+    },
+    {
+      "ticker": "CIBR",
+      "rs": 91,
+      "note": "사이버 1W 재가속",
+      "d": 1.4,
+      "w": 4.22,
+      "m": 10.44
+    },
+    {
+      "ticker": "CHAT",
+      "rs": 90,
+      "note": "생성형AI 1W 강세",
+      "d": -1.91,
+      "w": 7.35,
+      "m": 7.32
+    },
+    {
+      "ticker": "CLOU",
+      "rs": 90,
+      "note": "클라우드 1W 강세",
+      "d": 0.66,
+      "w": 4.44,
+      "m": 4.41
+    },
+    {
+      "ticker": "SKYY",
+      "rs": 90,
+      "note": "클라우드 1W 유지",
+      "d": 0.09,
+      "w": 3.89,
+      "m": 4.5
+    },
+    {
+      "ticker": "XLK",
+      "rs": 87,
+      "note": "대형테크 신고가 확산",
+      "d": -0.47,
+      "w": 5.63,
+      "m": 7.52
+    },
+    {
+      "ticker": "IBB",
+      "rs": 86,
+      "note": "대형 바이오 재냉각",
+      "d": -2.0,
+      "w": 2.03,
+      "m": -2.87
+    },
+    {
+      "ticker": "XBI",
+      "rs": 86,
+      "note": "바이오 순수 1D 급락·1M 냉각",
+      "d": -4.12,
+      "w": 0.54,
+      "m": -5.93
+    },
+    {
+      "ticker": "QTUM",
+      "rs": 82,
+      "note": "양자 1W 강세(초고베타 경계)",
+      "d": -1.28,
+      "w": 5.97,
+      "m": 2.37
+    },
+    {
+      "ticker": "AIQ",
+      "rs": 82,
+      "note": "AI 테마 1W 유지",
+      "d": -1.09,
+      "w": 4.33,
+      "m": 5.25
+    },
+    {
+      "ticker": "GDX",
+      "rs": 79,
+      "note": "금 채굴 급락·안전자산 이탈",
+      "d": -4.36,
+      "w": -2.52,
+      "m": -10.02
+    },
+    {
+      "ticker": "ARKK",
+      "rs": 76,
+      "note": "혁신주 1W 강세·1D 되돌림",
+      "d": -2.01,
+      "w": 7.02,
+      "m": 4.79
+    },
+    {
+      "ticker": "QQQ",
+      "rs": 76,
+      "note": "나스닥 1W 배경 유지·1D 되돌림",
+      "d": -0.84,
+      "w": 4.69,
+      "m": 4.45
+    },
+    {
+      "ticker": "IBIT",
+      "rs": 75,
+      "note": "₿ 비트코인 1W 강세·1D 조정",
+      "d": -1.95,
+      "w": 11.74,
+      "m": 7.03
+    },
+    {
+      "ticker": "BKCH",
+      "rs": 58,
+      "note": "₿ 크립토 1W 급반등·RS 낮음(froth 재브루잉 경계)",
+      "d": -3.24,
+      "w": 13.81,
+      "m": 11.41
+    }
+  ],
+  "etf_asof": "9/23",
+  "axes": [
+    {
+      "no": 1,
+      "name": "사이버·소프트",
+      "tag": "재주도",
+      "tickers": [
+        "PANW",
+        "CRWD",
+        "FTNT",
+        "RBRK",
+        "TWLO",
+        "FSLY",
+        "FIVN",
+        "SDGR"
+      ],
+      "raw": "PANW +5.0% 신고가·3중복, CRWD +4.97% 3중복, FTNT +2.57% 3중복, RBRK +3.31% 3중복, TWLO +2.17% 3중복, FSLY +13.7% RV 3.8x(Bull Snort), FIVN·SDGR"
+    },
+    {
+      "no": 2,
+      "name": "반도체·대형테크",
+      "tag": "신고가 지속",
+      "tickers": [
+        "VICR",
+        "ACMR",
+        "SMCI",
+        "SMCIP",
+        "SWKS",
+        "QRVO",
+        "HPE",
+        "AMD",
+        "NVDA",
+        "META",
+        "AAPL",
+        "MSFT"
+      ],
+      "raw": "VICR +5.52%(1W +50.6%), ACMR +6.4% RV 2.7x, SMCI·SMCIP·SWKS·QRVO·HPE +2.13%, AMD·NVDA·META·AAPL·MSFT 신고가"
+    },
+    {
+      "no": 3,
+      "name": "헬스",
+      "tag": "후퇴·개별 잔존",
+      "tickers": [
+        "GRAL",
+        "MRNA",
+        "VKTX",
+        "ILMN",
+        "CAI",
+        "NTRA",
+        "TMO",
+        "ABBV",
+        "GILD"
+      ],
+      "raw": "GRAL +0.51%(1W +43.8%), MRNA -0.25%, VKTX +1.96%(1W +38.7%), ILMN·CAI·NTRA, TMO·ABBV·GILD 신고가7"
+    },
+    {
+      "no": 4,
+      "name": "신고가 value",
+      "tag": "방어 재강화",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "PSX",
+        "DVN",
+        "EOG",
+        "MPC",
+        "VLO",
+        "COP",
+        "BNO",
+        "DE",
+        "MMM",
+        "JPM",
+        "C"
+      ],
+      "raw": "XOM·CVX·PSX·DVN·EOG·MPC·VLO·COP 에너지8·BNO +4.23% / DE·MMM 산업 / JPM·C 금융"
+    }
+  ],
+  "priority": {
+    "ranked": [
+      {
+        "rank": 1,
+        "tickers": [
+          "PANW",
+          "CRWD",
+          "FTNT",
+          "RBRK"
+        ],
+        "why": "사이버 재점화가 이틀차로 굳는지 = HACK 1M +11.90%·CIBR 1M +10.44% 후속·UWL 겹침 관건, 오늘 최강·최광 축"
+      },
+      {
+        "rank": 2,
+        "tickers": [
+          "VICR",
+          "ACMR",
+          "AMD",
+          "NVDA"
+        ],
+        "why": "반도체 1D 되돌림이 눌림에 그치는지 = SOXX 1W +11.65%·XLK 1W +5.63% 배경 방어 여부"
+      },
+      {
+        "rank": 3,
+        "tickers": [
+          "FSLY",
+          "TWLO"
+        ],
+        "why": "소프트 재확산이 사이버와 동반하는지 = CLOU 1W +4.44% 후속"
+      }
+    ],
+    "watch": "헬스(GRAL·MRNA)가 XBI 1D -4.12% 급락 속 개별로 버티는지, SECZ·크립토 ETF(BKCH 1W +13.81%) froth가 저품질로 번지는지.",
+    "watch_tickers": [
+      "GRAL",
+      "MRNA",
+      "XBI",
+      "SECZ",
+      "BKCH"
+    ]
+  },
+  "leaders": [],
+  "froth": [],
+  "getting_strong": [
+    {
+      "name": "사이버·소프트(재주도)",
+      "desc": "Tech Services 37개 1위, PANW +5% 신고가·CRWD·FTNT·RBRK·FSLY +13.7% → HACK·CIBR 1M 두 자릿수 배경 위 개별 폭발, 오늘 최대 재점화 온기."
+    },
+    {
+      "name": "에너지 value(개별 재강화)",
+      "desc": "52주 신고가 에너지 8개(XOM·CVX·PSX·DVN·EOG·MPC·VLO·COP)·BNO +4.23% → ETF 데이터엔 없으나 개별 신고가로 방어축 재강화(3주 만에 재등장)."
+    }
+  ],
+  "getting_weak": [
+    {
+      "name": "헬스·바이오(급락 전환)",
+      "desc": "XBI RS86 1D -4.12% 1M -5.93%, IBB RS86 1D -2.00% 1M -2.87% → GRAL·MRNA·VKTX 개별만 버팀, 그룹 온기 하루 만에 이탈(Health Tech 25→15)."
+    },
+    {
+      "name": "귀금속(급락)",
+      "desc": "GDX RS79 1D -4.36% 1M -10.02%, GLD RS57 1M -8.32%, SLV RS71 1M -7.40% → 금·은·채굴 일제 되돌림, 안전자산 이탈."
+    },
+    {
+      "name": "한국·대만(반도체 프록시 1D 냉각)",
+      "desc": "EWY RS92 1D -3.62% 1W +3.35%, EWT RS91 1D -2.27% 1W +3.32% → 어제 급등 후 1D 되돌림, 1W 배경은 유지."
+    }
+  ],
+  "still_strong": [
+    {
+      "name": "반도체·대형테크",
+      "desc": "SOXX RS92 1D -1.23% 1W +11.65% 1M +10.50%, XLK RS87 1W +5.63% 1M +7.52%, DRAM RS93 1W +9.73% 1M +11.35% → AMD·NVDA·META·VICR·ACMR·SWKS (AI 인프라 capex가 반도체·전력·메모리로 확산되는 실체 흐름, 1D는 되돌림)"
+    },
+    {
+      "name": "사이버(재점화·1M 배경 최강)",
+      "desc": "HACK RS91 1M +11.90%(1W +3.93%), CIBR RS91 1M +10.44%(1W +4.22%) → PANW·CRWD·FTNT·RBRK"
+    },
+    {
+      "name": "혁신·AI",
+      "desc": "CHAT RS90 1W +7.35% 1M +7.32%, ARKK RS76 1W +7.02% → SDGR·TEM·GRAL"
+    }
+  ],
+  "underrated": [
+    {
+      "ticker": "BKCH",
+      "rs": 58,
+      "w": 13.8,
+      "m": 11.4
+    },
+    {
+      "ticker": "WGMI",
+      "rs": 55,
+      "w": 13.4,
+      "m": 10.9
+    }
+  ],
+  "actions": [
+    "PANW·CRWD·FTNT·RBRK 사이버 재점화가 이틀차로 굳는지 최우선 확인 — HACK 1M +11.90%·CIBR 1M +10.44% 후속·UWL 겹침이면 사이버 리더십 확정, 개별 소멸 시 단발로 재분류.",
+    "VICR·ACMR·AMD·NVDA 반도체 1D 되돌림이 눌림에 그치는지 점검 — SOXX 1W +11.65%·XLK 1W +5.63% 배경 방어면 눌림 매수 후보, 1W까지 깨지면 이탈로 재분류.",
+    "FSLY·TWLO 소프트 재확산이 사이버와 동반하는지 감시 — CLOU 1W +4.44% 후속이면 성장 소프트 축 보강.",
+    "froth·헬스 경계 — SECZ·크립토 ETF(BKCH·WGMI 1W +13%)가 Bull Snort를 늘리며 저품질로 번지면 과열 전환, 헬스(GRAL·MRNA)는 XBI 1D -4.12% 급락에 개별 훼손 여부 확인.",
+    "오프닝 판단: 사이버·소프트·반도체 확산 지속이면 세 축 선별 공격, 사이버 개별 소멸·반도체 1W 훼손 시 신고가 value(에너지8·대형테크·금융)로 압축(SECZ·크립토·귀금속 추격 자제)."
+  ],
+  "read": [
+    "오늘 핵심은 사이버·소프트가 다시 전면 주도로 회귀한 점이다. Technology Services 37개 1위, PANW +5% 신고가·CRWD +4.97%·FTNT +2.57%·RBRK +3.31%·FSLY +13.7%(Bull Snort 최상단)에 HACK 1M +11.90%·CIBR 1M +10.44% ETF가 최강 배경이다 — UWL 사이버 4종과 겹치는 우량 실체 추세, 명백한 오늘의 1순위다.",
+    "둘째, 반도체는 대형 신고가+장비로 지속되나 오늘 1D는 되돌림이다. AMD·NVDA·META·AAPL·MSFT 신고가, VICR +5.52%·ACMR +6.4%가 붙었지만 SOXX 1D -1.23%·EWY -3.62%·EWT -2.27%로 프록시가 하루 쉬었다. 1W +11.65% 배경이 살아있어 이탈이 아닌 눌림으로 본다.",
+    "셋째, 헬스가 하루 만에 되돌려졌다(XBI 1D -4.12%·1M -5.93%·IBB 1M -2.87%, Health Tech 25→15). 어제 재부상이 그룹 추세로 굳지 못하고 GRAL·MRNA·VKTX 개별만 잔존 — 그룹 배경이 다시 약해져 선별 대상이다. 귀금속(GDX 1M -10%)도 급락해 안전자산 이탈이 동반됐다.",
+    "넷째, froth는 극단적으로 식었다. Bull Snort가 8→3으로 최소 수준까지 줄었고 크립토·초고베타 스파이크가 거의 소멸했다. 오늘 1D 되돌림은 공포가 아니라 고RS 섹터의 순환·차익 성격이다 — '다소 과열이나 froth 냉각'으로 본다. SECZ(1M +129%)·크립토 ETF 재브루잉(BKCH 1W +13.81%)만 국지 경계다.",
+    "정리하면 사이버·소프트 재주도 + 반도체 신고가 지속 + froth 극단 냉각 + 헬스·귀금속 급락, 온도 다소 과열·froth 냉각된 사이버 재주도 확산형. 사이버·소프트가 1순위, 반도체 눌림이 2순위, 소프트 재확산이 3순위. SECZ·크립토 froth 추격은 자제"
+  ]
+}
