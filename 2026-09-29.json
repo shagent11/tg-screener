@@ -1,0 +1,337 @@
+{
+  "date": "2026-09-29",
+  "headline": "헬스 재부상(Health Tech 26개·신고가 10개·GRAL 4중복·IBB 1W +2.43%) + 사이버 재점화(PANW +4.63%·CRWD·RBRK·NET·UWL 4종 복귀) + 반도체 하루 만에 후퇴(Elec Tech 42→9·SOXX 1W +2.88%·DRAM 1W -2.84%) + froth 극냉(Bull Snort 1) + 귀금속 폭락(GDX 1M -15.7%). 온도 중립~다소 과열, breadth 협소",
+  "oneline": "헬스 재부상(Health Tech 26개·신고가 10개·GRAL 4중복·IBB 1W +2.43%) + 사이버 재점화(PANW +4.63%·CRWD·RBRK·NET·UWL 4종 복귀) + 반도체 하루 만에 후퇴(Elec Tech 42→9·SOXX 1W +2.88%·DRAM 1W -2.84%) + froth 극냉(Bull Snort 1) + 귀금속 폭락(GDX 1M -15.7%). 온도 중립~다소 과열, breadth 협소",
+  "verdict": "선별적 공격 (헬스 대형·진단 + 사이버 우량, KOD·SECZ 초고베타·귀금속은 절제)",
+  "priority_line": "우선순위: 헬스(GRAL·MRNA·A·ILMN) + 사이버(PANW·CRWD·RBRK·NET) + 소프트/데이터(P·PS·TWLO). KOD +178%·SECZ 1M +149% 추격은 자제.",
+  "regime": [
+    "추세추종 선별적 공격 유효. 헬스·사이버가 개별로 강하고 froth가 극냉해 질은 좋으나, 반도체 축이 하루 만에 꺾이고 breadth가 좁아 추격보다 우량 리더 선별이 낫다.",
+    "risk-on 헬스·사이버 쌍끌이지만 대형 편중형. SPY 1M -0.08%·RSP 1M -1.35%로 폭은 좁고, 온기가 성장 대형·헬스에만 집중."
+  ],
+  "heat_label": "중립~다소 과열 (froth 극냉 + 헬스·사이버 견고, 단 초고베타 잔존·breadth 협소)",
+  "heat_reasons": [
+    "근거 1: Bull Snort 4→1로 재급감 — 저품질 froth 거의 소멸, KOD 하나만 잔존, 온도 뚜렷이 냉각.",
+    "근거 2: 그러나 KOD +178% RV 35.5x·SECZ 1M +149% 초고베타 단발 스파이크 잔존 — 국지 froth 노이즈.",
+    "근거 3: 52주 신고가 29개가 헬스10·에너지7·테크5로 넓게 분포 — 하단 견고, 공포 신호 전무.",
+    "근거 4: SPY 1M -0.08%·RSP 1M -1.35% vs QQQ +2.33% — 대형 성장 편중, breadth 협소."
+  ],
+  "breadth": [
+    {
+      "date": "9/26",
+      "breadth": 192,
+      "overlap": 29
+    },
+    {
+      "date": "9/29",
+      "breadth": 120,
+      "overlap": 23
+    }
+  ],
+  "today": {
+    "date": "9/29",
+    "breadth": 120,
+    "overlap": 23
+  },
+  "highs": {
+    "total": 29,
+    "composition": [
+      {
+        "name": "헬스",
+        "count": 10
+      },
+      {
+        "name": "에너지",
+        "count": 7
+      },
+      {
+        "name": "테크",
+        "count": 5
+      }
+    ]
+  },
+  "uwl": null,
+  "etf": [
+    {
+      "ticker": "DRAM",
+      "rs": 93,
+      "note": "메모리 1W 마이너스 전환",
+      "d": -3.57,
+      "w": -2.84,
+      "m": 6.66
+    },
+    {
+      "ticker": "SOXX",
+      "rs": 92,
+      "note": "반도체 1W 급둔화(전 +9.56%)·1M 배경만",
+      "d": -2.08,
+      "w": 2.88,
+      "m": 7.6
+    },
+    {
+      "ticker": "EWT",
+      "rs": 92,
+      "note": "대만 반도체 1W 정체",
+      "d": -0.53,
+      "w": 0.16,
+      "m": 4.22
+    },
+    {
+      "ticker": "EWY",
+      "rs": 92,
+      "note": "한국 메모리 1W 냉각",
+      "d": -1.92,
+      "w": -1.69,
+      "m": 0.89
+    },
+    {
+      "ticker": "CHAT",
+      "rs": 90,
+      "note": "생성형AI 1W 정체",
+      "d": -2.0,
+      "w": -0.12,
+      "m": 2.9
+    },
+    {
+      "ticker": "XLK",
+      "rs": 87,
+      "note": "대형테크 1M 배경 유지·1W 둔화",
+      "d": -0.89,
+      "w": 1.43,
+      "m": 3.43
+    },
+    {
+      "ticker": "IBB",
+      "rs": 86,
+      "note": "대형 바이오 1W 재가속·헬스 재부상 축",
+      "d": 0.45,
+      "w": 2.43,
+      "m": -1.12
+    },
+    {
+      "ticker": "QTUM",
+      "rs": 83,
+      "note": "양자 1W 정체(초고베타 경계)",
+      "d": -1.54,
+      "w": 0.78,
+      "m": -0.01
+    },
+    {
+      "ticker": "QQQ",
+      "rs": 76,
+      "note": "나스닥 대형 성장 1W 둔화",
+      "d": -1.07,
+      "w": 1.19,
+      "m": 2.33
+    },
+    {
+      "ticker": "XLV",
+      "rs": 75,
+      "note": "헬스 대형 1W 재가속·신고가 코어",
+      "d": 0.33,
+      "w": 2.36,
+      "m": -0.1
+    },
+    {
+      "ticker": "SPY",
+      "rs": 72,
+      "note": "대형 전체 정체·breadth 협소 신호",
+      "d": -0.74,
+      "w": -0.08,
+      "m": -0.08
+    },
+    {
+      "ticker": "GDX",
+      "rs": 71,
+      "note": "금 채굴 폭락·안전자산 대이탈",
+      "d": -5.36,
+      "w": -8.27,
+      "m": -15.68
+    },
+    {
+      "ticker": "SLV",
+      "rs": 53,
+      "note": "은 폭락·귀금속 동반 이탈",
+      "d": -5.49,
+      "w": -8.63,
+      "m": -14.05
+    },
+    {
+      "ticker": "GLD",
+      "rs": 46,
+      "note": "금 급락 지속",
+      "d": -3.94,
+      "w": -5.56,
+      "m": -10.5
+    },
+    {
+      "ticker": "EUV",
+      "rs": 29,
+      "note": "반도체 장비 1W 소폭(RS 낮음)",
+      "d": -1.44,
+      "w": 1.53,
+      "m": 0.74
+    }
+  ],
+  "etf_asof": "9/28",
+  "axes": [
+    {
+      "no": 1,
+      "name": "헬스·진단·바이오",
+      "tag": "재부상",
+      "tickers": [
+        "GRAL",
+        "MRNA",
+        "KOD",
+        "CDNA",
+        "ILMN",
+        "LQDA",
+        "ABBV",
+        "TMO",
+        "GILD",
+        "JNJ",
+        "MRK",
+        "LLY"
+      ],
+      "raw": "GRAL +4.52% 4중복(1W +41.5%), MRNA -0.80%(1M +43.8%), KOD +177.96% RV 35.5x(Bull Snort 유일), A +1.40% 3중복, CDNA·ILMN·LQDA +7.66%, 신고가 ABBV·TMO·GILD·JNJ·MRK·LLY"
+    },
+    {
+      "no": 2,
+      "name": "사이버",
+      "tag": "재점화",
+      "tickers": [
+        "PANW",
+        "CRWD",
+        "RBRK",
+        "NET",
+        "OKTA"
+      ],
+      "raw": "PANW +4.63% 신고가근접, CRWD +2.82% 3중복, RBRK +3.23% 3중복, NET +1.42% 3중복, OKTA"
+    },
+    {
+      "no": 3,
+      "name": "소프트·데이터",
+      "tag": "병주",
+      "tickers": [
+        "P",
+        "PS",
+        "TWLO"
+      ],
+      "raw": "P +2.70% 4중복(1W +22.7%), PS +5.36% 신고가근접, TWLO"
+    },
+    {
+      "no": 4,
+      "name": "신고가 value",
+      "tag": "방어 유지",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "VLO",
+        "PSX",
+        "MPC",
+        "EOG",
+        "DVN",
+        "AAPL",
+        "NVDA",
+        "AMD",
+        "MSFT",
+        "META",
+        "JPM",
+        "C"
+      ],
+      "raw": "XOM·CVX·VLO·PSX·MPC·EOG·DVN 에너지7 / AAPL·NVDA·AMD·MSFT·META 테크5 / JPM·C 금융"
+    }
+  ],
+  "priority": {
+    "ranked": [
+      {
+        "rank": 1,
+        "tickers": [
+          "GRAL",
+          "MRNA",
+          "ILMN"
+        ],
+        "why": "헬스 재부상이 이번엔 그룹으로 굳는지 = IBB 1W +2.43%·XLV 1W +2.36% 후속·신고가 10개 유지 관건, 오늘 최대 축"
+      },
+      {
+        "rank": 2,
+        "tickers": [
+          "PANW",
+          "CRWD",
+          "RBRK",
+          "NET"
+        ],
+        "why": "사이버 재점화가 이틀차로 이어지는지 = UWL 사이버 4종 유지·개별 신고가 돌파 여부"
+      },
+      {
+        "rank": 3,
+        "tickers": [
+          "AMD",
+          "NVDA",
+          "META"
+        ],
+        "why": "반도체 후퇴가 눌림인지 이탈인지 = SOXX 1M +7.60% 배경 방어·1W 재가속 여부"
+      }
+    ],
+    "watch": "KOD·SECZ froth가 저품질로 번지는지, 귀금속(GDX 1M -15.7%) 폭락이 위험 회피로 확산되는지.",
+    "watch_tickers": [
+      "KOD",
+      "SECZ",
+      "GDX"
+    ]
+  },
+  "leaders": [],
+  "froth": [],
+  "getting_strong": [
+    {
+      "name": "헬스·진단(재부상)",
+      "desc": "IBB 1W +2.43%·XLV 1W +2.36% 재가속, Health Tech 26개 1위·신고가 10개 → GRAL·MRNA·A·CDNA·ILMN, 오늘 최대 재점화 온기. 대형(IBB) 재가속으로 9/26보다 질 개선."
+    },
+    {
+      "name": "사이버(재점화)",
+      "desc": "UWL 사이버 4종(CRWD·OKTA·PANW·RBRK) 복귀 → PANW +4.63%·CRWD·RBRK·NET 개별 부활(HACK/CIBR ETF는 리스트 부재). 어제 롤오버를 하루 만에 되돌림."
+    }
+  ],
+  "getting_weak": [
+    {
+      "name": "반도체·메모리(1W 냉각)",
+      "desc": "SOXX RS92 1D -2.08% 1W +2.88%(전 +9.56%), DRAM RS93 1D -3.57% 1W -2.84% → MXL·CRDO·TSEM 스크리너 이탈, Elec Tech 42→9, 1W 온기 급랭."
+    },
+    {
+      "name": "귀금속(폭락)",
+      "desc": "GDX RS71 1D -5.36% 1W -8.27% 1M -15.68%, SLV RS53 1M -14.05%, GLD RS46 1M -10.50% → 금·은·채굴 일제 급락, 안전자산 대폭 이탈 가속."
+    },
+    {
+      "name": "한국(반도체 프록시 냉각)",
+      "desc": "EWY RS92 1D -1.92% 1W -1.69% 1M +0.89% → 메모리 동조 1W 마이너스 전환."
+    }
+  ],
+  "still_strong": [
+    {
+      "name": "반도체·대형테크(1W 둔화·1M 배경 유지)",
+      "desc": "SOXX RS92 1D -2.08% 1W +2.88% 1M +7.60%, XLK RS87 1W +1.43% 1M +3.43%, EWT RS92 1M +4.22% → AMD·NVDA·META·AAPL(신고가5) (AI 인프라 1M 배경은 살아있으나 1W 온기 이탈)"
+    },
+    {
+      "name": "헬스·대형바이오",
+      "desc": "IBB RS86 1D +0.45% 1W +2.43% 1M -1.12%, XLV RS75 1W +2.36% → GRAL·MRNA·A·ILMN + 신고가 10개"
+    },
+    {
+      "name": "혁신·AI(유지)",
+      "desc": "CHAT RS90 1W -0.12% 1M +2.90%, QTUM RS83 1W +0.78% → 테마성"
+    }
+  ],
+  "underrated": [],
+  "actions": [
+    "GRAL·MRNA·A·ILMN 헬스 재부상이 그룹으로 굳는지 최우선 확인 — IBB 1W +2.43%·XLV 1W +2.36% 후속·신고가 10개 유지면 헬스 축 확정, 하루 만에 되돌리면 다시 대형·개별 선별로 재분류.",
+    "PANW·CRWD·RBRK·NET 사이버 재점화가 이틀차로 이어지는지 점검 — UWL 사이버 4종 유지·개별 신고가 돌파면 사이버 리더십 부활, 재롤오버 시 단발로 재분류.",
+    "AMD·NVDA·META 반도체 후퇴가 눌림에 그치는지 감시 — SOXX 1M +7.60% 배경 방어·1W 재가속이면 눌림 매수 후보, 1M까지 훼손 시 이탈로 재분류.",
+    "froth·귀금속 경계 — KOD·SECZ가 Bull Snort를 늘리며 저품질로 번지면 과열 전환, 귀금속(GDX 1M -15.7%) 폭락이 대형 지수 위험 회피로 확산되는지 확인.",
+    "오프닝 판단: 헬스·사이버 확산 지속이면 두 축 선별 공격, 헬스 되돌림·사이버 재롤오버 시 신고가 value(에너지7·대형테크5·금융)로 압축(KOD·SECZ·귀금속 추격 자제)."
+  ],
+  "read": [
+    "오늘 핵심은 온기가 어제의 반도체에서 헬스·사이버로 다시 이동한 점이다. Health Tech 26개 1위, 신고가 헬스 10개, IBB 1W +2.43%·XLV 1W +2.36% 재가속에 GRAL 4중복이 8일째 대장 — 대형 바이오가 함께 재가속해 9/26보다 질이 개선된 재부상이다. 명백한 오늘의 1순위다.",
+    "둘째, 어제 롤오버됐던 사이버가 하루 만에 재점화했다. PANW +4.63%·CRWD·RBRK·NET·OKTA에 UWL 사이버 4종이 통째로 복귀했다 — 재점화 실체이나 며칠째 붙었다 떨어지길 반복해 이틀차 확인이 필요하다.",
+    "셋째, 어제 전면 주도하던 반도체가 하루 만에 뚜렷이 식었다. Elec Tech 42→9개, SOXX 1W +9.56%→+2.88%, DRAM 1W가 -2.84%로 마이너스 전환, Breakout 96→49 반토막 — 9/26 broadening이 하루짜리였다. 다만 SOXX 1M +7.60%·XLK 1M +3.43% 배경은 살아있어 이탈보다 눌림 가능성으로 본다.",
+    "넷째, froth는 극단적으로 식었다. Bull Snort가 4→1로 최소 수준까지 줄었고 KOD 하나만 남았다. 다만 KOD +178% RV 35.5x·SECZ 1M +149%는 이벤트성·초고베타 노이즈다. 동시에 귀금속이 폭락했다(GDX 1M -15.68%·SLV -14.05%·GLD -10.50%) — 안전자산 대이탈이 성장 쏠림을 뒷받침하나 SPY 1M -0.08%·RSP -1.35%로 breadth는 좁다. '중립~다소 과열, breadth 협소'로 본다.",
+    "정리하면 헬스 재부상 + 사이버 재점화 + 반도체 하루 만에 후퇴 + froth 극냉 + 귀금속 폭락, 온도 중립~다소 과열의 헬스·사이버 쌍끌이. 헬스가 1순위, 사이버가 2순위, 반도체 눌림이 3순위. KOD·SECZ froth 추격은 자제"
+  ]
+}
