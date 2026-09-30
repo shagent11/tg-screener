@@ -1,0 +1,385 @@
+{
+  "date": "2026-09-30",
+  "headline": "반도체·전자기술 하루 만에 재복귀(Elec Tech 9→27·ASML·ASX·SMTC 신고가·BE +10.8% / EWT 1M +4.16%·XLK 1M +3.42%) + 헬스 개별 지속·초고베타 폭발(GRAL·MRNA·IOVA +31%·KOD 1M +135%) + froth 극냉(Bull Snort 2) + breadth 협소(RSP 1M -5.56%). 온도 중립~다소 과열",
+  "oneline": "반도체·전자기술 하루 만에 재복귀(Elec Tech 9→27·ASML·ASX·SMTC 신고가·BE +10.8% / EWT 1M +4.16%·XLK 1M +3.42%) + 헬스 개별 지속·초고베타 폭발(GRAL·MRNA·IOVA +31%·KOD 1M +135%) + froth 극냉(Bull Snort 2) + breadth 협소(RSP 1M -5.56%). 온도 중립~다소 과열",
+  "verdict": "선별적 공격 (반도체·전자기술 신고가·브레이크아웃 + 헬스 우량 개별, IOVA·KOD·SECZ 초고베타는 절제)",
+  "priority_line": "우선순위: 반도체(ASML·ASX·SMTC·META·BE) + 헬스(GRAL·MRNA·TWST) + 컴퓨팅/소프트(NTAP·TWLO·OKTA). KOD 1M +135%·IOVA +31% 추격은 자제.",
+  "regime": [
+    "추세추종 선별적 공격 유효. 반도체 재복귀·헬스 개별이 강하고 froth가 극냉해 질은 좋으나, RSP 1M -5.56%로 breadth가 좁아 추격보다 우량 리더 선별이 낫다.",
+    "risk-on 반도체·헬스 쌍끌이지만 대형 편중형. 온기가 성장 대형·반도체·헬스 개별에만 집중, 소형·중형은 낙오."
+  ],
+  "heat_label": "중립~다소 과열 (froth 극냉 + 신고가 넓게 분포, 단 국지 초고베타 + breadth 협소)",
+  "heat_reasons": [
+    "근거 1: Bull Snort 2개(SFTBY·KMX)로 극냉 유지, KOD마저 이탈 — 저품질 froth 거의 소멸.",
+    "근거 2: 그러나 IOVA +31.48%·KOD 1M +135%·CCL +13.4% 국지 폭발 잔존 — 바이오·소비재 단발 스파이크.",
+    "근거 3: 52주 신고가 29개가 헬스11·에너지7·테크5로 넓게 분포 — 하단 견고, 공포 신호 전무.",
+    "근거 4: SPY 1M -0.98% vs RSP 1M -5.56% — 대형 편중 극명, breadth 협소."
+  ],
+  "breadth": [
+    {
+      "date": "9/29",
+      "breadth": 120,
+      "overlap": 23
+    },
+    {
+      "date": "9/30",
+      "breadth": 127,
+      "overlap": 21
+    }
+  ],
+  "today": {
+    "date": "9/30",
+    "breadth": 127,
+    "overlap": 21
+  },
+  "highs": {
+    "total": 29,
+    "composition": [
+      {
+        "name": "헬스",
+        "count": 11
+      },
+      {
+        "name": "에너지",
+        "count": 7
+      },
+      {
+        "name": "테크",
+        "count": 5
+      }
+    ]
+  },
+  "uwl": null,
+  "etf": [
+    {
+      "ticker": "EWT",
+      "rs": 92,
+      "note": "대만·반도체 1M 배경 최강·오늘 재복귀 축",
+      "d": -0.05,
+      "w": -0.27,
+      "m": 4.16
+    },
+    {
+      "ticker": "CRAK",
+      "rs": 92,
+      "note": "정유 1M 배경 유지",
+      "d": -2.15,
+      "w": -1.61,
+      "m": 5.43
+    },
+    {
+      "ticker": "USO",
+      "rs": 92,
+      "note": "원유 1D 급락·1M 배경만",
+      "d": -4.44,
+      "w": -1.42,
+      "m": 11.88
+    },
+    {
+      "ticker": "HACK",
+      "rs": 91,
+      "note": "사이버 1W 재둔화·1M 배경만",
+      "d": 0.29,
+      "w": -2.93,
+      "m": 1.86
+    },
+    {
+      "ticker": "CIBR",
+      "rs": 90,
+      "note": "사이버 1W 약세 유지",
+      "d": 0.3,
+      "w": -1.63,
+      "m": 1.18
+    },
+    {
+      "ticker": "SKYY",
+      "rs": 89,
+      "note": "클라우드 1M 강세·1W 눌림",
+      "d": 0.18,
+      "w": -3.7,
+      "m": 20.7
+    },
+    {
+      "ticker": "CLOU",
+      "rs": 88,
+      "note": "클라우드 1M 강세·1W 눌림",
+      "d": null,
+      "w": -4.19,
+      "m": 21.86
+    },
+    {
+      "ticker": "XLK",
+      "rs": 87,
+      "note": "대형테크 신고가 확산",
+      "d": -0.02,
+      "w": -0.05,
+      "m": 3.42
+    },
+    {
+      "ticker": "IBB",
+      "rs": 86,
+      "note": "대형 바이오 1W 유지·헬스 개별 축",
+      "d": 0.16,
+      "w": 1.59,
+      "m": -0.96
+    },
+    {
+      "ticker": "WCLD",
+      "rs": 85,
+      "note": "SaaS 1M 최강·1W 눌림",
+      "d": -0.08,
+      "w": -4.5,
+      "m": 22.34
+    },
+    {
+      "ticker": "XBI",
+      "rs": 84,
+      "note": "순수 소형바이오 냉각 잔존(전 -7.76% 소폭 개선)",
+      "d": 0.13,
+      "w": -1.45,
+      "m": -5.94
+    },
+    {
+      "ticker": "XLE",
+      "rs": 83,
+      "note": "에너지 정체·신고가 코어만",
+      "d": -0.9,
+      "w": -0.15,
+      "m": -1.3
+    },
+    {
+      "ticker": "IBIT",
+      "rs": 77,
+      "note": "₿ 비트코인 1W 눌림·froth 잔잔",
+      "d": 0.25,
+      "w": -2.45,
+      "m": 5.48
+    },
+    {
+      "ticker": "QQQ",
+      "rs": 76,
+      "note": "나스닥 대형 성장 유지",
+      "d": 0.19,
+      "w": -0.41,
+      "m": 2.53
+    },
+    {
+      "ticker": "XLV",
+      "rs": 76,
+      "note": "헬스 대형 안정·신고가 코어",
+      "d": -0.31,
+      "w": 1.15,
+      "m": -0.41
+    },
+    {
+      "ticker": "SPY",
+      "rs": 72,
+      "note": "대형 전체 정체·breadth 협소",
+      "d": -0.18,
+      "w": -1.27,
+      "m": -0.98
+    },
+    {
+      "ticker": "IGV",
+      "rs": 72,
+      "note": "소프트 대형 1W·1M 냉각",
+      "d": -0.2,
+      "w": -2.83,
+      "m": -4.18
+    },
+    {
+      "ticker": "RSP",
+      "rs": 63,
+      "note": "동일가중 급락·breadth 협소 극명(SPY와 -4.6%p 괴리)",
+      "d": -0.11,
+      "w": -1.9,
+      "m": -5.56
+    },
+    {
+      "ticker": "XLF",
+      "rs": 55,
+      "note": "금융 1W 약세·신고가만",
+      "d": -0.33,
+      "w": -3.55,
+      "m": 0.34
+    },
+    {
+      "ticker": "XLI",
+      "rs": 53,
+      "note": "산업 1M 낙오",
+      "d": 0.21,
+      "w": -0.91,
+      "m": -5.75
+    }
+  ],
+  "etf_asof": "9/29",
+  "axes": [
+    {
+      "no": 1,
+      "name": "반도체·전자기술",
+      "tag": "재복귀·신고가",
+      "tickers": [
+        "ASML",
+        "ASX",
+        "SMTC",
+        "META",
+        "BE",
+        "AXTI",
+        "QRVO",
+        "SWKS",
+        "HPE",
+        "NTAP"
+      ],
+      "raw": "ASML +3.56%·ASX +3.47%·SMTC +3.04%·META +3.24% 신고가, BE +10.80% 브레이크아웃, AXTI +6.12%, QRVO·SWKS·HPE·NTAP +2.33%"
+    },
+    {
+      "no": 2,
+      "name": "헬스·진단·바이오",
+      "tag": "개별 지속",
+      "tickers": [
+        "GRAL",
+        "MRNA",
+        "IOVA",
+        "ABCL",
+        "TWST",
+        "TXG",
+        "KOD"
+      ],
+      "raw": "GRAL +2.97%(1M +70.3%), MRNA +3.13%(1M +48.3%), IOVA +31.48%(1M +76.2%), ABCL +6.47%, TWST +3.64%, TXG +1.74%, KOD 1M +135.3%"
+    },
+    {
+      "no": 3,
+      "name": "소프트·사이버·컴퓨팅",
+      "tag": "병주",
+      "tickers": [
+        "NTAP",
+        "TWLO",
+        "OKTA",
+        "CRWD",
+        "TEM",
+        "P"
+      ],
+      "raw": "NTAP 3중복, TWLO·OKTA·CRWD·TEM, P"
+    },
+    {
+      "no": 4,
+      "name": "신고가 value",
+      "tag": "방어 유지",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "VLO",
+        "MPC",
+        "PSX",
+        "EOG",
+        "DVN",
+        "NVDA",
+        "AAPL",
+        "AMD",
+        "MSFT",
+        "JPM",
+        "C"
+      ],
+      "raw": "XOM·CVX·VLO·MPC·PSX·EOG·DVN 에너지7 / NVDA·AAPL·AMD·MSFT 테크 / JPM·C 금융"
+    }
+  ],
+  "priority": {
+    "ranked": [
+      {
+        "rank": 1,
+        "tickers": [
+          "ASML",
+          "ASX",
+          "SMTC",
+          "META",
+          "BE"
+        ],
+        "why": "반도체 재복귀가 이틀차로 굳는지 = EWT 1M +4.16%·XLK 1M +3.42% 후속·신고가 유지 관건, 오늘 최대 축"
+      },
+      {
+        "rank": 2,
+        "tickers": [
+          "GRAL",
+          "MRNA",
+          "TWST"
+        ],
+        "why": "헬스 개별이 그룹 후퇴 속 상대강도 유지하는지 = IBB 1W +1.59%·신고가 11개 대비 버팀"
+      },
+      {
+        "rank": 3,
+        "tickers": [
+          "NTAP",
+          "TWLO"
+        ],
+        "why": "컴퓨팅·클라우드가 1M 배경 속 1W 눌림 소화하는지 = WCLD·SKYY 1W -4% 회복 여부"
+      }
+    ],
+    "watch": "사이버(CRWD·OKTA)가 HACK 1W -2.93% ETF 둔화에서 재점화하는지, IOVA·KOD 초고베타 froth가 저품질로 번지는지.",
+    "watch_tickers": [
+      "CRWD",
+      "OKTA",
+      "HACK",
+      "IOVA",
+      "KOD"
+    ]
+  },
+  "leaders": [],
+  "froth": [],
+  "getting_strong": [
+    {
+      "name": "반도체·전자기술(재복귀)",
+      "desc": "Elec Tech 9→27개 1위, ASML·ASX·SMTC 신고가·BE +10.8% 브레이크아웃 → 오늘 최대 재점화 온기, UWL 반도체 4종 복귀로 확인."
+    },
+    {
+      "name": "진단·바이오 개별(초고베타 신규)",
+      "desc": "IOVA +31.48%(1M +76%)·ABCL +6.47%·TWST +3.64% → 개별 폭발이나 XBI 1M -5.94% 그룹 배경은 약해 선별 대상."
+    }
+  ],
+  "getting_weak": [
+    {
+      "name": "사이버(ETF 재둔화)",
+      "desc": "HACK RS91 1W -2.93%, CIBR RS90 1W -1.63% → 어제 개별 재점화가 ETF로 이어지지 못함, CRWD·OKTA 개별만 잔존."
+    },
+    {
+      "name": "소프트 대형(1W·1M 냉각)",
+      "desc": "IGV RS72 1W -2.83% 1M -4.18% → OKTA·TWLO 개별만, 그룹 배경 약함."
+    },
+    {
+      "name": "경기민감·소형(낙오)",
+      "desc": "RSP RS63 1M -5.56%, XLI RS53 1M -5.75%, IWM RS63 1M -6.90% → breadth 협소 신호, 대형 성장에만 온기."
+    },
+    {
+      "name": "순수 소형바이오(냉각 잔존·개선)",
+      "desc": "XBI RS84 1W -1.45% 1M -5.94%(전 -7.76%) → IOVA·GRAL 개별만, 그룹 미확인."
+    }
+  ],
+  "still_strong": [
+    {
+      "name": "반도체·대형테크",
+      "desc": "EWT RS92 1D -0.05% 1W -0.27% 1M +4.16%, XLK RS87 1D -0.02% 1W -0.05% 1M +3.42% → ASML·ASX·SMTC·META·NVDA·AMD (AI 인프라 capex가 반도체·전력으로 확산되는 실체 추세, 1M 배경 견고)"
+    },
+    {
+      "name": "헬스 개별(그룹 후퇴·리더만)",
+      "desc": "GRAL 1M +70.3%·MRNA 1M +48.3% → 대형 신고가 11개가 하단 지지"
+    },
+    {
+      "name": "클라우드(1M 배경 최강·1W 눌림)",
+      "desc": "WCLD RS85 1M +22.34%, CLOU RS88 1M +21.86%, SKYY RS89 1M +20.70% → NTAP·TWLO·HPE"
+    }
+  ],
+  "underrated": [],
+  "actions": [
+    "ASML·ASX·SMTC·META·BE 반도체 재복귀가 이틀차로 굳는지 최우선 확인 — EWT 1M +4.16%·XLK 1M +3.42% 후속·신고가 유지면 반도체 축 부활 확정, 하루 만에 되돌리면 42→9→27의 요동으로 재분류.",
+    "GRAL·MRNA·TWST 헬스 개별이 그룹 후퇴 속 상대강도 유지하는지 점검 — IBB 1W +1.59%·신고가 11개 대비 버티면 선별 보유.",
+    "NTAP·TWLO 컴퓨팅·클라우드가 1W 눌림 소화하는지 감시 — WCLD·SKYY 1M +20% 배경 방어·1W 회복이면 성장 인프라 축 유지.",
+    "사이버·froth 경계 — CRWD·OKTA가 HACK 1W -2.93% ETF 둔화에서 재점화하는지, IOVA·KOD 국지 froth가 Bull Snort를 늘리며 저품질로 번지는지 확인.",
+    "오프닝 판단: 반도체·헬스 확산 지속이면 두 축 선별 공격, 반도체 되돌림·헬스 개별 훼손 시 신고가 value(에너지7·대형테크·금융)로 압축(IOVA·KOD·SECZ 추격 자제)."
+  ],
+  "read": [
+    "오늘 핵심은 반도체·전자기술이 하루 만에 다시 전면 복귀한 점이다. Electronic Technology 9→27개 1위, ASML +3.56%·ASX +3.47%·SMTC +3.04%·META 신고가에 BE +10.8% 브레이크아웃·AXTI +6.12%가 붙었고 EWT 1M +4.16%·XLK 1M +3.42%가 배경을 받친다 — 어제 후퇴가 하루짜리였음을 확인, UWL 반도체 4종 복귀도 이를 뒷받침한다. 명백한 오늘의 1순위다.",
+    "둘째, 헬스는 그룹은 소폭 후퇴(26→22)했으나 개별 축은 오히려 강화됐다. GRAL 9일째 1M +70%·MRNA 1M +48% 상수에 IOVA +31%·ABCL·TWST가 붙었다. 다만 XBI 1M -5.94%로 순수 소형바이오 그룹은 여전히 약해 '대형·개별 중심 선별'로 본다.",
+    "셋째, 어제 재점화하던 사이버가 ETF에서 다시 미지근해졌다. HACK 1W -2.93%·CIBR 1W -1.63%로 개별 재점화가 그룹으로 이어지지 못했다 — 온기가 사이버에서 반도체로 재이동한 회전이다.",
+    "넷째, froth는 극단적으로 식은 채다(Bull Snort 1→2, KOD마저 이탈). 다만 IOVA +31%·KOD 1M +135%·CCL +13.4% 국지 폭발은 잔존한다. 동시에 SPY 1M -0.98% vs RSP 1M -5.56%로 breadth가 극명하게 좁다 — '중립~다소 과열, breadth 협소'로 본다.",
+    "정리하면 반도체 재복귀 + 헬스 개별 지속 + 사이버 ETF 재둔화 + froth 극냉 + breadth 협소, 온도 중립~다소 과열의 반도체·헬스 쌍끌이. 반도체가 1순위, 헬스 개별이 2순위, 컴퓨팅·클라우드가 3순위. IOVA·KOD 초고베타 추격은 자제"
+  ]
+}
